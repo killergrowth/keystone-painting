@@ -1822,13 +1822,45 @@ buildGetAQuote();
   const dest = path.join(DIST, 'sign-up/exterior/index.html');
   ensureDir(path.dirname(dest));
   fs.writeFileSync(dest, html, 'utf8');
-  console.log('Built: sign-up/index.html (noindex, excluded from sitemap)');
+  console.log('Built: sign-up/exterior/index.html (noindex, excluded from sitemap)');
+})();
+
+// ── Sign-Up Landing Page: Deck & Fence Staining ──
+(function buildSignUpDeckStaining() {
+  const src = path.join(ROOT, 'sign-up-deck-staining.html');
+  if (!fs.existsSync(src)) { console.log('sign-up-deck-staining.html not found, skipping.'); return; }
+  let html = fs.readFileSync(src, 'utf8');
+  const headPartial = fs.readFileSync(path.join(PARTS, 'head.html'), 'utf8');
+  html = html.replace('<!-- HEAD_PARTIAL -->', headPartial);
+  html = html.replace('<!-- HEADER -->', HEADER_STRIPPED).replace('<!-- FOOTER -->', FOOTER_MINIMAL);
+  html = injectScripts(html, loadSiteScripts(SITE_ID));
+
+  // Dynamic reviews from data/reviews.json
+  const reviewsFile = path.join(ROOT, 'data', 'reviews.json');
+  const reviewData = fs.existsSync(reviewsFile)
+    ? JSON.parse(fs.readFileSync(reviewsFile, 'utf8'))
+    : { rating: null, userRatingCount: 0, reviews: [] };
+  const fiveStarReviews = reviewData.reviews.filter(function(r) { return r.rating === 5; }).slice(0, 3);
+  const reviewCards = fiveStarReviews.map(function(r) {
+    const escapedText = (r.text || '').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    return '<div class="lp-review-card">' +
+      '<div class="lp-review-stars">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</div>' +
+      '<p class="lp-review-text">&ldquo;' + escapedText + '&rdquo;</p>' +
+      '<div class="lp-review-author">' + r.author + '</div>' +
+      '</div>';
+  }).join('\n');
+  html = html.replace('<!-- REVIEW_CARDS -->', reviewCards || '');
+
+  const dest = path.join(DIST, 'sign-up/deck-staining/index.html');
+  ensureDir(path.dirname(dest));
+  fs.writeFileSync(dest, html, 'utf8');
+  console.log('Built: sign-up/deck-staining/index.html (noindex, excluded from sitemap)');
 })();
 
 // Build project pages
 buildAllProjects(write, T);
 
 // Generate sitemap from actual dist/ contents
-generateSitemap({ distDir: DIST, siteRoot: ROOT, domain: SITE_DOMAIN, excludeSlugs: ['sign-up', 'sign-up/exterior'] });
+generateSitemap({ distDir: DIST, siteRoot: ROOT, domain: SITE_DOMAIN, excludeSlugs: ['sign-up', 'sign-up/exterior', 'sign-up/deck-staining'] });
 
 

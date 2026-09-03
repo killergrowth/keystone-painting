@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Deck & Fence Staining Estimate | Keystone Painting | Northern Colorado</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="canonical" href="https://timnathpainting.com/sign-up/deck-staining/">
+  <!-- HEAD_PARTIAL -->
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Plus Jakarta Sans',sans-serif;color:#2E2A20;background:#fff;-webkit-font-smoothing:antialiased}
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;display:block}
+
+    /* ── Hero ── */
+    .lp-hero{
+      position:relative;
+      background:url('/assets/images/service/photo-fence-staining.jpg') center center/cover no-repeat;
+      min-height:520px;
+      display:flex;align-items:center;
+    }
+    .lp-hero__overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(32,27,16,0.85) 0%,rgba(32,27,16,0.45) 100%);}
+    .lp-hero__inner{position:relative;z-index:2;width:100%;max-width:1140px;margin:0 auto;padding:60px 20px;display:grid;grid-template-columns:1fr 420px;gap:48px;align-items:flex-start;}
+    .lp-hero__copy{color:#fff;padding-top:24px;}
+    .lp-hero__eyebrow{display:inline-block;background:#AE360E;color:#fff;font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:5px 14px;border-radius:2px;margin-bottom:18px;border:1px solid rgba(255,255,255,0.7);}
+    .lp-hero__h1{font-size:clamp(28px,4vw,46px);font-weight:800;line-height:1.15;margin-bottom:18px;color:#fff;}
+    .lp-hero__h1 span{color:#DF9E42;}
+    .lp-hero__sub{font-size:16px;line-height:1.7;color:rgba(255,255,255,0.82);margin-bottom:28px;max-width:480px;}
+    .lp-trust{display:flex;flex-wrap:wrap;gap:12px 20px;}
+    .lp-trust__item{display:flex;align-items:center;gap:8px;color:rgba(255,255,255,0.9);font-size:14px;font-weight:600;}
+    .lp-trust__item i{color:#AE360E;font-size:15px;}
+
+    /* ── Form Card ── */
+    .lp-form-card{background:#fff;border-radius:10px;padding:36px 32px;box-shadow:0 8px 40px rgba(0,0,0,0.18);}
+    .lp-form-card__title{font-size:20px;font-weight:800;color:#201B10;margin-bottom:6px;}
+    .lp-form-card__sub{font-size:13px;color:#7E7C76;margin-bottom:24px;}
+    .lp-form-card form{display:flex;flex-direction:column;gap:14px;}
+    .lp-form-card input,
+    .lp-form-card select,
+    .lp-form-card textarea{
+      width:100%;padding:13px 16px;border:1px solid #E4DACC;border-radius:6px;
+      font-family:inherit;font-size:15px;color:#2E2A20;background:#faf7f4;
+      transition:border-color .2s;outline:none;
+    }
+    .lp-form-card input:focus,
+    .lp-form-card select:focus,
+    .lp-form-card textarea:focus{border-color:#AE360E;}
+    .lp-form-card textarea{resize:vertical;min-height:90px;}
+    .lp-form-card__btn{
+      background:#AE360E;color:#fff;border:none;border-radius:100px;
+      font-family:inherit;font-size:16px;font-weight:700;padding:16px 24px;
+      cursor:pointer;transition:background .2s;text-align:center;
+      display:flex;align-items:center;justify-content:center;gap:8px;
+    }
+    .lp-form-card__btn:hover{background:#8f2a0a;}
+    .lp-form-card__note{font-size:12px;color:#9E9A95;text-align:center;margin-top:6px;}
+    .cf-turnstile{margin:0 auto;}
+
+    /* ── Success State ── */
+    #form-success{display:none;text-align:center;padding:20px 0;}
+    #form-success .check{font-size:48px;color:#AE360E;margin-bottom:12px;}
+    #form-success h3{font-size:22px;font-weight:800;color:#201B10;margin-bottom:8px;}
+    #form-success p{color:#7E7C76;font-size:15px;}
+
+    /* ── Stats Bar ── */
+    .lp-stats{background:#201B10;padding:28px 20px;}
+    .lp-stats__inner{max-width:1140px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:center;}
+    .lp-stats__num{font-size:32px;font-weight:800;color:#DF9E42;line-height:1;}
+    .lp-stats__label{font-size:13px;color:rgba(255,255,255,0.65);margin-top:4px;}
+
+    /* ── Services Section ── */
+    .lp-section{padding:72px 20px;}
+    .lp-section__inner{max-width:1140px;margin:0 auto;}
+    .lp-section__eyebrow{font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#AE360E;margin-bottom:10px;}
+    .lp-section__h2{font-size:clamp(24px,3vw,36px);font-weight:800;color:#201B10;margin-bottom:16px;}
+    .lp-section__lead{font-size:16px;color:#7E7C76;line-height:1.7;max-width:600px;margin-bottom:48px;}
+
+    .lp-services{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;}
+    .lp-service-card{background:#F4EDE4;border-radius:10px;overflow:hidden;display:flex;flex-direction:column;}
+    .lp-service-card img{width:100%;height:200px;object-fit:cover;}
+    .lp-service-card__body{padding:22px 20px 24px;flex:1;}
+    .lp-service-card__title{font-size:17px;font-weight:800;color:#201B10;margin-bottom:8px;}
+    .lp-service-card__text{font-size:14px;color:#7E7C76;line-height:1.65;}
+
+    /* ── Why Us ── */
+    .lp-why{background:#F4EDE4;padding:72px 20px;}
+    .lp-why__inner{max-width:1140px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;}
+    .lp-why__img img{width:100%;border-radius:10px;object-fit:cover;max-height:460px;}
+    .lp-why__features{display:flex;flex-direction:column;gap:28px;margin-top:32px;}
+    .lp-why__feature{display:flex;gap:16px;align-items:flex-start;}
+    .lp-why__icon{flex-shrink:0;width:44px;height:44px;background:#AE360E;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:17px;}
+    .lp-why__feature-title{font-size:16px;font-weight:800;color:#201B10;margin-bottom:4px;}
+    .lp-why__feature-text{font-size:14px;color:#7E7C76;line-height:1.65;}
+
+    /* ── Reviews ── */
+    .lp-reviews{padding:72px 20px;background:#fff;}
+    .lp-reviews__inner{max-width:1140px;margin:0 auto;}
+    .lp-reviews__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:48px;}
+    .lp-review-card{background:#F4EDE4;border-radius:10px;padding:28px 24px;}
+    .lp-review-stars{color:#DF9E42;font-size:14px;margin-bottom:12px;}
+    .lp-review-text{font-size:14px;color:#2E2A20;line-height:1.7;font-style:italic;margin-bottom:16px;}
+    .lp-review-author{font-size:13px;font-weight:700;color:#201B10;}
+
+    /* ── Area ── */
+    .lp-area{background:#201B10;padding:72px 20px;}
+    .lp-area__inner{max-width:1140px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;}
+    .lp-area__copy .lp-section__eyebrow{color:#DF9E42;}
+    .lp-area__copy .lp-section__h2{color:#fff;}
+    .lp-area__copy p{color:rgba(255,255,255,0.7);font-size:15px;line-height:1.8;margin-bottom:24px;}
+    .lp-area__list{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:8px 16px;}
+    .lp-area__list li{color:rgba(255,255,255,0.85);font-size:14px;font-weight:600;}
+    .lp-area__cta{display:inline-flex;align-items:center;gap:10px;background:#AE360E;color:#fff;font-weight:700;font-size:15px;padding:14px 28px;border-radius:100px;margin-top:28px;transition:background .2s;}
+    .lp-area__cta:hover{background:#8f2a0a;}
+
+    /* ── Bottom CTA ── */
+    .lp-bottom-cta{padding:80px 20px;background:#AE360E;text-align:center;}
+    .lp-bottom-cta h2{font-size:clamp(24px,3vw,38px);font-weight:800;color:#fff;margin-bottom:14px;}
+    .lp-bottom-cta p{color:rgba(255,255,255,0.85);font-size:16px;max-width:540px;margin:0 auto 32px;}
+    .lp-bottom-cta__btn{display:inline-flex;align-items:center;gap:10px;background:#fff;color:#AE360E;font-weight:800;font-size:16px;padding:16px 36px;border-radius:100px;transition:opacity .2s;}
+    .lp-bottom-cta__btn:hover{opacity:.9;}
+    .lp-phone-link{color:#fff;font-size:18px;font-weight:700;display:block;margin-top:18px;}
+    .lp-phone-link i{margin-right:8px;}
+
+    /* ── Responsive ── */
+    @media(max-width:1024px){
+      .lp-hero__inner{grid-template-columns:1fr;max-width:640px;}
+      .lp-hero__copy{padding-top:0;}
+      .lp-form-card{background:rgba(255,255,255,0.97);}
+      .lp-services{grid-template-columns:1fr 1fr;}
+      .lp-why__inner{grid-template-columns:1fr;}
+      .lp-why__img{display:none;}
+      .lp-area__inner{grid-template-columns:1fr;}
+      .lp-stats__inner{grid-template-columns:repeat(2,1fr);}
+    }
+    @media(max-width:640px){
+      .lp-services{grid-template-columns:1fr;}
+      .lp-reviews__grid{grid-template-columns:1fr;}
+      .lp-area__list{grid-template-columns:1fr;}
+      .lp-stats__inner{grid-template-columns:repeat(2,1fr);}
+      .lp-hero__h1{font-size:40px;}
+      .lp-hero__sub{font-size:15px;}
+    }
+  </style>
+<!-- Event snippet for LP form submission conversion -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-18229236367/kmhFCIC30u0cEI-lsPRD',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+</head>
+<body>
+<!-- HEADER -->
+
+<!-- ── Hero + Form ── -->
+<section class="lp-hero">
+  <div class="lp-hero__overlay"></div>
+  <div class="lp-hero__inner">
+
+    <!-- Left: Copy -->
+    <div class="lp-hero__copy">
+      <span class="lp-hero__eyebrow">Northern Colorado's Staining Experts</span>
+      <h1 class="lp-hero__h1">Professional Deck &amp; Fence Staining In <span>Northern Colorado</span></h1>
+      <p class="lp-hero__sub">Your deck and fence take a beating from Colorado's UV, freeze-thaw cycles, and summer heat. We use oil-based penetrating stains and meticulous prep to protect your wood for years — not months.</p>
+      <div class="lp-trust">
+        <div class="lp-trust__item"><i class="fa-solid fa-shield-halved"></i> Licensed &amp; Insured</div>
+        <div class="lp-trust__item"><i class="fa-solid fa-droplet"></i> Oil-Based Penetrating Stains</div>
+        <div class="lp-trust__item"><i class="fa-solid fa-sun"></i> UV &amp; Weather Protection</div>
+        <div class="lp-trust__item"><i class="fa-solid fa-star"></i> 5-Star Google Rating</div>
+      </div>
+    </div>
+
+    <!-- Right: Form -->
+    <div class="lp-form-card">
+      <div class="lp-form-card__title">Request Your Free Estimate</div>
+      <div class="lp-form-card__sub">We'll reach out quickly &#x2014; usually within the hour.</div>
+
+      <form id="contact-form" method="POST" action="/submit">
+        <input type="text" name="name" placeholder="Your Name" required autocomplete="name">
+        <input type="tel" name="phone" placeholder="Phone Number" required autocomplete="tel">
+        <input type="email" name="email" placeholder="Email Address" autocomplete="email">
+        <input type="text" name="address" placeholder="Service Address" autocomplete="street-address">
+        <select name="service">
+          <option value="" disabled>Service Needed</option>
+          <option value="deck-staining" selected>Deck Staining</option>
+          <option value="fence-staining">Fence Staining</option>
+          <option value="exterior-staining">Exterior Staining</option>
+          <option value="exterior-painting">Exterior Painting</option>
+          <option value="other">Other / Not Sure</option>
+        </select>
+        <textarea name="message" placeholder="Tell us about your project (optional)"></textarea>
+        <div class="cf-turnstile" data-sitekey="0x4AAAAAADpT5f2gM80jpJHh" data-theme="light"></div>
+        <button type="submit" class="lp-form-card__btn">
+          <i class="fa-solid fa-paper-plane"></i> Send My Request
+        </button>
+        <p class="lp-form-card__note">&#x1F512; Your info is private. We'll never spam you.</p>
+      </form>
+
+      <div id="form-success">
+        <div class="check">&#x2705;</div>
+        <h3>Got it &#x2014; thank you!</h3>
+        <p>We'll be in touch shortly. In the meantime, feel free to call us at<br><a href="tel:9706703965" style="color:#AE360E;font-weight:700;">(970) 670-3965</a></p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── Stats Bar ── -->
+<div class="lp-stats">
+  <div class="lp-stats__inner">
+    <div><div class="lp-stats__num">15+</div><div class="lp-stats__label">Years in Business</div></div>
+    <div><div class="lp-stats__num">500+</div><div class="lp-stats__label">Projects Completed</div></div>
+    <div><div class="lp-stats__num">5&#x2605;</div><div class="lp-stats__label">Google Rating</div></div>
+    <div><div class="lp-stats__num">$1M</div><div class="lp-stats__label">Liability Coverage</div></div>
+  </div>
+</div>
+
+<!-- ── Services / What We Do ── -->
+<section class="lp-section">
+  <div class="lp-section__inner">
+    <div class="lp-section__eyebrow">What We Do</div>
+    <h2 class="lp-section__h2">Deck &amp; Fence Staining Done Right</h2>
+    <p class="lp-section__lead">From backyard decks to long fence runs — Keystone Painting handles wood staining with the same crew-owned, no-shortcut approach we use on every project.</p>
+    <div class="lp-services">
+      <div class="lp-service-card">
+        <img src="/assets/images/service/photo-fence-staining.jpg" alt="Deck Staining Northern Colorado" loading="lazy">
+        <div class="lp-service-card__body">
+          <div class="lp-service-card__title">Deck Staining</div>
+          <div class="lp-service-card__text">Oil-based penetrating stains that protect your deck from Colorado's UV and freeze-thaw cycles. Full prep — clean, sand, and repair — before any stain goes down.</div>
+        </div>
+      </div>
+      <div class="lp-service-card">
+        <img src="/assets/images/service/photo-fence-staining.jpg" alt="Fence Staining Northern Colorado" loading="lazy">
+        <div class="lp-service-card__body">
+          <div class="lp-service-card__title">Fence Staining</div>
+          <div class="lp-service-card__text">Penetrating oil stains that seal wood grain against moisture, sun, and temperature swings. Expert prep and application by the same crew every time.</div>
+        </div>
+      </div>
+      <div class="lp-service-card">
+        <img src="/assets/images/service/exterior-green-house.jpg" alt="Exterior Staining Northern Colorado" loading="lazy">
+        <div class="lp-service-card__body">
+          <div class="lp-service-card__title">Exterior Staining</div>
+          <div class="lp-service-card__text">Cedar siding, wood trim, and log homes — we bring the same prep-first process to all exterior wood surfaces. Color matching and transparent to solid finishes available.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Why Us ── -->
+<section class="lp-why">
+  <div class="lp-why__inner">
+    <div class="lp-why__img">
+      <img src="/assets/images/about/about-1-1.jpg" alt="Keystone Painting deck and fence staining crew" loading="lazy">
+    </div>
+    <div>
+      <div class="lp-section__eyebrow">Why Keystone</div>
+      <h2 class="lp-section__h2">Prep Is Everything</h2>
+      <p class="lp-section__lead" style="margin-bottom:0;">Most staining failures come from skipped prep. We don't skip it.</p>
+      <div class="lp-why__features">
+        <div class="lp-why__feature">
+          <div class="lp-why__icon"><i class="fa-solid fa-broom"></i></div>
+          <div>
+            <div class="lp-why__feature-title">Clean, Sand, Repair First</div>
+            <div class="lp-why__feature-text">Every project starts with a thorough wash, sanding of rough grain, and repairs to any damaged boards or rails — before a drop of stain touches the wood.</div>
+          </div>
+        </div>
+        <div class="lp-why__feature">
+          <div class="lp-why__icon"><i class="fa-solid fa-droplet"></i></div>
+          <div>
+            <div class="lp-why__feature-title">Oil-Based Penetrating Stains</div>
+            <div class="lp-why__feature-text">We use oil-based penetrating stains that soak into the wood fiber rather than sitting on top — delivering better UV and moisture protection that lasts years longer than film-forming products.</div>
+          </div>
+        </div>
+        <div class="lp-why__feature">
+          <div class="lp-why__icon"><i class="fa-solid fa-users"></i></div>
+          <div>
+            <div class="lp-why__feature-title">Same Crew, Every Time</div>
+            <div class="lp-why__feature-text">No subcontractors, no day-labor surprises. The crew that shows up for your estimate is the crew that does the work.</div>
+          </div>
+        </div>
+        <div class="lp-why__feature">
+          <div class="lp-why__icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <div>
+            <div class="lp-why__feature-title">Licensed, Insured &amp; 5-Star Rated</div>
+            <div class="lp-why__feature-text">Fully licensed and insured with $1M liability coverage. 5-star rated on Google by real Northern Colorado homeowners.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Reviews ── -->
+<section class="lp-reviews">
+  <div class="lp-reviews__inner">
+    <div class="lp-section__eyebrow">What Clients Say</div>
+    <h2 class="lp-section__h2">Real Reviews from Real Customers</h2>
+    <div class="lp-reviews__grid">
+      <!-- REVIEW_CARDS -->
+    </div>
+  </div>
+</section>
+
+<!-- ── Service Area ── -->
+<section class="lp-area">
+  <div class="lp-area__inner">
+    <div class="lp-area__copy">
+      <div class="lp-section__eyebrow">Where We Work</div>
+      <h2 class="lp-section__h2">Proudly Serving Northern Colorado</h2>
+      <p>We're local &#x2014; not a franchise, not a call center. When you reach out, you're talking to the guy who will actually show up and do the work.</p>
+      <ul class="lp-area__list">
+        <li>Timnath</li>
+        <li>Windsor</li>
+        <li>Severance</li>
+        <li>Loveland</li>
+        <li>Greeley</li>
+        <li>Wellington</li>
+        <li>Johnstown</li>
+        <li>And surrounding NoCo area</li>
+      </ul>
+      <a href="tel:9706703965" class="lp-area__cta"><i class="fa-solid fa-phone"></i> Call (970) 670-3965</a>
+    </div>
+    <div>
+      <img src="/assets/images/about/about-1-1.jpg" alt="Keystone Painting serving Northern Colorado" loading="lazy" style="width:100%;border-radius:10px;object-fit:cover;max-height:400px;">
+    </div>
+  </div>
+</section>
+
+<!-- ── Bottom CTA ── -->
+<section class="lp-bottom-cta">
+  <h2>Ready to Protect Your Deck or Fence?</h2>
+  <p>Fill out the form above or call us now. We'll get someone out to you fast with a free, no-pressure on-site estimate.</p>
+  <a href="#contact-form" class="lp-bottom-cta__btn" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">
+    <i class="fa-solid fa-arrow-up"></i> Request a Free Estimate
+  </a>
+  <a href="tel:9706703965" class="lp-phone-link"><i class="fa-solid fa-phone"></i> (970) 670-3965</a>
+</section>
+
+<!-- FOOTER -->
+<script>document.querySelectorAll('.dynamic-year').forEach(function(el){el.textContent=new Date().getFullYear();});</script>
+
+<!-- Scripts -->
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+<script src="/assets/vendors/fontawesome/js/all.min.js" defer></script>
+<script>
+document.querySelectorAll('.dynamic-year').forEach(function(el){el.textContent=new Date().getFullYear();});
+
+const form = document.getElementById('contact-form');
+const success = document.getElementById('form-success');
+
+form.addEventListener('submit', async function(e) {
+  e.preventDefault();
+  const btn = form.querySelector('.lp-form-card__btn');
+  btn.disabled = true;
+  btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Sending...';
+
+  try {
+    const data = new FormData(form);
+    const res = await fetch('/submit', { method: 'POST', body: data });
+    const json = await res.json();
+    if (json.ok) {
+      form.style.display = 'none';
+      success.style.display = 'block';
+      if (typeof gtag_report_conversion === 'function') gtag_report_conversion();
+    } else {
+      throw new Error(json.error || 'Something went wrong.');
+    }
+  } catch (err) {
+    btn.disabled = false;
+    btn.innerHTML = '<i class="fa-solid fa-paper-plane"></i> Send My Request';
+    if (window.turnstile) window.turnstile.reset();
+    alert('Sorry, something went wrong. Please call us at (970) 670-3965.');
+  }
+});
+</script>
+</body>
+</html>

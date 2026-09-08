@@ -147,10 +147,10 @@ function buildHomepage() {
     url: 'https://paintkeystone.com',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: '4836 Becker Dr',
-      addressLocality: 'Timnath',
+      streetAddress: '417 Main Street Unit 2 #101',
+      addressLocality: 'Windsor',
       addressRegion: 'CO',
-      postalCode: '80547',
+      postalCode: '80550',
       addressCountry: 'US'
     },
     areaServed: 'Northern Colorado'
@@ -705,20 +705,9 @@ ${T.topbar()}
         <div class="contact-card">
           <h3 style="margin:0 0 6px;font-size:20px;font-weight:700;color:#201B10;">Send Us a Message</h3>
           <p style="margin:0 0 20px;font-size:14px;color:#5a5650;line-height:1.55;">Use the form below or call us directly. Every message gets a personal reply from Josh.</p>
-          <form id="contact-form" action="/submit" method="POST">
-            <div style="display:flex;flex-direction:column;gap:12px;">
-              <input class="contact-input" type="text" name="name" placeholder="Your Name *" required>
-              <input class="contact-input" type="email" name="email" placeholder="Email Address *" required>
-              <input class="contact-input" type="tel" name="phone" placeholder="Phone Number">
-              <select class="contact-select" name="service">
-                <option value="">Service Needed</option>
-                ${SERVICES.map(s => `<option value="${s.slug}">${s.label}</option>`).join('')}
-              </select>
-              <textarea class="contact-textarea" name="message" placeholder="Tell us about your project" rows="5"></textarea>
-              <div class="cf-turnstile" data-sitekey="0x4AAAAAADpT5f2gM80jpJHh" style="margin-bottom:4px;"></div>
-              <button type="submit" class="contact-submit">Send Message</button>
-            </div>
-          </form>
+          <div id="2d355475-e9e2-4025-be1d-9768705789fb-2223041"></div>
+          <link rel="stylesheet" href="https://d3ey4dbjkt2f6s.cloudfront.net/assets/external/work_request_embed.css" media="screen" />
+          <script src="https://d3ey4dbjkt2f6s.cloudfront.net/assets/static_link/work_request_embed_snippet.js" clienthub_id="2d355475-e9e2-4025-be1d-9768705789fb-2223041" form_url="https://clienthub.getjobber.com/client_hubs/2d355475-e9e2-4025-be1d-9768705789fb/public/work_request/embedded_work_request_form?form_id=2223041"></script>
         </div>
       </div>
       <div>
@@ -918,7 +907,7 @@ function buildCityHub(city) {
       areaServed: `${d.label}, ${d.state}`,
       address: {
         '@type': 'PostalAddress',
-        addressLocality: 'Timnath',
+        addressLocality: 'Windsor',
         addressRegion: 'CO',
         postalCode: CLIENT.zip,
         addressCountry: 'US'
@@ -1252,8 +1241,8 @@ function buildServiceLocation(service, city) {
         url: 'https://paintkeystone.com',
         address: {
           '@type': 'PostalAddress',
-          streetAddress: '4836 Becker Dr',
-          addressLocality: 'Timnath',
+          streetAddress: '417 Main Street Unit 2 #101',
+          addressLocality: 'Windsor',
           addressRegion: 'CO',
           postalCode: CLIENT.zip,
           addressCountry: 'US'

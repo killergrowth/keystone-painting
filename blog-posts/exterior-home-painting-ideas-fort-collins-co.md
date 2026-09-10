@@ -29,7 +29,7 @@ tags:
   - fort collins co
   - exterior home painting
   - paint colors
-author: Timnath Painting
+author: Keystone Painting
 sheetRow: 11
 sheetId: 1vbAvFozBVBuLll38MuHoDJE9fA1iaJYoON1Xz08J4p0
 sheetGid: '1429273512'
@@ -96,4 +96,4 @@ If you're in Fort Collins, Timnath, Windsor, or the surrounding area and want a 
 
 ***
 
-*Timnath Painting serves homeowners throughout [Fort Collins](/areas-served/fort-collins-co/), [Timnath](/areas-served/timnath-co/), [Windsor](/areas-served/windsor-co/), and greater Northern Colorado. Licensed, insured, and using premium eco-friendly, no-VOC products.*
+*Keystone Painting serves homeowners throughout [Fort Collins](/areas-served/fort-collins-co/), [Timnath](/areas-served/timnath-co/), [Windsor](/areas-served/windsor-co/), and greater Northern Colorado. Licensed, insured, and using premium eco-friendly, no-VOC products.*

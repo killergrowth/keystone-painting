@@ -29,7 +29,7 @@ tags:
   - exterior painting
   - colorado painting
   - home improvement
-author: Timnath Painting
+author: Keystone Painting
 sheetRow: 2
 sheetId: 1vbAvFozBVBuLll38MuHoDJE9fA1iaJYoON1Xz08J4p0
 sheetGid: '1429273512'
@@ -90,7 +90,7 @@ If you're getting [exterior painting](/exterior-painting/) done in the [Fort Col
 
 **Watch out for the low-ball.** A quote that's 40% cheaper than everyone else usually means fewer coats, minimal prep, or a crew with less experience. You'll pay for it in three years when the paint fails early.
 
-**Ask about their insurance.** A legitimate contractor carries liability coverage. At Timnath Painting, we carry $2M in liability coverage — that protects your property if something goes wrong on the job.
+**Ask about their insurance.** A legitimate contractor carries liability coverage. At Keystone Painting, we carry $2M in liability coverage — that protects your property if something goes wrong on the job.
 
 **Ask for references or photos.** You want to see work that's at least 2–3 years old, not just fresh jobs. Paint that looks good on day one isn't impressive. Paint that still looks good after two Colorado winters is.
 

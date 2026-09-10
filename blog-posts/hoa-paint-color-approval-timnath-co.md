@@ -31,7 +31,7 @@ tags:
   - hoa approval
   - timnath co
   - northern colorado
-author: Timnath Painting
+author: Keystone Painting
 sheetRow: 45
 sheetId: 1vbAvFozBVBuLll38MuHoDJE9fA1iaJYoON1Xz08J4p0
 sheetGid: '1429273512'
@@ -119,6 +119,6 @@ The key: stay in writing throughout the process. Document every exchange.
 
 ## Work With a Contractor Who Knows HOA Process
 
-A big part of a smooth HOA approval is having a contractor who understands what committees look for. At Timnath Painting, we've worked through the ACC process across multiple Northern Colorado communities and know what documentation is needed, how to prep sample boards, and how to schedule work around approval windows.
+A big part of a smooth HOA approval is having a contractor who understands what committees look for. At Keystone Painting, we've worked through the ACC process across multiple Northern Colorado communities and know what documentation is needed, how to prep sample boards, and how to schedule work around approval windows.
 
 If you're planning an [exterior repaint](/exterior-painting/) and need help navigating the HOA process, [contact us](/contact/) for a free on-site quote. We'll walk through your HOA's requirements with you before the first form is filed.

@@ -1,17 +1,18 @@
 'use strict';
 
 const CLIENT = {
-  name: 'Timnath Painting',
+  name: 'Keystone Painting',
   phone: '(970) 670-3965',
   phoneTel: '9706703965',
-  email: 'josh@timnathpainting.com',
-  city: 'Timnath',
+  email: 'josh@paintkeystone.com',
+  street: '417 Main Street Unit 2 #101',
+  city: 'Windsor',
   state: 'CO',
-  zip: '80547',
-  facebook: 'https://facebook.com/timnathpainting',
+  zip: '80550',
+  facebook: 'https://www.facebook.com/profile.php?id=61591570377897',
   instagram: 'https://instagram.com/timnathpainting',
   tagline: 'Northern Colorado\'s Premium Painting Contractor',
-  description: 'Premium painting contractor serving Timnath, Windsor, Severance & Northern Colorado. Licensed, insured, No-VOC Products.. Call or text (970) 670-3965.',
+  description: 'Premium painting contractor serving Windsor, Timnath, Severance & Northern Colorado. Licensed, insured, No-VOC Products.. Call or text (970) 670-3965.',
 };
 
 const SERVICES = [
@@ -37,13 +38,13 @@ const SERVICE_DATA = {
 
   'exterior-painting': {
     title: 'Exterior Painting in Northern Colorado',
-    metaTitle: 'Exterior Painting Northern Colorado | Timnath Painting',
+    metaTitle: 'Exterior Painting Northern Colorado | Keystone Painting',
     metaDesc: "Exterior painting built for Colorado\'s climate. Licensed, eco-certified, 7-10 year coatings. Northern Colorado homes. (970) 670-3965",
     tagline: "Built for Colorado\'s Climate",
     heroTitle: 'Exterior Painting in Northern Colorado That Lasts 10+ Years',
     intro: `Northern Colorado sees 28+ freeze-thaw cycles every year. UV radiation hits 10-15% harder at altitude. Wood siding expands and contracts with temperature swings that can exceed 60 degrees in a single day. Cheap paint jobs fail in 3-4 years here.
 
-Timnath Painting builds exterior painting systems that last 7-10 years using premium prep, Sherwin-Williams and Benjamin Moore coatings, and methods designed specifically for Zone 5b conditions. We are Licensed, Insured, and using premium eco-friendly, no-VOC products by Sherwin Williams and Benjamin Moore. $1M general liability coverage.`,
+Keystone Painting builds exterior painting systems that last 7-10 years using premium prep, Sherwin-Williams and Benjamin Moore coatings, and methods designed specifically for Zone 5b conditions. We are Licensed, Insured, and using premium eco-friendly, no-VOC products by Sherwin Williams and Benjamin Moore. $1M general liability coverage.`,
     process: `Every project starts with a full surface assessment. We identify substrate issues, previous coating failures, and moisture problems before prep begins.
 
 <strong>Surface Preparation:</strong> We scrape all loose and peeling paint, sand smooth transitions, repair wood rot and damaged trim, caulk all gaps and joints with premium elastomeric sealants, and pressure wash to remove dirt, mildew, and chalking.
@@ -95,20 +96,20 @@ We provide regular updates throughout your project and are available by phone or
   },
     'hoa-painting': {
     title: 'HOA Painting in Northern Colorado',
-    metaTitle: 'HOA Painting Northern Colorado | Timnath Painting',
-    metaDesc: "HOA painting specialists in Northern Colorado. Color coordination, documentation, multi-unit scheduling. Call Timnath Painting: (970) 670-3965",
+    metaTitle: 'HOA Painting Northern Colorado | Keystone Painting',
+    metaDesc: "HOA painting specialists in Northern Colorado. Color coordination, documentation, multi-unit scheduling. Call Keystone Painting: (970) 670-3965",
     tagline: 'HOA Color Compliance Made Simple',
     heroTitle: 'HOA Painting in Northern Colorado &mdash; Color Approval to Final Coat',
     intro: `HOA painting projects require a level of coordination most painting contractors are not set up for. Color approval documentation, multi-unit scheduling that minimizes resident disruption, and precise color matching across dozens of homes &mdash; these are requirements, not extras.
 
-Timnath Painting has worked with HOAs across Timnath, Windsor, and Severance. We understand the approval process, carry $1M general liability insurance with COI on request, and deliver consistent color results across every building we touch.`,
+Keystone Painting has worked with HOAs across Timnath, Windsor, and Severance. We understand the approval process, carry $1M general liability insurance with COI on request, and deliver consistent color results across every building we touch.`,
     process: `HOA projects begin with a meeting with the property manager or board to confirm scope, color palette, scheduling requirements, and documentation needs.
 
 <strong>Color Coordination:</strong> We work directly with HOA architectural review committees to confirm approved colors, obtain approval letters, and document color specifications for every structure.
 
 <strong>Scheduling:</strong> Multi-unit projects are sequenced to minimize resident disruption. We communicate project timelines directly with affected residents when requested.
 
-<strong>Execution:</strong> Same prep and coating standards as every Timnath Painting project. No shortcuts because the client is an HOA instead of an individual homeowner.`,
+<strong>Execution:</strong> Same prep and coating standards as every Keystone Painting project. No shortcuts because the client is an HOA instead of an individual homeowner.`,
     propertyTypes: [
       { type: 'Single-Family HOA Homes', desc: 'The most common HOA project in Timnath and Windsor. We handle color sample submission, approval documentation, and precise color matching across every home in the community &mdash; so the neighborhood looks intentional, not patchwork.' },
       { type: 'Townhomes and Attached Units', desc: 'Shared wall structures require careful masking and crew coordination to avoid paint transfer between units. We sequence townhome projects unit-by-unit to minimize resident disruption while maintaining color consistency across the row.' },
@@ -140,7 +141,7 @@ We provide regular updates throughout your project and are available by phone or
     faqs: [
       { q: 'Do you handle HOA color approval documentation?', a: 'Yes. We work with HOA architectural review committees to confirm approved colors, provide color samples, and submit all required documentation. We have worked with dozens of local HOAs in Timnath, Windsor, and Severance and know their standards and timelines.' },
       { q: 'Can you coordinate multi-unit HOA projects?', a: 'Yes. We sequence multi-unit projects to minimize resident disruption and maintain consistent scheduling. Property managers receive regular progress updates. We coordinate resident communications when required.' },
-      { q: 'Do you provide certificates of insurance for HOA projects?', a: 'Yes. Timnath Painting carries $1M general liability insurance. Certificates of insurance are provided on request, typically within 24 hours.' },
+      { q: 'Do you provide certificates of insurance for HOA projects?', a: 'Yes. Keystone Painting carries $1M general liability insurance. Certificates of insurance are provided on request, typically within 24 hours.' },
       { q: 'What does HOA exterior painting cost?', a: 'HOA painting costs depend on number of units, building size, surface condition, and color change requirements. We provide per-unit pricing and bulk project estimates. Call or text (970) 670-3965 for a site assessment and quote.' },
       { q: 'How do you ensure color consistency across multiple units?', a: 'We use spectrophotometer color matching and lock in exact Sherwin-Williams or Benjamin Moore color codes at the start of the project. Every unit is painted from the same batch formula. When we return for future phases, we pull the documented color codes to match exactly.' },
       { q: 'Can you work with an HOA property management company?', a: 'Yes. Most of our HOA work is coordinated through property management companies. We handle all communication, documentation, and scheduling through the property manager and only escalate to the board when approval decisions require it.' },
@@ -150,11 +151,11 @@ We provide regular updates throughout your project and are available by phone or
   },
     'commercial-painting': {
     title: 'Commercial Painting in Northern Colorado',
-    metaTitle: 'Commercial Painting Northern Colorado | Timnath Painting',
-    metaDesc: "Commercial painting in Northern Colorado. After-hours scheduling, minimal disruption, $1M liability. Call Timnath Painting: (970) 670-3965",
+    metaTitle: 'Commercial Painting Northern Colorado | Keystone Painting',
+    metaDesc: "Commercial painting in Northern Colorado. After-hours scheduling, minimal disruption, $1M liability. Call Keystone Painting: (970) 670-3965",
     tagline: 'After-Hours Scheduling. Zero Disruption.',
     heroTitle: 'Commercial Painting in Northern Colorado &mdash; Built Around Your Schedule',
-    intro: `Timnath Painting provides commercial painting in Northern Colorado for strip malls, office buildings, and multi-family properties along the I-25 corridor. We specialize in after-hours scheduling, use commercial-grade coatings built for Colorado\'s 28+ annual freeze-thaw cycles, and carry $1M general liability insurance with certificates available on request.
+    intro: `Keystone Painting provides commercial painting in Northern Colorado for strip malls, office buildings, and multi-family properties along the I-25 corridor. We specialize in after-hours scheduling, use commercial-grade coatings built for Colorado\'s 28+ annual freeze-thaw cycles, and carry $1M general liability insurance with certificates available on request.
 
 Your commercial property takes the same beating from Colorado\'s climate as any home. But unlike residential work, your repaint cannot shut down your business for two weeks.`,
     process: `We start with a site assessment and schedule consultation. Most commercial clients need after-hours or weekend work to avoid disrupting operations. We accommodate that.
@@ -172,7 +173,7 @@ Your commercial property takes the same beating from Colorado\'s climate as any 
     ],
     whyUs: `Commercial painting bids are easy to get. Reliable execution is harder to find. Most commercial painting contractors in Northern Colorado use subcontractors, which means the crew on day one may not be the crew on day five. Quality variation and scheduling gaps are the result.
 
-Timnath Painting brings an owned crew to every commercial project. The same people who assess the job are the ones who do the work. We do not pass commercial projects off to subs when we get busy.
+Keystone Painting brings an owned crew to every commercial project. The same people who assess the job are the ones who do the work. We do not pass commercial projects off to subs when we get busy.
 
 We carry $1M general liability insurance and workers\' compensation on all crew members. COI is available within 24 hours. For property management companies that need to be listed as additional insured, we accommodate that at no cost.`,
     timeline: `Commercial project timelines depend on building size and schedule constraints, but here is how a standard Northern Colorado commercial repaint runs.
@@ -193,7 +194,7 @@ We provide regular updates throughout your project and are available by phone or
       { label: 'Exterior Staining', slug: 'exterior-staining', desc: 'Deck, log home, and wood siding stain systems for natural wood surfaces.' },
     ],
     faqs: [
-      { q: 'Can you paint after hours or on weekends?', a: 'Yes. Timnath Painting schedules commercial crews for evenings, overnight shifts, and weekends in Northern Colorado. Retail storefronts, medical offices, and multi-family buildings often require after-hours work. We coordinate site access, lighting requirements, and security protocols before beginning.' },
+      { q: 'Can you paint after hours or on weekends?', a: 'Yes. Keystone Painting schedules commercial crews for evenings, overnight shifts, and weekends in Northern Colorado. Retail storefronts, medical offices, and multi-family buildings often require after-hours work. We coordinate site access, lighting requirements, and security protocols before beginning.' },
       { q: 'Do you provide certificates of insurance for commercial projects?', a: 'Yes. We carry $1M general liability insurance and provide COI on request, typically within 24 hours. We also carry workers\' compensation for all crew members. We can list property management companies as additional insured.' },
       { q: 'What coatings do you use for commercial properties?', a: 'We specify elastomeric and industrial-grade acrylics from Sherwin-Williams and Benjamin Moore for commercial properties. Elastomeric coatings bridge hairline cracks and flex with temperature swings. We do not use residential-grade paints on commercial projects.' },
       { q: 'What does commercial painting cost per square foot?', a: 'Commercial painting in Northern Colorado typically costs $2.50–$5.50 per square foot for standard exteriors with good existing paint. Complex projects with substrate repairs, elastomeric coatings, or difficult access run higher. We provide detailed written quotes after site assessment.' },
@@ -204,13 +205,13 @@ We provide regular updates throughout your project and are available by phone or
   },
     'fence-staining': {
     title: 'Fence Staining in Northern Colorado',
-    metaTitle: 'Fence Staining Northern Colorado | Timnath Painting',
-    metaDesc: "Professional fence staining in Northern Colorado. Penetrating stains, proper prep, 3-5 year protection. Call Timnath Painting: (970) 670-3965",
+    metaTitle: 'Fence Staining Northern Colorado | Keystone Painting',
+    metaDesc: "Professional fence staining in Northern Colorado. Penetrating stains, proper prep, 3-5 year protection. Call Keystone Painting: (970) 670-3965",
     tagline: 'Penetrating Protection. Not Just Color.',
     heroTitle: 'Fence Staining in Northern Colorado &mdash; Built to Survive Colorado\'s Weather',
     intro: `Colorado\'s UV index, freeze-thaw cycles, and wind-driven moisture destroy untreated or poorly stained fences faster than almost anywhere in the country. Solid stains peel. Clear sealers wear off in one season. Penetrating semi-transparent stains &mdash; applied to properly prepared wood &mdash; last 3–5 years and protect the wood from the inside out.
 
-Timnath Painting uses penetrating oil-based and water-based stains from premium manufacturers, applied after proper cleaning, sanding, and wood brightening. We do not brush stain over dirty, weathered wood and call it done.`,
+Keystone Painting uses penetrating oil-based and water-based stains from premium manufacturers, applied after proper cleaning, sanding, and wood brightening. We do not brush stain over dirty, weathered wood and call it done.`,
     process: `Every fence project begins with a condition assessment &mdash; existing coating type, wood species, weathering, and moisture content all affect product selection and prep requirements.
 
 <strong>Preparation:</strong> Power washing removes dirt, mildew, and failing stain. Wood brightener restores the wood\'s natural pH and opens the grain to accept stain. Sanding addresses rough surfaces and gray weathered wood.
@@ -256,13 +257,13 @@ We provide regular updates throughout your project and are available by phone or
   },
     'exterior-staining': {
     title: 'Exterior Staining in Northern Colorado',
-    metaTitle: 'Exterior Staining Northern Colorado | Timnath Painting',
+    metaTitle: 'Exterior Staining Northern Colorado | Keystone Painting',
     metaDesc: "Exterior staining for wood siding, decks & trim in Northern Colorado. Premium penetrating stains, proper prep. Call or text (970) 670-3965",
     tagline: 'Penetrating Stains for Lasting Protection',
     heroTitle: 'Exterior Staining in Northern Colorado &mdash; Wood That Lasts',
     intro: `Log homes, cedar siding, wood decks, and natural wood trim all require staining &mdash; not painting &mdash; to maintain their appearance and structural integrity in Colorado\'s climate. Paint traps moisture in wood and eventually peels. Penetrating stains work with the wood, allowing it to breathe while protecting against UV degradation, moisture intrusion, and freeze-thaw damage.
 
-Timnath Painting specializes in exterior staining for natural wood surfaces across Northern Colorado. We use premium penetrating oil and water-based stains and prepare surfaces properly before any product touches the wood.`,
+Keystone Painting specializes in exterior staining for natural wood surfaces across Northern Colorado. We use premium penetrating oil and water-based stains and prepare surfaces properly before any product touches the wood.`,
     process: `Exterior staining projects begin with a full surface assessment &mdash; existing finish type, wood species and condition, moisture content, and exposure level all drive product selection.
 
 <strong>Preparation:</strong> All surfaces are cleaned thoroughly &mdash; power washing, mildew treatment, and wood brightening where needed. Failed existing stain is stripped or sanded. Bare wood is allowed to dry completely before application.
@@ -319,9 +320,9 @@ const CITY_DATA = {
     label: 'Timnath',
     state: 'CO',
     context: 'Fast-growing community along the I-25 corridor with high-end new construction and HOA neighborhoods',
-    intro: `Timnath is one of the fastest-growing communities in Northern Colorado, with new construction neighborhoods and established HOA communities spreading east of I-25. The homes here are newer and premium &mdash; and the expectation for exterior appearance matches. Colorado\'s 28+ freeze-thaw cycles and intense UV exposure hit every home in Timnath the same way, regardless of age. Paint systems that aren't designed for Zone 5b conditions fail early.\n\nTimnath Painting is based here. We know the neighborhoods, the HOA requirements, and the local conditions better than anyone. Licensed, Insured, and using premium eco-friendly, no-VOC products by Sherwin Williams and Benjamin Moore. $1M general liability coverage.`,
+    intro: `Timnath is one of the fastest-growing communities in Northern Colorado, with new construction neighborhoods and established HOA communities spreading east of I-25. The homes here are newer and premium &mdash; and the expectation for exterior appearance matches. Colorado\'s 28+ freeze-thaw cycles and intense UV exposure hit every home in Timnath the same way, regardless of age. Paint systems that aren't designed for Zone 5b conditions fail early.\n\nKeystone Painting is based here. We know the neighborhoods, the HOA requirements, and the local conditions better than anyone. Licensed, Insured, and using premium eco-friendly, no-VOC products by Sherwin Williams and Benjamin Moore. $1M general liability coverage.`,
     faqs: [
-      { q: 'Do you serve the Timnath area?', a: 'Yes &mdash; Timnath is our home base. We serve all neighborhoods in Timnath including newer HOA communities east of I-25. We\x27re on-site in Timnath regularly and can typically schedule faster here than in other cities.' },
+      { q: 'Do you serve the Timnath area?', a: 'Yes &mdash; we serve Timnath. Our home base is Windsor, CO. We serve all neighborhoods in Timnath including newer HOA communities east of I-25. We\x27re on-site in Timnath regularly and can typically schedule faster here than in other cities.' },
       { q: 'Do you work with HOAs in Timnath?', a: 'Yes. Many Timnath neighborhoods have HOA color approval requirements. We handle the approval documentation, provide color samples, and submit to the architectural review committee on your behalf. Most HOA approvals in this area take 2–4 weeks, which we build into every project timeline.' },
       { q: 'How long does exterior paint last on new construction in Timnath?', a: 'Builder-grade paint applied on new construction homes typically lasts 4–6 years before visible chalking, fading, and edge failures appear. We install premium Sherwin-Williams and Benjamin Moore systems rated for 7–10 years using proper prep and two-coat minimum application.' },
       { q: 'Can you match existing HOA-approved colors?', a: 'Yes. We use spectrophotometer color matching and work directly with Sherwin-Williams and Benjamin Moore reps to replicate existing approved colors precisely. Accurate color matching is essential for HOA compliance and multi-unit consistency.' },
@@ -332,9 +333,9 @@ const CITY_DATA = {
     label: 'Windsor',
     state: 'CO',
     context: 'Established and growing community with lakefront properties, HOA neighborhoods, and premium residential builds',
-    intro: `Windsor combines established neighborhoods near Lake Windsor with newer HOA communities growing along the US-34 and I-25 corridors. The range of home styles &mdash; from lakefront properties to newer planned communities &mdash; means painting needs vary widely. What doesn\'t vary is Colorado\'s climate: 28+ freeze-thaw cycles per year, intense UV at altitude, and temperature swings that push coating systems to their limits.\n\nTimnath Painting serves all of Windsor with the same licensed, insured crew � using premium eco-friendly, no-VOC products by Sherwin Williams and Benjamin Moore � that we bring to every project. No subcontractors. No volume rushing. Premium Sherwin-Williams and Benjamin Moore coatings with $1M general liability coverage.`,
+    intro: `Windsor combines established neighborhoods near Lake Windsor with newer HOA communities growing along the US-34 and I-25 corridors. The range of home styles &mdash; from lakefront properties to newer planned communities &mdash; means painting needs vary widely. What doesn\'t vary is Colorado\'s climate: 28+ freeze-thaw cycles per year, intense UV at altitude, and temperature swings that push coating systems to their limits.\n\nKeystone Painting serves all of Windsor with the same licensed, insured crew � using premium eco-friendly, no-VOC products by Sherwin Williams and Benjamin Moore � that we bring to every project. No subcontractors. No volume rushing. Premium Sherwin-Williams and Benjamin Moore coatings with $1M general liability coverage.`,
     faqs: [
-      { q: 'Do you serve Windsor, CO?', a: 'Yes. Timnath Painting serves all of Windsor including neighborhoods near Lake Windsor, Eastman Park, and newer communities along Harmony Road and the I-25 corridor. We\'re in Windsor regularly and can provide on-site quotes quickly.' },
+      { q: 'Do you serve Windsor, CO?', a: 'Yes. Keystone Painting serves all of Windsor including neighborhoods near Lake Windsor, Eastman Park, and newer communities along Harmony Road and the I-25 corridor. We\'re in Windsor regularly and can provide on-site quotes quickly.' },
       { q: 'Do you handle HOA color approvals in Windsor?', a: 'Yes. Windsor has a number of HOA communities with strict color approval requirements. We handle the full documentation process &mdash; color samples, approval submissions, and compliance letters &mdash; on your behalf.' },
       { q: 'What exterior paint should I use on my Windsor home?', a: 'We specify Sherwin-Williams Duration, Emerald, or Benjamin Moore Aura for Windsor exteriors. These are 100% acrylic latex coatings formulated for Colorado\'s UV intensity and freeze-thaw cycling. Builder-grade or budget paints fail 2–3 years faster in this climate.' },
       { q: 'How long does exterior painting take in Windsor?', a: 'Most residential exterior painting projects in Windsor take 3–5 days from first day of prep to final coat. Larger homes, significant repair work, or HOA multi-unit projects run longer. We provide specific timelines during the quoting process.' },
@@ -345,9 +346,9 @@ const CITY_DATA = {
     label: 'Severance',
     state: 'CO',
     context: 'Small but rapidly growing town north of Windsor with new residential development and rural properties',
-    intro: `Severance has grown rapidly over the past decade, with new residential subdivisions filling in around its rural roots north of Windsor. Whether you have a newer build in a planned community or an older home on a larger lot, Northern Colorado\'s climate treats every home the same &mdash; freeze-thaw cycles, high-altitude UV, and wind-driven moisture test exterior paint systems every single year.\n\nTimnath Painting serves Severance with full exterior and interior painting, fence staining, and commercial work. Licensed, Insured, and using premium eco-friendly, no-VOC products by Sherwin Williams and Benjamin Moore. $1M general liability. We bring the same standards to every project regardless of size.`,
+    intro: `Severance has grown rapidly over the past decade, with new residential subdivisions filling in around its rural roots north of Windsor. Whether you have a newer build in a planned community or an older home on a larger lot, Northern Colorado\'s climate treats every home the same &mdash; freeze-thaw cycles, high-altitude UV, and wind-driven moisture test exterior paint systems every single year.\n\nKeystone Painting serves Severance with full exterior and interior painting, fence staining, and commercial work. Licensed, Insured, and using premium eco-friendly, no-VOC products by Sherwin Williams and Benjamin Moore. $1M general liability. We bring the same standards to every project regardless of size.`,
     faqs: [
-      { q: 'Does Timnath Painting serve Severance, CO?', a: 'Yes. We serve Severance and the surrounding Weld County communities. Severance is within our standard service area and we\'re able to schedule projects there without travel surcharges.' },
+      { q: 'Does Keystone Painting serve Severance, CO?', a: 'Yes. We serve Severance and the surrounding Weld County communities. Severance is within our standard service area and we\'re able to schedule projects there without travel surcharges.' },
       { q: 'How does Colorado\'s climate affect exterior paint in Severance?', a: 'Northern Colorado sees 28+ freeze-thaw cycles annually. UV radiation at altitude is 10–15% more intense than at sea level. These factors degrade budget exterior coatings in 3–4 years. We use premium paint systems rated for 7–10 years and apply proper prep including pressure washing, scraping, caulking, and spot priming before any topcoat.' },
       { q: 'Do you do fence staining in Severance?', a: 'Yes. Fence staining is common in Severance where newer homes have cedar and pine fencing. We use penetrating semi-transparent stains that protect the wood grain through Northern Colorado winters and summers, lasting 3–5 years with proper prep.' },
       { q: 'Can you paint the exterior of an older farmhouse or rural property in Severance?', a: 'Yes. Older homes and rural properties often have more prep work involved &mdash; failed paint, wood rot, compromised caulk, and weathered surfaces. We assess all of this upfront and factor it into the quote. We don\'t charge extra for thorough prep; we treat it as part of every project.' },
@@ -358,9 +359,9 @@ const CITY_DATA = {
     label: 'Fort Collins',
     state: 'CO',
     context: 'Larimer County seat with a diverse housing stock ranging from historic Craftsman homes to newer neighborhoods',
-    intro: `Fort Collins is the largest city in Northern Colorado and has one of the most diverse housing stocks in the region &mdash; historic Craftsman and Victorian homes in Old Town, mid-century builds in established neighborhoods, and newer subdivisions spreading south and east. Each era of construction comes with its own set of coating challenges. Historic homes require careful prep, lead paint awareness, and specialty primers. Newer builds need proper topcoat systems, not just builder repaints.\n\nTimnath Painting serves Fort Collins with the same standards we apply everywhere &mdash; Licensed, Insured, and using premium eco-friendly, no-VOC products by Sherwin Williams and Benjamin Moore. $1M general liability. No subcontractors.`,
+    intro: `Fort Collins is the largest city in Northern Colorado and has one of the most diverse housing stocks in the region &mdash; historic Craftsman and Victorian homes in Old Town, mid-century builds in established neighborhoods, and newer subdivisions spreading south and east. Each era of construction comes with its own set of coating challenges. Historic homes require careful prep, lead paint awareness, and specialty primers. Newer builds need proper topcoat systems, not just builder repaints.\n\nKeystone Painting serves Fort Collins with the same standards we apply everywhere &mdash; Licensed, Insured, and using premium eco-friendly, no-VOC products by Sherwin Williams and Benjamin Moore. $1M general liability. No subcontractors.`,
     faqs: [
-      { q: 'Does Timnath Painting serve Fort Collins?', a: 'Yes. We serve all areas of Fort Collins including Old Town, Midtown, and newer developments in southeast Fort Collins. Fort Collins is within our standard service area with no travel surcharges.' },
+      { q: 'Does Keystone Painting serve Fort Collins?', a: 'Yes. We serve all areas of Fort Collins including Old Town, Midtown, and newer developments in southeast Fort Collins. Fort Collins is within our standard service area with no travel surcharges.' },
       { q: 'Can you paint historic homes in Old Town Fort Collins?', a: 'Yes. Older homes in Old Town require special attention &mdash; lead paint testing and containment on pre-1978 homes, oil-based primers for chalky or bare wood surfaces, and careful prep to avoid damaging historic trim detail. We\'re experienced with the specific challenges of older Fort Collins housing stock.' },
       { q: 'How long does exterior paint last on Fort Collins homes?', a: 'Most Fort Collins homes see the same Northern Colorado climate as the rest of the region &mdash; 28+ freeze-thaw cycles, intense UV, and temperature swings. Budget paint fails in 3–4 years. Premium systems using Sherwin-Williams Duration or Benjamin Moore Aura last 7–10 years with proper prep.' },
       { q: 'Do you offer commercial painting in Fort Collins?', a: 'Yes. We provide commercial exterior and interior painting for Fort Collins businesses, including strip malls, office buildings, and multi-family properties. We schedule around business hours and provide COI within 24 hours.' },
@@ -371,9 +372,9 @@ const CITY_DATA = {
     label: 'Loveland',
     state: 'CO',
     context: 'Mid-sized Larimer County city with established neighborhoods, growing south end, and scenic Front Range setting',
-    intro: `Loveland sits along the Front Range at the foot of the Big Thompson Canyon &mdash; scenic, but that also means direct UV exposure, wind, and temperature swings that challenge exterior paint systems year-round. The city has a mix of established mid-century neighborhoods near downtown and newer developments spreading south and east toward Johnstown. Both require proper exterior coating systems to survive Northern Colorado\'s climate.\n\nTimnath Painting serves Loveland with the same crew using premium eco-friendly, no-VOC products by Sherwin Williams and Benjamin Moore, thorough prep that protects every project for 7–10 years. Licensed, Insured, $1M general liability.`,
+    intro: `Loveland sits along the Front Range at the foot of the Big Thompson Canyon &mdash; scenic, but that also means direct UV exposure, wind, and temperature swings that challenge exterior paint systems year-round. The city has a mix of established mid-century neighborhoods near downtown and newer developments spreading south and east toward Johnstown. Both require proper exterior coating systems to survive Northern Colorado\'s climate.\n\nKeystone Painting serves Loveland with the same crew using premium eco-friendly, no-VOC products by Sherwin Williams and Benjamin Moore, thorough prep that protects every project for 7–10 years. Licensed, Insured, $1M general liability.`,
     faqs: [
-      { q: 'Does Timnath Painting serve Loveland, CO?', a: 'Yes. Loveland is within our standard service area. We serve all areas of Loveland including established neighborhoods near downtown, the south end near the Centerra area, and outlying properties.' },
+      { q: 'Does Keystone Painting serve Loveland, CO?', a: 'Yes. Loveland is within our standard service area. We serve all areas of Loveland including established neighborhoods near downtown, the south end near the Centerra area, and outlying properties.' },
       { q: 'How does the Front Range climate affect exterior paint in Loveland?', a: 'Loveland\'s location at the base of the Big Thompson Canyon means increased wind exposure on top of Northern Colorado\'s standard UV and freeze-thaw cycles. Paint systems need to be flexible enough to handle thermal cycling and tough enough to resist UV degradation. We specify coatings rated for exactly these conditions.' },
       { q: 'Do you stain fences and decks in Loveland?', a: 'Yes. Fence and deck staining is common in Loveland. We use penetrating semi-transparent stains that protect wood from UV damage and moisture, typically lasting 3–5 years. Decks on the south or west side of homes in Loveland may need attention sooner due to sun exposure.' },
       { q: 'Can you paint older Loveland homes?', a: 'Yes. We handle older homes with the appropriate prep &mdash; scraping to stable substrate, oil-based or shellac primers on bare wood, elastomeric caulking on all gaps, and pressure washing before any coating goes on. Thorough prep is the difference between a 4-year job and a 10-year system.' },
@@ -384,9 +385,9 @@ const CITY_DATA = {
     label: 'Greeley',
     state: 'CO',
     context: 'Weld County seat and agricultural hub with a large and diverse housing stock',
-    intro: `Greeley is the Weld County seat and one of the larger cities in Northern Colorado, with a housing stock that ranges from older neighborhoods near downtown to newer developments spreading west and south. The agricultural and industrial roots of the city mean many properties have seen harder use than typical residential homes &mdash; and Colorado\'s climate doesn\'t take it easy on any of them. UV radiation, freeze-thaw cycles, and wind-driven dust and moisture accelerate coating breakdown across the region.\n\nTimnath Painting serves Greeley with the same standards: Licensed, Insured, and using premium eco-friendly, no-VOC products by Sherwin Williams and Benjamin Moore. $1M general liability.`,
+    intro: `Greeley is the Weld County seat and one of the larger cities in Northern Colorado, with a housing stock that ranges from older neighborhoods near downtown to newer developments spreading west and south. The agricultural and industrial roots of the city mean many properties have seen harder use than typical residential homes &mdash; and Colorado\'s climate doesn\'t take it easy on any of them. UV radiation, freeze-thaw cycles, and wind-driven dust and moisture accelerate coating breakdown across the region.\n\nKeystone Painting serves Greeley with the same standards: Licensed, Insured, and using premium eco-friendly, no-VOC products by Sherwin Williams and Benjamin Moore. $1M general liability.`,
     faqs: [
-      { q: 'Does Timnath Painting serve Greeley, CO?', a: 'Yes. We serve Greeley and the surrounding Weld County area. Greeley is within our standard service area.' },
+      { q: 'Does Keystone Painting serve Greeley, CO?', a: 'Yes. We serve Greeley and the surrounding Weld County area. Greeley is within our standard service area.' },
       { q: 'Do you paint commercial properties in Greeley?', a: 'Yes. We provide commercial exterior and interior painting in Greeley for office buildings, retail properties, and multi-family housing. We schedule around business operations and carry $1M general liability with COI available on request.' },
       { q: 'How do you prep older Greeley homes for exterior painting?', a: 'Older homes in Greeley often have multiple layers of failed paint, weathered wood, and outdated caulking. We scrape all loose and peeling material to stable substrate, repair damaged wood, apply appropriate primers, and re-caulk all joints before any topcoat goes on. There are no shortcuts in prep.' },
       { q: 'What exterior paint works best in Greeley\'s climate?', a: 'We specify Sherwin-Williams Duration, Emerald, or Benjamin Moore Aura for Greeley exteriors. These 100% acrylic coatings are formulated for high UV exposure and thermal cycling. They outperform budget paints by 3–5 years in Northern Colorado conditions.' },
@@ -397,9 +398,9 @@ const CITY_DATA = {
     label: 'Wellington',
     state: 'CO',
     context: 'Small town north of Fort Collins with rural properties and newer residential subdivisions',
-    intro: `Wellington sits at the northern end of the I-25 corridor, a small town that has grown considerably with families looking for more space north of Fort Collins. The mix here includes acreage properties, older ranch-style homes, and newer subdivision builds. All of them share the same Northern Colorado climate conditions &mdash; and the same need for coating systems that actually hold up to freeze-thaw cycles, wind, and intense UV radiation at altitude.\n\nTimnath Painting serves Wellington with no travel surcharge and the same full-service approach: Licensed, Insured, and using premium eco-friendly, no-VOC products by Sherwin Williams and Benjamin Moore. $1M general liability. We bring the prep and the product to make it last.`,
+    intro: `Wellington sits at the northern end of the I-25 corridor, a small town that has grown considerably with families looking for more space north of Fort Collins. The mix here includes acreage properties, older ranch-style homes, and newer subdivision builds. All of them share the same Northern Colorado climate conditions &mdash; and the same need for coating systems that actually hold up to freeze-thaw cycles, wind, and intense UV radiation at altitude.\n\nKeystone Painting serves Wellington with no travel surcharge and the same full-service approach: Licensed, Insured, and using premium eco-friendly, no-VOC products by Sherwin Williams and Benjamin Moore. $1M general liability. We bring the prep and the product to make it last.`,
     faqs: [
-      { q: 'Does Timnath Painting serve Wellington, CO?', a: 'Yes. Wellington is within our standard service area. We serve residential and commercial properties in Wellington with no travel surcharge.' },
+      { q: 'Does Keystone Painting serve Wellington, CO?', a: 'Yes. Wellington is within our standard service area. We serve residential and commercial properties in Wellington with no travel surcharge.' },
       { q: 'Can you paint acreage properties and outbuildings in Wellington?', a: 'Yes. Rural properties, detached garages, barns, and outbuildings are within our scope. We assess each structure and apply appropriate coatings &mdash; exterior latex for residential structures, and elastomeric or industrial coatings for metal buildings and agricultural structures where appropriate.' },
       { q: 'How does wind affect exterior paint in Wellington?', a: 'Wellington is exposed to consistent Front Range winds that accelerate paint breakdown, especially on north and west-facing surfaces. Wind-driven moisture and debris abrade coating surfaces over time. This makes proper prep &mdash; scraping, priming, and caulking &mdash; even more important than it is in more sheltered locations.' },
       { q: 'Do you stain fences and decks in Wellington?', a: 'Yes. Fence and deck staining is common in Wellington where wood fencing is standard on acreage and suburban properties alike. We use penetrating stains that hold up to Northern Colorado\'s weather cycles, lasting 3–5 years per application.' },
@@ -410,9 +411,9 @@ const CITY_DATA = {
     label: 'Johnstown',
     state: 'CO',
     context: 'Fast-growing I-25 corridor community with newer residential developments and commercial growth',
-    intro: `Johnstown has grown significantly along the I-25 corridor between Loveland and Greeley, with newer residential neighborhoods and commercial development continuing to expand. Most homes here are newer builds &mdash; but newer doesn\'t mean immune to Colorado\'s climate. Freeze-thaw cycles, intense UV, and temperature swings that can exceed 60°F in a single day stress even recently applied builder-grade paint systems.\n\nTimnath Painting serves Johnstown with the same approach: thorough prep, premium Sherwin-Williams and Benjamin Moore coatings rated for 7–10 years, and a crew using premium eco-friendly, no-VOC products by Sherwin Williams and Benjamin Moore. Licensed, Insured, $1M general liability.`,
+    intro: `Johnstown has grown significantly along the I-25 corridor between Loveland and Greeley, with newer residential neighborhoods and commercial development continuing to expand. Most homes here are newer builds &mdash; but newer doesn\'t mean immune to Colorado\'s climate. Freeze-thaw cycles, intense UV, and temperature swings that can exceed 60°F in a single day stress even recently applied builder-grade paint systems.\n\nKeystone Painting serves Johnstown with the same approach: thorough prep, premium Sherwin-Williams and Benjamin Moore coatings rated for 7–10 years, and a crew using premium eco-friendly, no-VOC products by Sherwin Williams and Benjamin Moore. Licensed, Insured, $1M general liability.`,
     faqs: [
-      { q: 'Does Timnath Painting serve Johnstown, CO?', a: 'Yes. Johnstown is within our standard service area. We serve residential and commercial properties throughout Johnstown.' },
+      { q: 'Does Keystone Painting serve Johnstown, CO?', a: 'Yes. Johnstown is within our standard service area. We serve residential and commercial properties throughout Johnstown.' },
       { q: 'How long does builder paint last on newer Johnstown homes?', a: 'Builder-grade paint applied during construction typically shows chalking, fading, and edge failures within 4–6 years in Northern Colorado. We replace it with premium two-coat systems using Sherwin-Williams Duration or Benjamin Moore Aura &mdash; rated for 7–10 years with proper surface prep.' },
       { q: 'Do you do HOA exterior painting in Johnstown?', a: 'Yes. Several Johnstown communities have HOA requirements for exterior painting. We handle color approval documentation, provide compliant color samples, and submit to architectural review committees. We\'ve worked with HOAs throughout Northern Colorado and understand the approval process.' },
       { q: 'What commercial painting services do you offer in Johnstown?', a: 'We provide commercial exterior and interior painting for Johnstown businesses &mdash; retail, office, and multi-family properties. We schedule around business operations and carry $1M general liability insurance with COI available on request.' },

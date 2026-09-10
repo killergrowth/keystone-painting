@@ -13,7 +13,7 @@ const NEIGHBORHOODS = [
   {
     name: 'Timnath Ranch',
     slug: 'timnath-ranch',
-    metaTitle: 'Exterior Painting in Timnath Ranch | Timnath Painting',
+    metaTitle: 'Exterior Painting in Timnath Ranch | Keystone Painting',
     metaDesc: 'Expert exterior painting for Timnath Ranch homes. HOA color compliance, premium Sherwin-Williams & Benjamin Moore coatings. Free on-site quote. (970) 670-3965.',
     canonical: 'https://timnathpainting.com/neighborhoods/timnath-ranch/',
     heroTitle: 'Exterior Painting in Timnath Ranch',
@@ -35,7 +35,7 @@ const NEIGHBORHOODS = [
   {
     name: 'Serratoga Falls',
     slug: 'serratoga-falls',
-    metaTitle: 'Exterior Painting in Serratoga Falls, Timnath CO | Timnath Painting',
+    metaTitle: 'Exterior Painting in Serratoga Falls, Timnath CO | Keystone Painting',
     metaDesc: 'Exterior painting for Serratoga Falls homes in Timnath. HOA-compliant prep, Sherwin-Williams & Benjamin Moore coatings, free on-site quote. (970) 670-3965.',
     canonical: 'https://timnathpainting.com/neighborhoods/serratoga-falls/',
     heroTitle: 'Exterior Painting in Serratoga Falls',
@@ -57,7 +57,7 @@ const NEIGHBORHOODS = [
   {
     name: 'Timnath Lakes',
     slug: 'timnath-lakes',
-    metaTitle: 'Exterior Painting in Timnath Lakes | Timnath Painting',
+    metaTitle: 'Exterior Painting in Timnath Lakes | Keystone Painting',
     metaDesc: 'Exterior painting specialists for Timnath Lakes homes. HOA color compliance, lake-adjacent prep, premium coatings. Free quote. (970) 670-3965.',
     canonical: 'https://timnathpainting.com/neighborhoods/timnath-lakes/',
     heroTitle: 'Exterior Painting in Timnath Lakes',
@@ -79,7 +79,7 @@ const NEIGHBORHOODS = [
   {
     name: 'Wildwing',
     slug: 'wildwing',
-    metaTitle: 'Exterior Painting in Wildwing, Timnath CO | Timnath Painting',
+    metaTitle: 'Exterior Painting in Wildwing, Timnath CO | Keystone Painting',
     metaDesc: 'Exterior painting for Wildwing neighborhood homes in Timnath. HOA-compliant, premium prep, free on-site quote. Call (970) 670-3965.',
     canonical: 'https://timnathpainting.com/neighborhoods/wildwing/',
     heroTitle: 'Exterior Painting in Wildwing',
@@ -101,7 +101,7 @@ const NEIGHBORHOODS = [
   {
     name: 'Trailside',
     slug: 'trailside',
-    metaTitle: 'Exterior Painting in Trailside, Timnath CO | Timnath Painting',
+    metaTitle: 'Exterior Painting in Trailside, Timnath CO | Keystone Painting',
     metaDesc: 'Exterior painting for Trailside neighborhood homes in Timnath, CO. Trail-adjacent, HOA-compliant, premium coatings. Free quote. (970) 670-3965.',
     canonical: 'https://timnathpainting.com/neighborhoods/trailside/',
     heroTitle: 'Exterior Painting in Trailside',
@@ -123,7 +123,7 @@ const NEIGHBORHOODS = [
   {
     name: 'Harmony Club',
     slug: 'harmony-club',
-    metaTitle: 'Exterior Painting in Harmony Club, Timnath CO | Timnath Painting',
+    metaTitle: 'Exterior Painting in Harmony Club, Timnath CO | Keystone Painting',
     metaDesc: 'Exterior painting for Harmony Club golf course community homes in Timnath. Premium prep, HOA-compliant, free quote. (970) 670-3965.',
     canonical: 'https://timnathpainting.com/neighborhoods/harmony-club/',
     heroTitle: 'Exterior Painting in Harmony Club',

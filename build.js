@@ -1,4 +1,4 @@
-﻿'use strict';
+'use strict';
 /**
  * build.js  -  Keystone Painting Site Builder
  * Generates all pillar pages from data + templates
@@ -88,7 +88,7 @@ copyDir(path.join(ROOT, 'assets'), path.join(DIST, 'assets'));
 // Root index.html Ã¯Â¿Â½" built by buildHomepage()
 
 // Copy coming-soon landing page to root (DISABLED Ã¯Â¿Â½" site is live)
-/* const COMING_SOON = path.join(ROOT, '..', 'timnath-painting-coming-soon');
+/* const COMING_SOON = path.join(ROOT, '..', 'keystone-painting-coming-soon');
 if (fs.existsSync(COMING_SOON)) {
   fs.copyFileSync(path.join(COMING_SOON, 'index.html'), path.join(DIST, 'index.html'));
   if (fs.existsSync(path.join(COMING_SOON, 'favicon.ico'))) fs.copyFileSync(path.join(COMING_SOON, 'favicon.ico'), path.join(DIST, 'favicon.ico'));
@@ -179,8 +179,8 @@ function buildHomepage() {
     {
       bg: 'hero-real-exterior.jpg',
       sub: 'Northern Colorado Painting Contractor',
-      lines: ['Premium Exterior Painting in Timnath, Severance & Windsor'],
-      btn1: { t: 'Schedule A Free Consultation', h: '/get-a-quote/' },
+      lines: ['Premium Exterior Painting in Windsor, Timnath & Severance'],
+      btn1: { t: 'Schedule A Free Consultation', h: '/contact-us/' },
       btn2: { t: 'Our Services', h: '/exterior-painting/index.html' },
       subText: 'Professional painting done rightâ€”on time, on budget, and built to last.'
     },
@@ -220,7 +220,7 @@ function buildHomepage() {
     { icon:'fa-solid fa-lightbulb', title:'10 Year Systems', link:'/exterior-painting/index.html' },
     { icon:'fa-solid fa-paint-roller', title:'No-VOC Products.', link:'/about.html' },
     { icon:'fa-solid fa-users', title:'$1M Liability Coverage', link:'/about.html' },
-    { icon:'fa-solid fa-shield-halved', title:'Free On-Site Quotes', link:'/get-a-quote/' },
+    { icon:'fa-solid fa-shield-halved', title:'Free On-Site Quotes', link:'/contact-us/' },
   ];
 
   const content = `
@@ -366,7 +366,7 @@ ${T.contactFormSection()}`;
   // Inject reviews section and schema
   const finalContent = schemaTag + '\n' + content.replace('<!-- REVIEWS -->', reviewsSection);
 
-  write('index.html', `${T.htmlHead(`${CLIENT.name} | Exterior Painting & Fence Staining in Timnath, Severance, Windsor`, CLIENT.description, 'https://paintkeystone.com/', '/assets/images/backgrounds/hero-real-exterior.jpg')}
+  write('index.html', `${T.htmlHead(`${CLIENT.name} | Exterior Painting & Fence Staining in Windsor, Timnath & Severance`, CLIENT.description, 'https://paintkeystone.com/', '/assets/images/backgrounds/hero-real-exterior.jpg')}
 ${T.wrapBody(finalContent)}`);
 }
 
@@ -384,7 +384,7 @@ ${T.pageHeader('About Keystone Painting', '<li><span>About Us</span></li>')}
         <div style="overflow:visible;">
           <img src="/assets/images/about/josh-funk.png" alt="Josh Funk  -  Owner, Keystone Painting" style="width:100%;max-width:460px;display:block;margin:0 auto;">
           <p style="margin-top:12px;font-weight:600;font-size:1rem;color:#3a2e1e;">Josh Funk, Owner</p>
-          <a href="/get-a-quote/" class="wallox-btn wallox-btn--base" style="margin-top:20px;display:inline-block;">Get a Free Quote</a>
+          <a href="/contact-us/" class="wallox-btn wallox-btn--base" style="margin-top:20px;display:inline-block;">Get a Free Quote</a>
         </div>
       </div>
       <div class="col-lg-6">
@@ -622,7 +622,7 @@ ${T.pageHeader(d.title, `<li><span>${d.title.split(' in ')[0]}</span></li>`)}
               <li><i class="fa-solid fa-envelope" style="color:var(--wallox-base);margin-right:8px;"></i><a href="mailto:${CLIENT.email}">${CLIENT.email}</a></li>
               <li><i class="fa-solid fa-location-dot" style="color:var(--wallox-base);margin-right:8px;"></i>${CLIENT.city}, ${CLIENT.state}</li>
             </ul>
-            <a href="/get-a-quote/" class="wallox-btn wallox-btn--base" style="margin-top:20px;display:block;text-align:center;">Request a Quote</a>
+            <a href="/contact-us/" class="wallox-btn wallox-btn--base" style="margin-top:20px;display:block;text-align:center;">Request a Quote</a>
           </div>
           <div style="background:#201b10;color:#f4ede4;padding:30px;border-radius:8px;">
             <h4 style="color:#ae360e;margin-bottom:15px;">Why Keystone Painting</h4>
@@ -703,24 +703,37 @@ ${T.topbar()}
     <div class="contact-grid">
       <div>
         <div class="contact-card">
-          <h3 style="margin:0 0 6px;font-size:20px;font-weight:700;color:#201B10;">Send Us a Message</h3>
-          <p style="margin:0 0 20px;font-size:14px;color:#5a5650;line-height:1.55;">Use the form below or call us directly. Every message gets a personal reply from Josh.</p>
-          <div id="2d355475-e9e2-4025-be1d-9768705789fb-2223041"></div>
-          <link rel="stylesheet" href="https://d3ey4dbjkt2f6s.cloudfront.net/assets/external/work_request_embed.css" media="screen" />
-          <script src="https://d3ey4dbjkt2f6s.cloudfront.net/assets/static_link/work_request_embed_snippet.js" clienthub_id="2d355475-e9e2-4025-be1d-9768705789fb-2223041" form_url="https://clienthub.getjobber.com/client_hubs/2d355475-e9e2-4025-be1d-9768705789fb/public/work_request/embedded_work_request_form?form_id=2223041"></script>
+          <h3 style="margin:0 0 6px;font-size:20px;font-weight:700;color:#201B10;">Get In Touch</h3>
+          <p style="margin:0 0 24px;font-size:14px;color:#5a5650;line-height:1.55;">Reach out directly — Josh responds to everything personally, usually same day.</p>
+          <div style="display:flex;flex-direction:column;gap:18px;">
+            <a href="tel:${CLIENT.phoneTel}" style="display:flex;align-items:center;gap:16px;padding:18px 20px;background:#F4EDE4;border:1.5px solid #e4dacc;border-radius:10px;text-decoration:none;color:#201B10;">
+              <span style="width:44px;height:44px;background:#AE360E;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;"><i class="fa-solid fa-phone" style="color:#fff;font-size:18px;"></i></span>
+              <div>
+                <div style="font-size:12px;font-weight:700;color:#AE360E;text-transform:uppercase;letter-spacing:1px;margin-bottom:2px;">Call or Text</div>
+                <div style="font-size:18px;font-weight:800;color:#201B10;">${CLIENT.phone}</div>
+              </div>
+            </a>
+            <a href="mailto:${CLIENT.email}" style="display:flex;align-items:center;gap:16px;padding:18px 20px;background:#F4EDE4;border:1.5px solid #e4dacc;border-radius:10px;text-decoration:none;color:#201B10;">
+              <span style="width:44px;height:44px;background:#AE360E;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;"><i class="fa-solid fa-envelope" style="color:#fff;font-size:18px;"></i></span>
+              <div>
+                <div style="font-size:12px;font-weight:700;color:#AE360E;text-transform:uppercase;letter-spacing:1px;margin-bottom:2px;">Email</div>
+                <div style="font-size:16px;font-weight:700;color:#201B10;">${CLIENT.email}</div>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
       <div>
         <ul class="contact-trust-list">
           <li><i class="fa-solid fa-phone"></i><span>Call or text us at <a href="tel:${CLIENT.phoneTel}" style="color:#AE360E;font-weight:700;">${CLIENT.phone}</a></span></li>
           <li><i class="fa-solid fa-envelope"></i><span>Email us at <a href="mailto:${CLIENT.email}" style="color:#AE360E;font-weight:700;">${CLIENT.email}</a></span></li>
-          <li><i class="fa-solid fa-check"></i><span>Serving Timnath and Northern Colorado. We know the area, the HOAs, and the conditions.</span></li>
+          <li><i class="fa-solid fa-check"></i><span>Serving Windsor and Northern Colorado. We know the area, the HOAs, and the conditions.</span></li>
           <li><i class="fa-solid fa-check"></i><span>No obligation. Just an honest conversation about your project.</span></li>
           <li><i class="fa-solid fa-check"></i><span>Licensed and insured. $1M general liability. COI available within 24 hours.</span></li>
           <li><i class="fa-solid fa-check"></i><span>Every quote is based on a real in-person assessment, not a number pulled from thin air.</span></li>
         </ul>
         <div class="contact-info-cards">
-          <a href="https://www.google.com/maps/dir/?api=1&destination=Timnath+Painting+Timnath+CO" target="_blank" rel="noopener noreferrer" class="contact-info-card" style="text-decoration:none;display:block;">
+          <a href="https://www.google.com/maps/dir/?api=1&destination=Keystone+Painting+Windsor+CO" target="_blank" rel="noopener noreferrer" class="contact-info-card" style="text-decoration:none;display:block;">
             <div style="font-size:28px;color:var(--wallox-base);margin-bottom:10px;"><i class="fa-solid fa-diamond-turn-right"></i></div>
             <h4 style="margin-bottom:0;font-size:15px;color:#201B10;">Directions</h4>
           </a>
@@ -745,6 +758,97 @@ ${T.topbar()}
 
   write('contact.html', `${T.htmlHead('Contact Keystone Painting | Free Quote | (970) 670-3965', 'Contact Keystone Painting for a free exterior painting quote. Serving Timnath, Windsor, Severance & Northern Colorado. Call (970) 670-3965.', 'https://paintkeystone.com/contact')}
 ${T.wrapBody(content)}`);
+}
+
+function buildContactUs() {
+  const content = `
+${T.topbar()}
+<!-- HEADER -->
+<div class="page-wrapper" style="display:flex;flex-direction:column;min-height:100vh;">
+<style>
+.contact-wrap{flex:1;background:#F4EDE4;padding:20px 0 64px;}
+.contact-page-header{margin-bottom:20px;text-align:center;}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start;}
+@media(max-width:900px){.contact-grid{grid-template-columns:1fr;gap:24px;}}
+.contact-headline{color:#201B10;font-size:clamp(28px,3.8vw,52px);font-weight:800;line-height:1.15;letter-spacing:-0.02em;margin:0 0 8px;}
+.contact-subtext{font-size:16px;font-weight:600;color:#AE360E;margin:0;letter-spacing:-0.01em;}
+.contact-card{background:#fff;border-radius:14px;padding:32px 32px 28px;box-shadow:0 4px 24px rgba(0,0,0,0.09);}
+.contact-trust-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px;}
+.contact-trust-list li{display:flex;align-items:flex-start;gap:12px;color:#2E2A20;font-size:15px;line-height:1.5;}
+.contact-trust-list li i{color:#AE360E;margin-top:2px;flex-shrink:0;font-size:16px;}
+.contact-info-cards{margin-top:24px;display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+@media(max-width:700px){.contact-info-cards{grid-template-columns:1fr;}}
+.contact-info-card{text-align:center;padding:24px 16px;background:#fff;border-radius:12px;border:1px solid #e4dacc;}
+</style>
+<main>
+<section class="contact-wrap">
+  <div class="container">
+    <div class="contact-page-header">
+      <h1 class="contact-headline">Get In Touch With Keystone Painting</h1>
+      <p class="contact-subtext">We respond fast and always keep it honest</p>
+    </div>
+    <div class="contact-grid">
+      <div>
+        <div class="contact-card">
+          <h3 style="margin:0 0 6px;font-size:20px;font-weight:700;color:#201B10;">Reach Out Directly</h3>
+          <p style="margin:0 0 24px;font-size:14px;color:#5a5650;line-height:1.55;">Josh responds to everything personally \u2014 usually same day. No forms, no bots, just a real conversation about your project.</p>
+          <div style="display:flex;flex-direction:column;gap:18px;">
+            <a href="tel:${CLIENT.phoneTel}" style="display:flex;align-items:center;gap:16px;padding:20px 22px;background:#F4EDE4;border:1.5px solid #e4dacc;border-radius:10px;text-decoration:none;color:#201B10;transition:border-color 0.15s;">
+              <span style="width:48px;height:48px;background:#AE360E;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;"><i class="fa-solid fa-phone" style="color:#fff;font-size:20px;"></i></span>
+              <div>
+                <div style="font-size:12px;font-weight:700;color:#AE360E;text-transform:uppercase;letter-spacing:1px;margin-bottom:3px;">Call or Text</div>
+                <div style="font-size:20px;font-weight:800;color:#201B10;">${CLIENT.phone}</div>
+                <div style="font-size:12px;color:#5a5650;margin-top:2px;">We answer calls and respond to texts</div>
+              </div>
+            </a>
+            <a href="mailto:${CLIENT.email}" style="display:flex;align-items:center;gap:16px;padding:20px 22px;background:#F4EDE4;border:1.5px solid #e4dacc;border-radius:10px;text-decoration:none;color:#201B10;transition:border-color 0.15s;">
+              <span style="width:48px;height:48px;background:#AE360E;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;"><i class="fa-solid fa-envelope" style="color:#fff;font-size:20px;"></i></span>
+              <div>
+                <div style="font-size:12px;font-weight:700;color:#AE360E;text-transform:uppercase;letter-spacing:1px;margin-bottom:3px;">Email</div>
+                <div style="font-size:17px;font-weight:700;color:#201B10;">${CLIENT.email}</div>
+                <div style="font-size:12px;color:#5a5650;margin-top:2px;">Josh reads every email himself</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <ul class="contact-trust-list">
+          <li><i class="fa-solid fa-phone"></i><span>Call or text us at <a href="tel:${CLIENT.phoneTel}" style="color:#AE360E;font-weight:700;">${CLIENT.phone}</a></span></li>
+          <li><i class="fa-solid fa-envelope"></i><span>Email us at <a href="mailto:${CLIENT.email}" style="color:#AE360E;font-weight:700;">${CLIENT.email}</a></span></li>
+          <li><i class="fa-solid fa-check"></i><span>Serving Windsor and Northern Colorado. We know the area, the HOAs, and the conditions.</span></li>
+          <li><i class="fa-solid fa-check"></i><span>No obligation. Just an honest conversation about your project.</span></li>
+          <li><i class="fa-solid fa-check"></i><span>Licensed and insured. $1M general liability. COI available within 24 hours.</span></li>
+          <li><i class="fa-solid fa-check"></i><span>Every quote is based on a real in-person assessment, not a number pulled from thin air.</span></li>
+        </ul>
+        <div class="contact-info-cards">
+          <a href="https://www.google.com/maps/dir/?api=1&destination=Keystone+Painting+Windsor+CO" target="_blank" rel="noopener noreferrer" class="contact-info-card" style="text-decoration:none;display:block;">
+            <div style="font-size:28px;color:var(--wallox-base);margin-bottom:10px;"><i class="fa-solid fa-diamond-turn-right"></i></div>
+            <h4 style="margin-bottom:0;font-size:15px;color:#201B10;">Directions</h4>
+          </a>
+          <a href="tel:${CLIENT.phoneTel}" class="contact-info-card" style="text-decoration:none;display:block;">
+            <div style="font-size:28px;color:var(--wallox-base);margin-bottom:10px;"><i class="fa-solid fa-phone"></i></div>
+            <h4 style="margin-bottom:0;font-size:15px;color:#201B10;">Call or Text</h4>
+          </a>
+          <a href="mailto:${CLIENT.email}" class="contact-info-card" style="text-decoration:none;display:block;">
+            <div style="font-size:28px;color:var(--wallox-base);margin-bottom:10px;"><i class="fa-solid fa-envelope"></i></div>
+            <h4 style="margin-bottom:0;font-size:15px;color:#201B10;">Email</h4>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div style="margin-top:60px;">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97168.06445598403!2d-105.03495221370565!3d40.44202459799552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa4047ac4cc01168b%3A0x5ca0bf376555449f!2sTimnath%20Painting!5e0!3m2!1sen!2sus!4v1777530014876!5m2!1sen!2sus" width="100%" height="450" style="border:0;border-radius:8px;display:block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+</main>
+</div>`;
+
+  const dir = path.join(DIST, 'contact-us');
+  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+  fs.writeFileSync(path.join(dir, 'index.html'), `${T.htmlHead('Contact Keystone Painting | Call or Email for a Free Quote', 'Contact Keystone Painting directly at (970) 670-3965 or josh@paintkeystone.com. Serving Timnath, Windsor & Northern Colorado.', 'https://paintkeystone.com/contact-us/')}\n${T.wrapBody(content)}`, 'utf8');
+  console.log('Built: contact-us/index.html');
 }
 
 // ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ Areas Served INDEX ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½
@@ -806,6 +910,7 @@ buildHomepage();
 buildAbout();
 Object.keys(SERVICE_DATA).forEach(buildServiceHub);
 buildContact();
+buildContactUs();
 
 // --- Services Hub ---
 function buildServicesHub() {
@@ -973,7 +1078,7 @@ ${T.pageHeader(`Painting Services in ${d.label}, CO`, `<li><a href="/areas-serve
             <li><i class="fa-solid fa-envelope" style="color:#AE360E;margin-right:8px;"></i><a href="mailto:${CLIENT.email}" style="color:#5a5650;">${CLIENT.email}</a></li>
             <li><i class="fa-solid fa-location-dot" style="color:#AE360E;margin-right:8px;"></i><span style="color:#5a5650;">Based in ${CLIENT.city}, ${CLIENT.state}</span></li>
           </ul>
-          <a href="/get-a-quote/" class="wallox-btn wallox-btn--base" style="display:block;text-align:center;">Request a Quote</a>
+          <a href="/contact-us/" class="wallox-btn wallox-btn--base" style="display:block;text-align:center;">Request a Quote</a>
         </div>
 
         <div style="background:#201B10;color:#f4ede4;padding:28px;border-radius:8px;margin-bottom:24px;">
@@ -1364,7 +1469,7 @@ ${T.pageHeader(h1Title, `<li><a href="/${service.slug}/index.html">${service.lab
             <li><i class="fa-solid fa-envelope" style="color:#AE360E;margin-right:8px;"></i><a href="mailto:${CLIENT.email}" style="color:#5a5650;">${CLIENT.email}</a></li>
             <li><i class="fa-solid fa-location-dot" style="color:#AE360E;margin-right:8px;"></i><span style="color:#5a5650;">Based in ${CLIENT.city}, ${CLIENT.state}</span></li>
           </ul>
-          <a href="/get-a-quote/" class="wallox-btn wallox-btn--base" style="display:block;text-align:center;">Request a Quote</a>
+          <a href="/contact-us/" class="wallox-btn wallox-btn--base" style="display:block;text-align:center;">Request a Quote</a>
         </div>
 
         <div style="background:#201B10;color:#f4ede4;padding:28px;border-radius:8px;margin-bottom:24px;">
@@ -1457,7 +1562,7 @@ ${header}
       <p style="color:#AE360E; font-weight:700; font-size:13px; letter-spacing:2px; text-transform:uppercase; margin-bottom:12px;">Our Process</p>
       <h1 style="color:#fff; font-size:clamp(32px,5vw,52px); font-weight:800; margin-bottom:16px; line-height:1.15;">We Make This Simple</h1>
       <p style="color:rgba(255,255,255,0.75); font-size:18px; max-width:560px; margin:0 auto 28px;">Here's exactly what to expect â€” from picking your color to the last brushstroke.</p>
-      <a href="/get-a-quote/" class="wallox-btn wallox-btn--primary">Get a Free Quote <i class="fa-solid fa-arrow-right"></i></a>
+      <a href="/contact-us/" class="wallox-btn wallox-btn--primary">Get a Free Quote <i class="fa-solid fa-arrow-right"></i></a>
     </div>
   </section>
 
@@ -1553,7 +1658,7 @@ ${header}
     <div class="container text-center">
       <h2 style="color:#fff; font-size:clamp(24px,3.5vw,38px); font-weight:800; margin-bottom:14px;">Ready? We Move Fast.</h2>
       <p style="color:rgba(255,255,255,0.85); font-size:17px; max-width:520px; margin:0 auto 28px;">Once you're ready â€” approved colors in hand â€” we'll get you a written quote within 24 hours.</p>
-      <a href="/get-a-quote/" style="display:inline-flex; align-items:center; gap:10px; padding:16px 36px; background:#fff; color:#AE360E; font-weight:800; font-size:16px; border-radius:100px; text-decoration:none;">
+      <a href="/contact-us/" style="display:inline-flex; align-items:center; gap:10px; padding:16px 36px; background:#fff; color:#AE360E; font-weight:800; font-size:16px; border-radius:100px; text-decoration:none;">
         Request Your Free Quote <i class="fa-solid fa-arrow-right"></i>
       </a>
     </div>
@@ -1582,7 +1687,7 @@ ${header}
           </a>
         </div>
         <div class="col-md-4 col-sm-6" style="padding:8px;">
-          <a href="/get-a-quote/" style="display:flex; align-items:center; gap:12px; background:#AE360E; border:1px solid #AE360E; border-radius:12px; padding:18px 20px; text-decoration:none; color:#fff; transition:background .2s;">
+          <a href="/contact-us/" style="display:flex; align-items:center; gap:12px; background:#AE360E; border:1px solid #AE360E; border-radius:12px; padding:18px 20px; text-decoration:none; color:#fff; transition:background .2s;">
             <i class="fa-solid fa-file-lines" style="color:#fff; font-size:20px; flex-shrink:0;"></i>
             <span style="font-weight:700; font-size:15px;">Get a Free Quote</span>
           </a>
@@ -1683,8 +1788,8 @@ function buildGetAQuote() {
 
   const head = T.htmlHead(
     'Get a Free Painting Quote | Keystone Painting | (970) 670-3965',
-    'Request a free painting quote from Keystone Painting. No pressure, no surprises. Serving Timnath, Windsor, Fort Collins & Northern Colorado. We respond within 2 hours.',
-    'https://paintkeystone.com/get-a-quote/'
+    'Request a free painting quote from Keystone Painting. No pressure, no surprises. Serving Windsor, Timnath, Fort Collins & Northern Colorado. We respond within 2 hours.',
+    'https://paintkeystone.com/contact-us/'
   );
 
   const html = head + `
@@ -1740,7 +1845,7 @@ function buildGetAQuote() {
       </div>
       <div class="gaq-col-copy">
         <ul class="gaq-trust-list">
-          <li><i class="fa-solid fa-check"></i><span>Local to Timnath and Northern Colorado. We know the conditions, the HOAs, and the neighborhoods.</span></li>
+          <li><i class="fa-solid fa-check"></i><span>Local to Windsor and Northern Colorado. We know the conditions, the HOAs, and the neighborhoods.</span></li>
           <li><i class="fa-solid fa-check"></i><span>Licensed &amp; Insured with $1M general liability. COI available on request within 24 hours.</span></li>
           <li><i class="fa-solid fa-check"></i><span>No obligation. Free on-site assessment. We show up, look at the job, and give you a real number. No games.</span></li>
           <li><i class="fa-solid fa-check"></i><span>Premium Sherwin-Williams &amp; Benjamin Moore coatings. No-VOC products. Systems built to last 7&ndash;10 years in Colorado's climate.</span></li>
@@ -1755,7 +1860,7 @@ function buildGetAQuote() {
       </div>
       <div class="gaq-proof-item">
         <i class="fa-solid fa-location-dot"></i>
-        <p><strong>Local to Northern Colorado</strong>Based in Timnath. Serving Timnath, Windsor, Fort Collins, Loveland &amp; the I-25 corridor.</p>
+        <p><strong>Local to Northern Colorado</strong>Based in Windsor, CO. Serving Windsor, Timnath, Fort Collins, Loveland &amp; the I-25 corridor.</p>
       </div>
       <div class="gaq-proof-item">
         <i class="fa-solid fa-shield-halved"></i>
@@ -1851,5 +1956,6 @@ buildAllProjects(write, T);
 
 // Generate sitemap from actual dist/ contents
 generateSitemap({ distDir: DIST, siteRoot: ROOT, domain: SITE_DOMAIN, excludeSlugs: ['sign-up', 'sign-up/exterior', 'sign-up/deck-staining'] });
+
 
 

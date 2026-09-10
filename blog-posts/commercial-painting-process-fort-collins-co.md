@@ -31,7 +31,7 @@ tags:
   - fort collins co
   - exterior painting
   - northern colorado
-author: Timnath Painting
+author: Keystone Painting
 sheetRow: 38
 sheetId: 1vbAvFozBVBuLll38MuHoDJE9fA1iaJYoON1Xz08J4p0
 sheetGid: '1429273512'
@@ -137,6 +137,6 @@ If a contractor isn't doing a formal closeout walkthrough, that's a yellow flag.
 
 Now you know what the process should look like. If a contractor you're evaluating can't speak fluently to each of these steps, that's information worth having before you sign anything.
 
-Timnath Painting handles commercial exterior projects across Fort Collins, Windsor, Timnath, and greater Northern Colorado — with $2M liability coverage, licensed and insured crews, and paint systems built for Colorado's specific climate demands.
+Keystone Painting handles commercial exterior projects across Fort Collins, Windsor, Timnath, and greater Northern Colorado — with $2M liability coverage, licensed and insured crews, and paint systems built for Colorado's specific climate demands.
 
 [Request a free on-site quote](/contact/) and we'll walk your building with you and give you a clear picture of what it needs — no pressure, no guesswork.

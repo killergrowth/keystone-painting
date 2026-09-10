@@ -28,7 +28,7 @@ tags:
   - Fort Collins CO
   - freeze-thaw damage
   - paint inspection
-author: Timnath Painting
+author: Keystone Painting
 sheetRow: 62
 sheetId: 1vbAvFozBVBuLll38MuHoDJE9fA1iaJYoON1Xz08J4p0
 sheetGid: '1429273512'

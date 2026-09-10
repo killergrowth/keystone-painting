@@ -28,7 +28,7 @@ tags:
   - freeze-thaw paint damage
   - UV paint damage colorado
   - northern colorado painting
-author: Timnath Painting
+author: Keystone Painting
 sheetRow: 58
 sheetId: 1vbAvFozBVBuLll38MuHoDJE9fA1iaJYoON1Xz08J4p0
 sheetGid: '1429273512'
@@ -82,6 +82,6 @@ The difference comes down to product selection and surface prep. High-build elas
 
 ## Built for Colorado, Not the National Average
 
-At Timnath Painting, we spec [exterior paint systems](/exterior-painting/) specifically for Front Range conditions — the UV load, the freeze-thaw cycles, the snowpack exposure. We're eco-friendly & no-VOC, licensed, insured to $2M liability, and every quote is on-site and free.
+At Keystone Painting, we spec [exterior paint systems](/exterior-painting/) specifically for Front Range conditions — the UV load, the freeze-thaw cycles, the snowpack exposure. We're eco-friendly & no-VOC, licensed, insured to $2M liability, and every quote is on-site and free.
 
 If your home's paint is showing any of the signs above, it's worth a conversation before it becomes a wood repair project. [Reach out for a free quote](/contact/) — we serve Timnath, Windsor, Fort Collins, and surrounding Northern Colorado communities.

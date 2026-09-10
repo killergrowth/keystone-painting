@@ -29,7 +29,7 @@ tags:
   - exterior painting
   - painting tips
   - northern colorado
-author: Timnath Painting
+author: Keystone Painting
 sheetRow: 8
 sheetId: 1vbAvFozBVBuLll38MuHoDJE9fA1iaJYoON1Xz08J4p0
 sheetGid: '1429273512'
@@ -120,7 +120,7 @@ The cheapest exterior paint job in Timnath isn't a deal if it's peeling in three
 
 ***
 
-## Get a Free On-Site Estimate From Timnath Painting
+## Get a Free On-Site Estimate From Keystone Painting
 
 We walk every job before we quote it. You'll get a detailed written estimate that covers scope, materials, prep, and timeline — no guesswork, no surprises.
 

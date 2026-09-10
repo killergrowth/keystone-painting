@@ -3,3 +3,7 @@ node_modules/
 .env
 
 deploy.ps1
+_deploy.ps1
+.tmp/
+*.mp4
+*.mp3

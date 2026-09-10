@@ -1,8 +1,8 @@
-﻿const sharp = require("sharp");
+const sharp = require("sharp");
 const path = require("path");
 
-const stock = String.raw`C:\Users\KillerGrowth\.openclaw\workspace\sites\timnath-painting\assets\stock`;
-const imgDir = String.raw`C:\Users\KillerGrowth\.openclaw\workspace\sites\timnath-painting\static-html\assets\images`;
+const stock = String.raw`C:\Users\KillerGrowth\.openclaw\workspace\sites\keystone-painting\assets\stock`;
+const imgDir = String.raw`C:\Users\KillerGrowth\.openclaw\workspace\sites\keystone-painting\static-html\assets\images`;
 
 const jobs = [
   ["house-luxury.jpg",            "backgrounds/slider-3-1.jpg",  1920, 900, "cover"],

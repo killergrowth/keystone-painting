@@ -1,8 +1,8 @@
 ---
 slug: wood-fence-staining-fort-collins-co
 title: 'Wood Fence Staining: Complete Guide for Colorado Homeowners'
-status: scheduled
-publishDate: null
+status: published
+publishDate: '2026-09-03T19:28:05.959Z'
 scheduledDate: 2026-08-25T13:00:00.000Z
 excerpt: >-
   Colorado's UV exposure and freeze-thaw cycles destroy untreated wood fast.
@@ -29,7 +29,7 @@ tags:
   - colorado homeowners
   - fort collins
   - exterior wood care
-author: Timnath Painting
+author: Keystone Painting
 sheetRow: 27
 sheetId: 1vbAvFozBVBuLll38MuHoDJE9fA1iaJYoON1Xz08J4p0
 sheetGid: '1429273512'

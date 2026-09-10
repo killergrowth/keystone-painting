@@ -1,6 +1,6 @@
-﻿const sharp = require("sharp");
+const sharp = require("sharp");
 const path = require("path");
-const imgDir = String.raw`C:\Users\KillerGrowth\.openclaw\workspace\sites\timnath-painting\static-html\assets\images`;
+const imgDir = String.raw`C:\Users\KillerGrowth\.openclaw\workspace\sites\keystone-painting\static-html\assets\images`;
 
 const jobs = [
   // Re-process new hero images (already in backgrounds folder, just verify dimensions)

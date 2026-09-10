@@ -15,7 +15,7 @@ ${preloadImage ? `<link rel="preload" as="image" href="${preloadImage.replace(/\
 <link rel="preload" as="image" href="${preloadImage.replace(/\.(jpg|jpeg)$/i, '.webp')}" media="(min-width:801px)">` : ''}
 <!-- Open Graph / Social Share -->
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Timnath Painting">
+<meta property="og:site_name" content="Keystone Painting">
 <meta property="og:title" content="${title}">
 <meta property="og:description" content="${desc}">
 <meta property="og:image" content="https://timnathpainting.com/assets/images/social-share.png">
@@ -258,7 +258,6 @@ function mobileNav() {
 }
 
 function contactFormSection() {
-  const serviceOptions = SERVICES.map(s => `<option value="${s.slug}" style="color:#222;background:#fff;">${s.label}</option>`).join('');
   return `<div class="testimonials-contact" style="
     position:relative;
     background-image: linear-gradient(rgba(20,15,10,0.72), rgba(20,15,10,0.72)), url(/assets/images/backgrounds/quote-bg.jpg);
@@ -267,72 +266,23 @@ function contactFormSection() {
     padding:100px 0;
   ">
   <div class="container">
-    <div class="row gutter-y-30 align-items-start">
-
-      <!-- Quote Form -->
-      <div class="col-lg-6">
-        <div class="wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="100ms"
-          style="background:rgba(30,22,14,0.88);border-radius:10px;padding:40px 36px;">
-          <div style="margin-bottom:24px;">
-            <span style="color:var(--wallox-base,#AE360E);font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;">Request a Quote</span>
-            <h3 style="color:#fff;margin-top:8px;margin-bottom:0;">Get a Free Quote</h3>
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <div class="wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
+          <span style="color:var(--wallox-base,#AE360E);font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;">Ready to Get Started?</span>
+          <h3 style="color:#fff;margin-top:12px;margin-bottom:16px;">Get a Free Quote From Keystone Painting</h3>
+          <p style="color:#ccc;font-size:16px;line-height:1.7;margin-bottom:40px;">Call or text Josh directly, or send an email. Every inquiry gets a personal response &mdash; usually same day.</p>
+          <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:16px;">
+            <a href="tel:${CLIENT.phoneTel}" style="display:inline-flex;align-items:center;gap:12px;padding:16px 32px;background:#AE360E;color:#fff;font-weight:700;font-size:17px;border-radius:100px;text-decoration:none;">
+              <i class="fa-solid fa-phone"></i> ${CLIENT.phone}
+            </a>
+            <a href="mailto:${CLIENT.email}" style="display:inline-flex;align-items:center;gap:12px;padding:16px 32px;background:rgba(255,255,255,0.1);border:2px solid rgba(255,255,255,0.3);color:#fff;font-weight:700;font-size:17px;border-radius:100px;text-decoration:none;">
+              <i class="fa-solid fa-envelope"></i> ${CLIENT.email}
+            </a>
           </div>
-          <form class="contact-one__form form-one" id="quote-form"
-            action="/submit"
-            method="POST"
-            style="--form-bg:transparent;">
-            <div class="form-one__group">
-              <div class="form-one__control">
-                <label for="name" style="color:#ccc;font-size:13px;">Your Name*</label>
-                <input id="name" type="text" name="name" placeholder="Full name" required
-                  style="background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);color:#fff;border-radius:5px;padding:10px 14px;width:100%;">
-              </div>
-              <div class="form-one__control">
-                <label for="email" style="color:#ccc;font-size:13px;">Email*</label>
-                <input type="email" id="email" name="email" placeholder="Email address" required
-                  style="background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);color:#fff;border-radius:5px;padding:10px 14px;width:100%;">
-              </div>
-              <div class="form-one__control">
-                <label for="phone" style="color:#ccc;font-size:13px;">Phone*</label>
-                <input type="text" id="phone" name="phone" placeholder="(970) 000-0000"
-                  style="background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);color:#fff;border-radius:5px;padding:10px 14px;width:100%;">
-              </div>
-              <div class="form-one__control">
-                <label for="service" style="color:#ccc;font-size:13px;">Service Needed</label>
-                <select id="service" name="service"
-                  style="width:100%;padding:10px 14px;border:1px solid rgba(255,255,255,0.15);border-radius:5px;background:#2a1e12;color:#fff;">
-                  <option value="" style="color:#222;background:#fff;">Select a Service</option>${serviceOptions}
-                </select>
-              </div>
-              <div class="form-one__control form-one__control--full" style="grid-column:1/-1;">
-                <label for="message" style="color:#ccc;font-size:13px;">Message</label>
-                <textarea name="message" id="message" placeholder="Tell us about your project"
-                  style="background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);color:#fff;border-radius:5px;padding:10px 14px;width:100%;min-height:110px;"></textarea>
-              </div>
-              <div class="form-one__control form-one__control--full" style="grid-column:1/-1;">
-                <button type="submit" class="wallox-btn wallox-btn--base" style="width:100%;">Request a Quote</button>
-              </div>
-            </div>
-          </form>
-          <p style="margin-top:16px;font-size:13px;color:#aaa;text-align:center;">We respond same-day. Prefer to call or text? <a href="tel:${CLIENT.phoneTel}" style="color:var(--wallox-base,#AE360E);text-decoration:underline;">${CLIENT.phone}</a></p>
+          <p style="margin-top:24px;font-size:13px;color:#aaa;">Licensed &amp; Insured &bull; No-VOC Products &bull; $1M General Liability</p>
         </div>
       </div>
-
-      <!-- Contact Info -->
-      <div class="col-lg-6">
-        <div class="wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="150ms" style="padding:20px 10px;">
-          <span style="color:#fff;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;">Reach Us Directly</span>
-          <h3 style="color:#fff;margin-top:8px;margin-bottom:30px;">We Respond Same-Day</h3>
-          <ul class="list-unstyled" style="line-height:2.6;">
-            <li><i class="fa-solid fa-phone" style="color:var(--wallox-base,#AE360E);margin-right:12px;"></i><a href="tel:${CLIENT.phoneTel}" style="font-size:20px;font-weight:700;color:#fff;">${CLIENT.phone}</a></li>
-            <li style="font-size:13px;color:#aaa;"><i class="fa-solid fa-comment-sms" style="color:var(--wallox-base,#AE360E);margin-right:12px;"></i>Text us to schedule a quote or talk to a team member</li>
-            <li><i class="fa-solid fa-envelope" style="color:var(--wallox-base,#AE360E);margin-right:12px;"></i><a href="mailto:${CLIENT.email}" style="color:#ddd;">${CLIENT.email}</a></li>
-            <li><i class="fa-solid fa-location-dot" style="color:var(--wallox-base,#AE360E);margin-right:12px;"></i><span style="color:#ddd;">${CLIENT.city}, ${CLIENT.state} ${CLIENT.zip}</span></li>
-          </ul>
-          <p style="margin-top:30px;font-style:italic;color:#bbb;">Licensed &amp; Insured &bull; No-VOC Products. &bull; $1M General Liability</p>
-        </div>
-      </div>
-
     </div>
   </div>
 </div>`;
@@ -372,7 +322,7 @@ function serviceCarouselItems() {
     <div class="service-one__item__thumb"><img src="/assets/images/service/areas-served-map.jpg" alt="Northern Colorado service area map" loading="lazy"></div>
     <div class="service-one__item__content">
       <h4 class="service-one__item__title"><a href="/areas-served/index.html">See Areas We Serve</a></h4>
-      <p class="service-one__item__tagline">Serving Timnath, Windsor, Fort Collins, Loveland and more across Northern Colorado.</p>
+      <p class="service-one__item__tagline">Serving Windsor, Timnath, Fort Collins, Loveland and more across Northern Colorado.</p>
       <a href="/areas-served/index.html" class="service-one__item__link">View all areas &rarr;</a>
     </div>
   </div></div>`;

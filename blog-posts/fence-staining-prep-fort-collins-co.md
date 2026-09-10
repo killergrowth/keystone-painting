@@ -1,8 +1,8 @@
 ---
 slug: fence-staining-prep-fort-collins-co
 title: How to Prep a Fence for Staining (What Pros Actually Do)
-status: scheduled
-publishDate: null
+status: published
+publishDate: '2026-09-04T13:00:14.259Z'
 scheduledDate: 2026-09-04T13:00:00.000Z
 excerpt: >-
   Most stain jobs fail because of bad prep, not bad stain. Here's exactly how
@@ -28,7 +28,7 @@ tags:
   - Fort Collins
   - exterior staining
   - DIY vs pro
-author: Timnath Painting
+author: Keystone Painting
 sheetRow: 30
 sheetId: 1vbAvFozBVBuLll38MuHoDJE9fA1iaJYoON1Xz08J4p0
 sheetGid: '1429273512'

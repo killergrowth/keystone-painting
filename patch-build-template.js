@@ -1,4 +1,4 @@
-﻿'use strict';
+'use strict';
 // Patches buildServiceHub in build.js to render new content sections
 // Run: node patch-build-template.js — safe to delete after.
 
@@ -96,7 +96,7 @@ const newFn = `function buildServiceHub(slug) {
   const whyUsSection = d.whyUs ? \`<div style="margin:40px 0;padding:32px;background:#201b10;border-radius:10px;">
           <div class="sec-title text-start" style="padding-bottom:0;margin-bottom:16px;">
             <div class="d-flex align-items-center justify-content-start"><p class="sec-title__tagline" style="color:#AE360E;">why choose us</p></div>
-            <h3 class="sec-title__title" style="margin-bottom:0;color:#fff;">Why Timnath Painting</h3>
+            <h3 class="sec-title__title" style="margin-bottom:0;color:#fff;">Why Keystone Painting</h3>
           </div>
           \${d.whyUs.split('\\n\\n').map(p => \`<p class="wow fadeInUp" data-wow-duration="1500ms" style="color:#e8e0d8;line-height:1.8;">\${p}</p>\`).join('\\n')}
           <ul class="list-unstyled" style="margin-top:20px;line-height:2.2;">
@@ -182,7 +182,7 @@ const newFn = `function buildServiceHub(slug) {
             <a href="/contact.html" class="wallox-btn wallox-btn--base" style="margin-top:20px;display:block;text-align:center;">Request a Quote</a>
           </div>
           <div style="background:#201b10;color:#f4ede4;padding:30px;border-radius:8px;">
-            <h4 style="color:#ae360e;margin-bottom:15px;">Why Timnath Painting</h4>
+            <h4 style="color:#ae360e;margin-bottom:15px;">Why Keystone Painting</h4>
             <ul class="list-unstyled" style="line-height:2;">
               <li><i class="fa-solid fa-check" style="color:#ae360e;margin-right:8px;"></i>Licensed &amp; Insured</li>
               <li><i class="fa-solid fa-check" style="color:#ae360e;margin-right:8px;"></i>No-VOC Products.</li>

@@ -30,7 +30,7 @@ tags:
   - repaint timeline
   - home maintenance
   - northern colorado
-author: Timnath Painting
+author: Keystone Painting
 sheetRow: 19
 sheetId: 1vbAvFozBVBuLll38MuHoDJE9fA1iaJYoON1Xz08J4p0
 sheetGid: '1429273512'
@@ -94,7 +94,7 @@ More than the calendar, watch for these signals:
 
 ## Why Colorado Homes Need More Than a Standard Paint Job
 
-Most national painting guides assume a mild climate. In Northern Colorado, a standard contractor-grade paint applied without climate-specific prep won't reach those timelines. At Timnath Painting, we use 7–10 year paint systems specifically selected for altitude, UV load, and freeze-thaw performance — not whatever's available at the local big-box store.
+Most national painting guides assume a mild climate. In Northern Colorado, a standard contractor-grade paint applied without climate-specific prep won't reach those timelines. At Keystone Painting, we use 7–10 year paint systems specifically selected for altitude, UV load, and freeze-thaw performance — not whatever's available at the local big-box store.
 
 That selection matters. So does the prep work: proper surface cleaning, priming bare spots, caulking joints, and addressing any existing moisture damage before a single drop of paint goes on.
 

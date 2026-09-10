@@ -28,7 +28,7 @@ tags:
   - fort collins co
   - northern colorado
   - painting tips
-author: Timnath Painting
+author: Keystone Painting
 sheetRow: 16
 sheetId: 1vbAvFozBVBuLll38MuHoDJE9fA1iaJYoON1Xz08J4p0
 sheetGid: '1429273512'

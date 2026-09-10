@@ -30,7 +30,7 @@ tags:
   - colorado painting
   - oil based paint
   - water based paint
-author: Timnath Painting
+author: Keystone Painting
 sheetRow: 21
 sheetId: 1vbAvFozBVBuLll38MuHoDJE9fA1iaJYoON1Xz08J4p0
 sheetGid: '1429273512'

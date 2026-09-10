@@ -14,7 +14,7 @@ if (idx < 0) { console.log('Could not find anchor'); process.exit(1); }
 const closeRightCol = bjs.indexOf('\r\n      </div>\r\n    </div>\r\n  </div>\r\n</section>', idx);
 if (closeRightCol < 0) { console.log('Could not find close'); process.exit(1); }
 
-const imgBlock = '\r\n        <div class="wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="400ms" style="margin-top:32px;border-radius:10px;overflow:hidden;">\r\n          <img src="/assets/images/about/about-kitchen.jpg" alt="Interior painting project by Timnath Painting" style="width:100%;height:auto;display:block;border-radius:10px;">\r\n        </div>';
+const imgBlock = '\r\n        <div class="wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="400ms" style="margin-top:32px;border-radius:10px;overflow:hidden;">\r\n          <img src="/assets/images/about/about-kitchen.jpg" alt="Interior painting project by Keystone Painting" style="width:100%;height:auto;display:block;border-radius:10px;">\r\n        </div>';
 
 // Insert after the closing </div> of the last progress-box but before </div></div>
 // The last progress-box ends with: </div>\r\n        </div>\r\n      </div>

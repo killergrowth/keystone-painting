@@ -3,8 +3,8 @@ slug: fence-staining-cost-fort-collins-co
 title: >-
   How Much Does It Cost to Stain a Fence? (Fort Collins & Northern Colorado
   Pricing Guide)
-status: scheduled
-publishDate: null
+status: published
+publishDate: '2026-09-03T19:28:05.959Z'
 scheduledDate: 2026-08-21T13:00:00.000Z
 excerpt: >-
   Real fence staining cost ranges for Fort Collins and Northern Colorado — by
@@ -30,7 +30,7 @@ tags:
   - fort collins co
   - northern colorado
   - exterior staining
-author: Timnath Painting
+author: Keystone Painting
 sheetRow: 26
 sheetId: 1vbAvFozBVBuLll38MuHoDJE9fA1iaJYoON1Xz08J4p0
 sheetGid: '1429273512'
@@ -98,7 +98,7 @@ Fort Collins and the surrounding Northern Colorado area isn't the same as staini
 
 A quality contractor in this region — like those serving [Fort Collins](/areas-served/fort-collins-co/), [Windsor](/areas-served/windsor-co/), and [Timnath](/areas-served/timnath-co/) — should be selecting products and application methods specifically for these conditions, not running a one-size-fits-all approach.
 
-That's exactly how we approach [fence staining](/fence-staining/) at Timnath Painting: climate-appropriate products, proper prep, and a system designed to last 5–7 years — not 2.
+That's exactly how we approach [fence staining](/fence-staining/) at Keystone Painting: climate-appropriate products, proper prep, and a system designed to last 5–7 years — not 2.
 
 ---
 

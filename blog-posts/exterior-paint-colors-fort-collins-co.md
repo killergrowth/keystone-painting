@@ -29,7 +29,7 @@ tags:
   - fort collins
   - colorado homes
   - sherwin-williams
-author: Timnath Painting
+author: Keystone Painting
 sheetRow: 10
 sheetId: 1vbAvFozBVBuLll38MuHoDJE9fA1iaJYoON1Xz08J4p0
 sheetGid: '1429273512'

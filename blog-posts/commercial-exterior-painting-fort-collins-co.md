@@ -32,7 +32,7 @@ tags:
   - fort collins
   - commercial vs residential
   - northern colorado
-author: Timnath Painting
+author: Keystone Painting
 sheetRow: 40
 sheetId: 1vbAvFozBVBuLll38MuHoDJE9fA1iaJYoON1Xz08J4p0
 sheetGid: '1429273512'
@@ -73,7 +73,7 @@ Walk into any paint supplier and you'll find a divide between residential and co
 
 Commercial coatings are engineered for higher-traffic surfaces, greater film builds, resistance to impact and abrasion, and longer service intervals. Elastomeric coatings, masonry sealers, and two-part epoxy systems used on commercial substrates don't have a residential equivalent.
 
-At Timnath Painting, our [commercial painting](/commercial-painting/) systems are specified to perform in Colorado's climate — not just to look good on day one. That means products rated for the freeze-thaw stress this region sees, the UV load at altitude, and the surface types common in commercial construction.
+At Keystone Painting, our [commercial painting](/commercial-painting/) systems are specified to perform in Colorado's climate — not just to look good on day one. That means products rated for the freeze-thaw stress this region sees, the UV load at altitude, and the surface types common in commercial construction.
 
 ---
 
@@ -91,7 +91,7 @@ A contractor without commercial surface experience is making it up as they go. T
 
 Commercial painting projects require documentation, scheduling coordination, safety compliance, and often certificate of insurance requirements that exceed what most residential contractors carry.
 
-Timnath Painting carries $2M in liability coverage — a baseline requirement for most commercial property managers and HOA boards. We're licensed and insured, and we structure commercial projects with the kind of communication and documentation that property managers expect.
+Keystone Painting carries $2M in liability coverage — a baseline requirement for most commercial property managers and HOA boards. We're licensed and insured, and we structure commercial projects with the kind of communication and documentation that property managers expect.
 
 If you're evaluating contractors for a [commercial exterior painting](/commercial-painting/) project in Fort Collins or anywhere in Northern Colorado, ask for their COI before anything else. If they hesitate, that's your answer.
 

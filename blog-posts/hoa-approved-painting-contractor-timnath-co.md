@@ -30,7 +30,7 @@ tags:
   - Timnath CO
   - painting contractor
   - HOA approval
-author: Timnath Painting
+author: Keystone Painting
 sheetRow: 47
 sheetId: 1vbAvFozBVBuLll38MuHoDJE9fA1iaJYoON1Xz08J4p0
 sheetGid: '1429273512'
@@ -59,7 +59,7 @@ This is where a lot of contractors fall short. HOAs commonly require a minimum o
 
 Before you hire anyone, ask for a Certificate of Insurance (COI) and confirm the coverage limits match what your HOA requires. The COI should list your HOA or management company as an additional insured if that's in your community's guidelines.
 
-Timnath Painting carries $2M in liability coverage — one of the higher thresholds you'll find with a local contractor, and a figure that clears the bar for virtually every HOA in Northern Colorado.
+Keystone Painting carries $2M in liability coverage — one of the higher thresholds you'll find with a local contractor, and a figure that clears the bar for virtually every HOA in Northern Colorado.
 
 ### 3. Experience With HOA Projects
 
@@ -94,7 +94,7 @@ Getting this documentation upfront saves you from a back-and-forth with your man
 
 Colorado's climate adds another layer to this. The Front Range sees 28+ freeze-thaw cycles per year and UV exposure 10–15% higher than lower elevations. An exterior paint job that's done with the wrong product or applied outside the right temperature window won't just look bad — it'll fail early.
 
-Timnath Painting works exclusively in Northern Colorado and builds paint systems specifically for these conditions. Our [HOA painting services](/hoa-painting/) are structured around community approval workflows, and we come prepared with the documentation your HOA's management company expects.
+Keystone Painting works exclusively in Northern Colorado and builds paint systems specifically for these conditions. Our [HOA painting services](/hoa-painting/) are structured around community approval workflows, and we come prepared with the documentation your HOA's management company expects.
 
 If you're in Timnath, Windsor, or surrounding areas and need a contractor who can clear your HOA's approval process without the runaround, [reach out for a free on-site quote](/contact/). We'll walk you through what your specific community requires and handle the paperwork side.
 

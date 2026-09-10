@@ -1,4 +1,4 @@
-# Website Change Orders — Timnath Painting (timnathpainting.com)
+# Website Change Orders — Keystone Painting (timnathpainting.com)
 Last updated by cron: 2026-05-05 10:00 AM CDT
 
 > ⚠️ **No CF Pages project yet.** This site is in-progress (status: in-progress in sites.json). Changes can be made to local source files but cannot be deployed to a preview URL until a CF Pages project is created. Items will remain in Requested until then.
@@ -16,7 +16,7 @@ _New feedback from Feedbucket. Not yet acted on._
 - **Device:** Desktop / MacOS Big Sur / Chrome 147
 - **Monday task ID:** not found
 - **Preview URL:** *(blocked — no CF Pages project)*
-- **Notes:** Client wants bio copy reworked to start: "I'm Josh, a Colorado local, and..." Copy edit on about.html. Blocked on preview deploy until CF Pages project is set up for timnath-painting. ⚠️ Feedbucket marked this as *resolved* on 2026-05-04 21:44 UTC — but no code change was made via this workflow. Unclear if change was made directly. Tyler B to confirm.
+- **Notes:** Client wants bio copy reworked to start: "I'm Josh, a Colorado local, and..." Copy edit on about.html. Blocked on preview deploy until CF Pages project is set up for keystone-painting. ⚠️ Feedbucket marked this as *resolved* on 2026-05-04 21:44 UTC — but no code change was made via this workflow. Unclear if change was made directly. Tyler B to confirm.
 
 ### [TIM-002] About page — replace photo with client headshots
 - **Page:** https://timnathpainting.com/about

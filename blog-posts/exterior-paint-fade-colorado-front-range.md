@@ -29,7 +29,7 @@ tags:
   - UV fade
   - Front Range homes
   - paint products
-author: Timnath Painting
+author: Keystone Painting
 sheetRow: 63
 sheetId: 1vbAvFozBVBuLll38MuHoDJE9fA1iaJYoON1Xz08J4p0
 sheetGid: '1429273512'
@@ -88,4 +88,4 @@ Colorado's climate is unforgiving. The right paint system handles it. The wrong 
 
 ***
 
-**Timnath Painting serves homeowners across the Front Range, including [Timnath](https://timnathpainting.com/areas-served/timnath-co/), [Windsor](https://timnathpainting.com/areas-served/windsor-co/), Fort Collins, and surrounding communities. [Get a free quote](https://timnathpainting.com/contact/) and find out what paint system is right for your home.**
+**Keystone Painting serves homeowners across the Front Range, including [Timnath](https://timnathpainting.com/areas-served/timnath-co/), [Windsor](https://timnathpainting.com/areas-served/windsor-co/), Fort Collins, and surrounding communities. [Get a free quote](https://timnathpainting.com/contact/) and find out what paint system is right for your home.**

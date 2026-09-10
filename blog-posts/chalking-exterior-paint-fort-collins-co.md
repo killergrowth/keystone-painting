@@ -28,7 +28,7 @@ tags:
   - Fort Collins CO
   - paint maintenance
   - home exterior
-author: Timnath Painting
+author: Keystone Painting
 sheetRow: 56
 sheetId: 1vbAvFozBVBuLll38MuHoDJE9fA1iaJYoON1Xz08J4p0
 sheetGid: '1429273512'
@@ -120,6 +120,6 @@ A [professional exterior painting](https://timnathpainting.com/exterior-painting
 
 If you're dealing with chalking exterior paint in Fort Collins or anywhere in Northern Colorado, keep in mind that standard paint systems aren't engineered for this region's UV load, freeze-thaw cycling, and dry air. The right paint system for a home here is different than what works in a milder climate.
 
-At Timnath Painting, we spec paint systems designed to last 7–10 years under real Northern Colorado conditions — not just the best-case-scenario numbers on a product data sheet.
+At Keystone Painting, we spec paint systems designed to last 7–10 years under real Northern Colorado conditions — not just the best-case-scenario numbers on a product data sheet.
 
 **Ready to get a real assessment of your exterior?** [Request a free on-site quote](https://timnathpainting.com/contact) and we'll tell you exactly what your home needs — no guessing, no upselling.

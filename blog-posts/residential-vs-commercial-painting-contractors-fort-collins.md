@@ -31,7 +31,7 @@ tags:
   - fort collins painting
   - contractor differences
   - painting costs
-author: Timnath Painting
+author: Keystone Painting
 sheetRow: 41
 sheetId: 1vbAvFozBVBuLll38MuHoDJE9fA1iaJYoON1Xz08J4p0
 sheetGid: '1429273512'
@@ -56,7 +56,7 @@ Residential painters typically carry general liability insurance — often in th
 - **Commercial vehicle and equipment coverage**
 - **Bond coverage** in many cases
 
-At Timnath Painting, we carry **$2M in liability coverage** — a level suited for commercial properties and larger exterior projects in the Northern Colorado area. If a contractor can't show proof of commercial-grade coverage, that liability gap falls on the property owner.
+At Keystone Painting, we carry **$2M in liability coverage** — a level suited for commercial properties and larger exterior projects in the Northern Colorado area. If a contractor can't show proof of commercial-grade coverage, that liability gap falls on the property owner.
 
 Licensing requirements also vary. Commercial projects frequently involve permits, OSHA compliance on elevated work, and in some cases contractor licensing thresholds that residential-only painters don't hold.
 
@@ -120,7 +120,7 @@ If you're a Fort Collins business owner or property manager, you need a contract
 
 ## Working with a Contractor Who Handles Both
 
-Some contractors — like Timnath Painting — serve both residential and [commercial clients](/commercial-painting/) in the Fort Collins and Northern Colorado area. The advantage: you get commercial-grade insurance, equipment, and accountability on every project, regardless of size.
+Some contractors — like Keystone Painting — serve both residential and [commercial clients](/commercial-painting/) in the Fort Collins and Northern Colorado area. The advantage: you get commercial-grade insurance, equipment, and accountability on every project, regardless of size.
 
 Whether it's an [HOA exterior painting project](/hoa-painting/) with consistent color requirements across dozens of units, or a single-family home that needs a system built to last 7–10 years through Colorado's climate, the standard doesn't change.
 

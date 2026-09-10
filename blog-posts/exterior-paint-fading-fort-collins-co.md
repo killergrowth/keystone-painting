@@ -28,7 +28,7 @@ tags:
   - Fort Collins CO
   - UV protection
   - Colorado homes
-author: Timnath Painting
+author: Keystone Painting
 sheetRow: 55
 sheetId: 1vbAvFozBVBuLll38MuHoDJE9fA1iaJYoON1Xz08J4p0
 sheetGid: '1429273512'
@@ -75,7 +75,7 @@ Fading is sometimes actually peeling, and peeling almost always traces back to p
 
 Not all exterior paints are equal. Look for products with UV-stable inorganic pigments, higher resin content, and formulations rated for temperature extremes. Sherwin-Williams Duration, Benjamin Moore Aura Exterior, and similar premium lines are built with better pigment packages and thicker film builds than budget alternatives.
 
-At Timnath Painting, every product recommendation is based on Northern Colorado's specific climate demands — not just what's popular nationally.
+At Keystone Painting, every product recommendation is based on Northern Colorado's specific climate demands — not just what's popular nationally.
 
 ### Go Lighter on South and West-Facing Walls
 

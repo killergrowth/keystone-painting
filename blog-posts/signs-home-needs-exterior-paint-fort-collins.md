@@ -29,7 +29,7 @@ tags:
   - Timnath
   - paint tips
   - Northern Colorado
-author: Timnath Painting
+author: Keystone Painting
 sheetRow: 24
 sheetId: 1vbAvFozBVBuLll38MuHoDJE9fA1iaJYoON1Xz08J4p0
 sheetGid: '1429273512'
@@ -90,7 +90,7 @@ The good news: catching it at the warning-sign stage is significantly cheaper th
 
 A paint job that lasts in this climate starts with prep — cleaning, scraping, recaulking, and priming bare spots before a single drop of finish coat goes on. Skipping prep is why so many repaints fail within two or three years.
 
-At Timnath Painting, we use paint systems specifically selected for Northern Colorado's conditions — designed to flex through freeze-thaw cycles and resist UV fade. The result is a 7–10 year system lifespan rather than the 3–5 years you'd get from a budget job. You can browse recent work in our [gallery](/gallery/) to see what that looks like in practice.
+At Keystone Painting, we use paint systems specifically selected for Northern Colorado's conditions — designed to flex through freeze-thaw cycles and resist UV fade. The result is a 7–10 year system lifespan rather than the 3–5 years you'd get from a budget job. You can browse recent work in our [gallery](/gallery/) to see what that looks like in practice.
 
 ---
 

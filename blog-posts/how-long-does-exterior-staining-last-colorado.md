@@ -28,7 +28,7 @@ tags:
   - Colorado painting
   - stain lifespan
   - wood maintenance
-author: Timnath Painting
+author: Keystone Painting
 sheetRow: 51
 sheetId: 1vbAvFozBVBuLll38MuHoDJE9fA1iaJYoON1Xz08J4p0
 sheetGid: '1429273512'

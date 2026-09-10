@@ -28,7 +28,7 @@ tags:
   - exterior painting
   - Colorado hail
   - insurance claim painting
-author: Timnath Painting
+author: Keystone Painting
 sheetRow: 60
 sheetId: 1vbAvFozBVBuLll38MuHoDJE9fA1iaJYoON1Xz08J4p0
 sheetGid: '1429273512'
@@ -101,6 +101,6 @@ Our recommendation: schedule your inspection and estimate immediately after a st
 
 ## Ready to Assess the Damage?
 
-If your home took a hit this season, don't guess. Timnath Painting provides free on-site quotes and can walk through the documentation process with you before your adjuster visit. We're licensed, insured with $2M liability coverage, and eco-friendly & no-VOC — and we've built paint systems specifically designed to hold up against Northern Colorado's climate.
+If your home took a hit this season, don't guess. Keystone Painting provides free on-site quotes and can walk through the documentation process with you before your adjuster visit. We're licensed, insured with $2M liability coverage, and eco-friendly & no-VOC — and we've built paint systems specifically designed to hold up against Northern Colorado's climate.
 
 [Get your free exterior assessment](https://timnathpainting.com/contact/) and know exactly what you're dealing with before you file a single claim.

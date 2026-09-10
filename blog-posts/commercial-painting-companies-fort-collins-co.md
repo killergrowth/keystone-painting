@@ -30,7 +30,7 @@ tags:
   - commercial painting companies
   - exterior painting
   - property maintenance
-author: Timnath Painting
+author: Keystone Painting
 sheetRow: 36
 sheetId: 1vbAvFozBVBuLll38MuHoDJE9fA1iaJYoON1Xz08J4p0
 sheetGid: '1429273512'
@@ -127,6 +127,6 @@ Make sure whoever you hire has a track record in this region — not just a lice
 
 ## We Do Commercial Work in Fort Collins and Across Northern Colorado
 
-Timnath Painting handles [commercial painting projects](/commercial-painting/) across the region, including Fort Collins, Windsor, Loveland, and surrounding communities. We show up with the right crew size, a dedicated point of contact, documented surface prep for commercial substrates, and $2M in liability coverage.
+Keystone Painting handles [commercial painting projects](/commercial-painting/) across the region, including Fort Collins, Windsor, Loveland, and surrounding communities. We show up with the right crew size, a dedicated point of contact, documented surface prep for commercial substrates, and $2M in liability coverage.
 
 If you're evaluating [commercial painting companies](/commercial-painting/) for an upcoming project, we're happy to walk you through our process on-site — no pressure, no vague estimates. [Request a free quote](/contact/) and let's take a look at what your property actually needs.

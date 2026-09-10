@@ -16,20 +16,20 @@ const hoaEnd   = content.indexOf(HOA_OLD_END);
 
 const newHoa = `  'hoa-painting': {
     title: 'HOA Painting in Northern Colorado',
-    metaTitle: 'HOA Painting Northern Colorado | Timnath Painting',
-    metaDesc: "HOA painting specialists in Northern Colorado. Color coordination, documentation, multi-unit scheduling. Call Timnath Painting: (970) 236-8271",
+    metaTitle: 'HOA Painting Northern Colorado | Keystone Painting',
+    metaDesc: "HOA painting specialists in Northern Colorado. Color coordination, documentation, multi-unit scheduling. Call Keystone Painting: (970) 236-8271",
     tagline: 'HOA Color Compliance Made Simple',
     heroTitle: 'HOA Painting in Northern Colorado \u2014 Color Approval to Final Coat',
     intro: \`HOA painting projects require a level of coordination most painting contractors are not set up for. Color approval documentation, multi-unit scheduling that minimizes resident disruption, and precise color matching across dozens of homes \u2014 these are requirements, not extras.
 
-Timnath Painting has worked with HOAs across Timnath, Windsor, and Severance. We understand the approval process, carry $1M general liability insurance with COI on request, and deliver consistent color results across every building we touch.\`,
+Keystone Painting has worked with HOAs across Timnath, Windsor, and Severance. We understand the approval process, carry $1M general liability insurance with COI on request, and deliver consistent color results across every building we touch.\`,
     process: \`HOA projects begin with a meeting with the property manager or board to confirm scope, color palette, scheduling requirements, and documentation needs.
 
 <strong>Color Coordination:</strong> We work directly with HOA architectural review committees to confirm approved colors, obtain approval letters, and document color specifications for every structure.
 
 <strong>Scheduling:</strong> Multi-unit projects are sequenced to minimize resident disruption. We communicate project timelines directly with affected residents when requested.
 
-<strong>Execution:</strong> Same prep and coating standards as every Timnath Painting project. No shortcuts because the client is an HOA instead of an individual homeowner.\`,
+<strong>Execution:</strong> Same prep and coating standards as every Keystone Painting project. No shortcuts because the client is an HOA instead of an individual homeowner.\`,
     propertyTypes: [
       { type: 'Single-Family HOA Homes', desc: 'The most common HOA project in Timnath and Windsor. We handle color sample submission, approval documentation, and precise color matching across every home in the community \u2014 so the neighborhood looks intentional, not patchwork.' },
       { type: 'Townhomes and Attached Units', desc: 'Shared wall structures require careful masking and crew coordination to avoid paint transfer between units. We sequence townhome projects unit-by-unit to minimize resident disruption while maintaining color consistency across the row.' },
@@ -58,7 +58,7 @@ Our $1M general liability policy covers multi-unit projects. Certificates of ins
     faqs: [
       { q: 'Do you handle HOA color approval documentation?', a: 'Yes. We work with HOA architectural review committees to confirm approved colors, provide color samples, and submit all required documentation. We have worked with dozens of local HOAs in Timnath, Windsor, and Severance and know their standards and timelines.' },
       { q: 'Can you coordinate multi-unit HOA projects?', a: 'Yes. We sequence multi-unit projects to minimize resident disruption and maintain consistent scheduling. Property managers receive regular progress updates. We coordinate resident communications when required.' },
-      { q: 'Do you provide certificates of insurance for HOA projects?', a: 'Yes. Timnath Painting carries $1M general liability insurance. Certificates of insurance are provided on request, typically within 24 hours.' },
+      { q: 'Do you provide certificates of insurance for HOA projects?', a: 'Yes. Keystone Painting carries $1M general liability insurance. Certificates of insurance are provided on request, typically within 24 hours.' },
       { q: 'What does HOA exterior painting cost?', a: 'HOA painting costs depend on number of units, building size, surface condition, and color change requirements. We provide per-unit pricing and bulk project estimates. Call (970) 236-8271 for a site assessment and quote.' },
       { q: 'How do you ensure color consistency across multiple units?', a: 'We use spectrophotometer color matching and lock in exact Sherwin-Williams or Benjamin Moore color codes at the start of the project. Every unit is painted from the same batch formula. When we return for future phases, we pull the documented color codes to match exactly.' },
       { q: 'Can you work with an HOA property management company?', a: 'Yes. Most of our HOA work is coordinated through property management companies. We handle all communication, documentation, and scheduling through the property manager and only escalate to the board when approval decisions require it.' },
@@ -78,11 +78,11 @@ const commEnd   = content.indexOf(COMM_OLD_END);
 
 const newComm = `  'commercial-painting': {
     title: 'Commercial Painting in Northern Colorado',
-    metaTitle: 'Commercial Painting Northern Colorado | Timnath Painting',
-    metaDesc: "Commercial painting in Northern Colorado. After-hours scheduling, minimal disruption, $1M liability. Call Timnath Painting: (970) 236-8271",
+    metaTitle: 'Commercial Painting Northern Colorado | Keystone Painting',
+    metaDesc: "Commercial painting in Northern Colorado. After-hours scheduling, minimal disruption, $1M liability. Call Keystone Painting: (970) 236-8271",
     tagline: 'After-Hours Scheduling. Zero Disruption.',
     heroTitle: 'Commercial Painting in Northern Colorado \u2014 Built Around Your Schedule',
-    intro: \`Timnath Painting provides commercial painting in Northern Colorado for strip malls, office buildings, and multi-family properties along the I-25 corridor. We specialize in after-hours scheduling, use commercial-grade coatings built for Colorado\\'s 28+ annual freeze-thaw cycles, and carry $1M general liability insurance with certificates available on request.
+    intro: \`Keystone Painting provides commercial painting in Northern Colorado for strip malls, office buildings, and multi-family properties along the I-25 corridor. We specialize in after-hours scheduling, use commercial-grade coatings built for Colorado\\'s 28+ annual freeze-thaw cycles, and carry $1M general liability insurance with certificates available on request.
 
 Your commercial property takes the same beating from Colorado\\'s climate as any home. But unlike residential work, your repaint cannot shut down your business for two weeks.\`,
     process: \`We start with a site assessment and schedule consultation. Most commercial clients need after-hours or weekend work to avoid disrupting operations. We accommodate that.
@@ -100,7 +100,7 @@ Your commercial property takes the same beating from Colorado\\'s climate as any
     ],
     whyUs: \`Commercial painting bids are easy to get. Reliable execution is harder to find. Most commercial painting contractors in Northern Colorado use subcontractors, which means the crew on day one may not be the crew on day five. Quality variation and scheduling gaps are the result.
 
-Timnath Painting brings an owned crew to every commercial project. The same people who assess the job are the ones who do the work. We do not pass commercial projects off to subs when we get busy.
+Keystone Painting brings an owned crew to every commercial project. The same people who assess the job are the ones who do the work. We do not pass commercial projects off to subs when we get busy.
 
 We carry $1M general liability insurance and workers\\' compensation on all crew members. COI is available within 24 hours. For property management companies that need to be listed as additional insured, we accommodate that at no cost.\`,
     timeline: \`Commercial project timelines depend on building size and schedule constraints, but here is how a standard Northern Colorado commercial repaint runs.
@@ -117,7 +117,7 @@ We carry $1M general liability insurance and workers\\' compensation on all crew
       { label: 'Exterior Painting', slug: 'exterior-painting', desc: 'Residential exterior systems rated for 7\u201310 years.' },
     ],
     faqs: [
-      { q: 'Can you paint after hours or on weekends?', a: 'Yes. Timnath Painting schedules commercial crews for evenings, overnight shifts, and weekends in Northern Colorado. Retail storefronts, medical offices, and multi-family buildings often require after-hours work. We coordinate site access, lighting requirements, and security protocols before beginning.' },
+      { q: 'Can you paint after hours or on weekends?', a: 'Yes. Keystone Painting schedules commercial crews for evenings, overnight shifts, and weekends in Northern Colorado. Retail storefronts, medical offices, and multi-family buildings often require after-hours work. We coordinate site access, lighting requirements, and security protocols before beginning.' },
       { q: 'Do you provide certificates of insurance for commercial projects?', a: 'Yes. We carry $1M general liability insurance and provide COI on request, typically within 24 hours. We also carry workers\\' compensation for all crew members. We can list property management companies as additional insured.' },
       { q: 'What coatings do you use for commercial properties?', a: 'We specify elastomeric and industrial-grade acrylics from Sherwin-Williams and Benjamin Moore for commercial properties. Elastomeric coatings bridge hairline cracks and flex with temperature swings. We do not use residential-grade paints on commercial projects.' },
       { q: 'What does commercial painting cost per square foot?', a: 'Commercial painting in Northern Colorado typically costs $2.50\u2013$5.50 per square foot for standard exteriors with good existing paint. Complex projects with substrate repairs, elastomeric coatings, or difficult access run higher. We provide detailed written quotes after site assessment.' },
@@ -138,13 +138,13 @@ const fenceEnd   = content.indexOf(FENCE_OLD_END);
 
 const newFence = `  'fence-staining': {
     title: 'Fence Staining in Northern Colorado',
-    metaTitle: 'Fence Staining Northern Colorado | Timnath Painting',
-    metaDesc: "Professional fence staining in Northern Colorado. Penetrating stains, proper prep, 3-5 year protection. Call Timnath Painting: (970) 236-8271",
+    metaTitle: 'Fence Staining Northern Colorado | Keystone Painting',
+    metaDesc: "Professional fence staining in Northern Colorado. Penetrating stains, proper prep, 3-5 year protection. Call Keystone Painting: (970) 236-8271",
     tagline: 'Penetrating Protection. Not Just Color.',
     heroTitle: 'Fence Staining in Northern Colorado \u2014 Built to Survive Colorado\\'s Weather',
     intro: \`Colorado\\'s UV index, freeze-thaw cycles, and wind-driven moisture destroy untreated or poorly stained fences faster than almost anywhere in the country. Solid stains peel. Clear sealers wear off in one season. Penetrating semi-transparent stains \u2014 applied to properly prepared wood \u2014 last 3\u20135 years and protect the wood from the inside out.
 
-Timnath Painting uses penetrating oil-based and water-based stains from premium manufacturers, applied after proper cleaning, sanding, and wood brightening. We do not brush stain over dirty, weathered wood and call it done.\`,
+Keystone Painting uses penetrating oil-based and water-based stains from premium manufacturers, applied after proper cleaning, sanding, and wood brightening. We do not brush stain over dirty, weathered wood and call it done.\`,
     process: \`Every fence project begins with a condition assessment \u2014 existing coating type, wood species, weathering, and moisture content all affect product selection and prep requirements.
 
 <strong>Preparation:</strong> Power washing removes dirt, mildew, and failing stain. Wood brightener restores the wood\\'s natural pH and opens the grain to accept stain. Sanding addresses rough surfaces and gray weathered wood.
@@ -197,13 +197,13 @@ const stainEnd   = content.indexOf(STAIN_OLD_END);
 
 const newStain = `  'exterior-staining': {
     title: 'Exterior Staining in Northern Colorado',
-    metaTitle: 'Exterior Staining Northern Colorado | Timnath Painting',
+    metaTitle: 'Exterior Staining Northern Colorado | Keystone Painting',
     metaDesc: "Exterior staining for wood siding, decks & trim in Northern Colorado. Premium penetrating stains, proper prep. Call (970) 236-8271",
     tagline: 'Penetrating Stains for Lasting Protection',
     heroTitle: 'Exterior Staining in Northern Colorado \u2014 Wood That Lasts',
     intro: \`Log homes, cedar siding, wood decks, and natural wood trim all require staining \u2014 not painting \u2014 to maintain their appearance and structural integrity in Colorado\\'s climate. Paint traps moisture in wood and eventually peels. Penetrating stains work with the wood, allowing it to breathe while protecting against UV degradation, moisture intrusion, and freeze-thaw damage.
 
-Timnath Painting specializes in exterior staining for natural wood surfaces across Northern Colorado. We use premium penetrating oil and water-based stains and prepare surfaces properly before any product touches the wood.\`,
+Keystone Painting specializes in exterior staining for natural wood surfaces across Northern Colorado. We use premium penetrating oil and water-based stains and prepare surfaces properly before any product touches the wood.\`,
     process: \`Exterior staining projects begin with a full surface assessment \u2014 existing finish type, wood species and condition, moisture content, and exposure level all drive product selection.
 
 <strong>Preparation:</strong> All surfaces are cleaned thoroughly \u2014 power washing, mildew treatment, and wood brightening where needed. Failed existing stain is stripped or sanded. Bare wood is allowed to dry completely before application.

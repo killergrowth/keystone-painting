@@ -28,7 +28,7 @@ tags:
   - fort collins co
   - vinyl siding
   - northern colorado
-author: Timnath Painting
+author: Keystone Painting
 sheetRow: 52
 sheetId: 1vbAvFozBVBuLll38MuHoDJE9fA1iaJYoON1Xz08J4p0
 sheetGid: '1429273512'
@@ -97,4 +97,4 @@ Cut corners on any of these steps and the system underperforms. It's not about t
 
 If you're considering painting vinyl siding at your home in [Fort Collins](/areas-served/fort-collins-co/), [Windsor](/areas-served/windsor-co/), [Timnath](/areas-served/timnath-co/), or anywhere else in Northern Colorado, we'll give you a straight answer about whether it's the right move for your specific situation — and what it'll take to do it correctly.
 
-**Contact Timnath Painting for a free on-site quote.** We'll assess your siding condition, walk you through color options that won't warp in Colorado's heat, and give you a system built to last 7–10 years.
+**Contact Keystone Painting for a free on-site quote.** We'll assess your siding condition, walk you through color options that won't warp in Colorado's heat, and give you a system built to last 7–10 years.

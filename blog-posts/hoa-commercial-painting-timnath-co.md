@@ -29,7 +29,7 @@ tags:
   - timnath co
   - exterior painting
   - northern colorado
-author: Timnath Painting
+author: Keystone Painting
 sheetRow: 46
 sheetId: 1vbAvFozBVBuLll38MuHoDJE9fA1iaJYoON1Xz08J4p0
 sheetGid: '1429273512'
@@ -72,7 +72,7 @@ A well-structured phasing plan should:
 - Account for Colorado's weather windows — our [exterior painting](/exterior-painting/) season in Northern Colorado runs roughly May through October, and scheduling needs to avoid early spring freeze risk and late-fall moisture
 - Build in buffer days for unexpected weather or material delays
 
-At Timnath Painting, we build phasing schedules into our HOA proposals upfront. Boards shouldn't be figuring out sequencing after the contract is signed — that's a contractor responsibility.
+At Keystone Painting, we build phasing schedules into our HOA proposals upfront. Boards shouldn't be figuring out sequencing after the contract is signed — that's a contractor responsibility.
 
 ---
 

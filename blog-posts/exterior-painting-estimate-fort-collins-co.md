@@ -30,7 +30,7 @@ tags:
   - fort collins
   - northern colorado
   - home improvement
-author: Timnath Painting
+author: Keystone Painting
 sheetRow: 4
 sheetId: 1vbAvFozBVBuLll38MuHoDJE9fA1iaJYoON1Xz08J4p0
 sheetGid: '1429273512'
@@ -98,6 +98,6 @@ If you're unsure what's driving a price, ask the contractor to walk you through 
 
 ## Get a Straight Answer Before You Commit
 
-At Timnath Painting, we provide free on-site quotes that spell out exactly what you're getting — product, prep, coats, and timeline. No surprises. We're licensed, insured to $2M, and our paint systems are built specifically for Northern Colorado's climate demands.
+At Keystone Painting, we provide free on-site quotes that spell out exactly what you're getting — product, prep, coats, and timeline. No surprises. We're licensed, insured to $2M, and our paint systems are built specifically for Northern Colorado's climate demands.
 
 We serve homeowners throughout [Fort Collins](/areas-served/fort-collins-co/), [Windsor](/areas-served/windsor-co/), Timnath, and the surrounding region. [Contact us](/contact/) to schedule your estimate — and bring your other bids. We're happy to help you understand what you're actually comparing.

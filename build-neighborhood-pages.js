@@ -11,7 +11,7 @@ const path = require('path');
 const { NEIGHBORHOODS, NEIGHBORHOOD_NAMES } = require('./_neighborhood-data.js');
 const { injectScripts, loadSiteScripts } = require('C:\\Users\\KillerGrowth\\.openclaw\\workspace\\tools\\kg-site-builder\\lib\\inject-scripts');
 
-const SITE_ID = 'timnath-painting';
+const SITE_ID = 'keystone-painting';
 const DIST  = path.join(__dirname, 'dist');
 const PARTS = path.join(__dirname, '_partials');
 
@@ -42,7 +42,7 @@ function buildHead(n) {
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="${n.canonical}">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Timnath Painting">
+<meta property="og:site_name" content="Keystone Painting">
 <meta property="og:title" content="${n.metaTitle}">
 <meta property="og:description" content="${n.metaDesc}">
 <meta property="og:url" content="${n.canonical}">
@@ -152,7 +152,7 @@ function buildNeighborhoodPage(n) {
       description: n.metaDesc,
       provider: {
         '@type': 'LocalBusiness',
-        name: 'Timnath Painting',
+        name: 'Keystone Painting',
         telephone: '(970) 670-3965',
         email: 'josh@timnathpainting.com',
         url: 'https://timnathpainting.com',
@@ -238,7 +238,7 @@ ${head}
 
         <div style="margin-bottom:32px;">
           <p style="font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#AE360E;margin-bottom:8px;">why choose us</p>
-          <h2 style="font-size:24px;font-weight:700;color:#201B10;margin-bottom:20px;">Why ${n.name} Homeowners Choose Timnath Painting</h2>
+          <h2 style="font-size:24px;font-weight:700;color:#201B10;margin-bottom:20px;">Why ${n.name} Homeowners Choose Keystone Painting</h2>
           <ul style="list-style:none;padding:0;margin:0;">
             <li style="display:flex;align-items:flex-start;gap:14px;padding:16px 0;border-bottom:1px solid #e4dacc;"><div style="flex-shrink:0;width:36px;height:36px;background:#AE360E;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:14px;"><i class="fa-solid fa-shield-halved"></i></div><div><div style="font-weight:700;color:#201B10;margin-bottom:4px;">Licensed &amp; Insured in Colorado</div><div style="color:#5a5650;font-size:14px;line-height:1.6;">$1M general liability coverage. Certificates of insurance available on request within 24 hours.</div></div></li>
             <li style="display:flex;align-items:flex-start;gap:14px;padding:16px 0;border-bottom:1px solid #e4dacc;"><div style="flex-shrink:0;width:36px;height:36px;background:#AE360E;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:14px;"><i class="fa-solid fa-leaf"></i></div><div><div style="font-weight:700;color:#201B10;margin-bottom:4px;">No-VOC Products</div><div style="color:#5a5650;font-size:14px;line-height:1.6;">Approved Sherwin-Williams and Benjamin Moore applicator. Products and methods that protect your home and the environment.</div></div></li>
@@ -281,7 +281,7 @@ ${head}
         </div>
 
         <div style="background:#201B10;color:#f4ede4;padding:28px;border-radius:8px;margin-bottom:24px;">
-          <p style="color:#AE360E;margin-bottom:14px;font-size:16px;font-weight:600;">Why Timnath Painting</p>
+          <p style="color:#AE360E;margin-bottom:14px;font-size:16px;font-weight:600;">Why Keystone Painting</p>
           <ul class="list-unstyled" style="line-height:2.2;margin:0;">
             <li><i class="fa-solid fa-check" style="color:#AE360E;margin-right:8px;"></i>Licensed &amp; Insured</li>
             <li><i class="fa-solid fa-check" style="color:#AE360E;margin-right:8px;"></i>No-VOC Products</li>
@@ -345,7 +345,7 @@ function buildNeighborhoodIndex() {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Exterior Painting by Timnath Neighborhood | Timnath Painting</title>
+<title>Exterior Painting by Timnath Neighborhood | Keystone Painting</title>
 <meta name="description" content="Neighborhood-specific exterior painting for Timnath Ranch, Serratoga Falls, Timnath Lakes, Wildwing, Trailside, and Harmony Club. Call (970) 670-3965.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://timnathpainting.com/neighborhoods/">
@@ -414,7 +414,7 @@ function buildNeighborhoodIndex() {
     <div style="max-width:760px;margin-bottom:56px;">
       <p style="font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#AE360E;margin-bottom:8px;">Timnath, CO Neighborhoods</p>
       <h2 style="font-size:32px;font-weight:700;color:#201B10;margin-bottom:16px;">Neighborhood-Specific Exterior Painting in Timnath</h2>
-      <p style="color:#5a5650;line-height:1.8;margin-bottom:0;">Every Timnath neighborhood has its own character — different siding profiles, HOA requirements, and environmental exposures. We've documented what we know about exterior painting in each community. Select your neighborhood below.</p>
+      <p style="color:#5a5650;line-height:1.8;margin-bottom:0;">Every Timnath neighborhood has its own character ï¿½ different siding profiles, HOA requirements, and environmental exposures. We've documented what we know about exterior painting in each community. Select your neighborhood below.</p>
     </div>
     <div class="row gutter-y-30">
       ${cards}

@@ -30,7 +30,7 @@ tags:
   - how to hire a painter
   - home improvement
   - northern colorado
-author: Timnath Painting
+author: Keystone Painting
 sheetRow: 9
 sheetId: 1vbAvFozBVBuLll38MuHoDJE9fA1iaJYoON1Xz08J4p0
 sheetGid: '1429273512'

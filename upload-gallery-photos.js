@@ -8,7 +8,7 @@ const fs = require('fs');
 const path = require('path');
 const sharp = require('sharp');
 
-const GALLERY_API = 'https://timnath-painting.pages.dev/api/photos';
+const GALLERY_API = 'https://keystone-painting.pages.dev/api/photos';
 const ADMIN_PASSWORD = 'killergrowth';
 const TEMP_DIR = path.join(__dirname, '_gallery_temp');
 

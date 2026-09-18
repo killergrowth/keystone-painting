@@ -1,4 +1,4 @@
-'use strict';
+﻿'use strict';
 /**
  * build.js  -  Keystone Painting Site Builder
  * Generates all pillar pages from data + templates
@@ -116,7 +116,7 @@ function buildHomepage() {
     ? JSON.parse(fs.readFileSync(reviewsFile, 'utf8'))
     : { rating: null, userRatingCount: 0, reviews: [] };
 
-  // Build review cards â€” filter 5-star only, max 6 total, carousel slides
+  // Build review cards &mdash; filter 5-star only, max 6 total, carousel slides
   const fiveStarReviews = reviewData.reviews.filter(r => r.rating === 5).slice(0, 6);
   const reviewCards = fiveStarReviews.map((r) => {
     const initial = (r.author || 'A').charAt(0).toUpperCase();
@@ -182,7 +182,7 @@ function buildHomepage() {
       lines: ['Premium Exterior Painting in Windsor, Timnath & Severance'],
       btn1: { t: 'Schedule A Free Consultation', h: '/contact-us/' },
       btn2: { t: 'Our Services', h: '/exterior-painting/index.html' },
-      subText: 'Professional painting done rightâ€”on time, on budget, and built to last.'
+      subText: 'Professional painting done right&mdash;on time, on budget, and built to last.'
     },
   ];
 
@@ -1547,7 +1547,7 @@ function buildHowItWorks() {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Our Process | Keystone Painting</title>
-  <meta name="description" content="See how Keystone Painting makes exterior painting simple â€” from color selection to HOA approval to a finished job. Two tracks: standard and HOA neighborhoods.">
+  <meta name="description" content="See how Keystone Painting makes exterior painting simple &mdash; from color selection to HOA approval to a finished job. Two tracks: standard and HOA neighborhoods.">
   <link rel="canonical" href="https://paintkeystone.com/how-it-works/">
   ${headPartial}
 </head>
@@ -1561,8 +1561,8 @@ ${header}
     <div class="container text-center">
       <p style="color:#AE360E; font-weight:700; font-size:13px; letter-spacing:2px; text-transform:uppercase; margin-bottom:12px;">Our Process</p>
       <h1 style="color:#fff; font-size:clamp(32px,5vw,52px); font-weight:800; margin-bottom:16px; line-height:1.15;">We Make This Simple</h1>
-      <p style="color:rgba(255,255,255,0.75); font-size:18px; max-width:560px; margin:0 auto 28px;">Here's exactly what to expect â€” from picking your color to the last brushstroke.</p>
-      <a href="/contact-us/" class="wallox-btn wallox-btn--primary">Get a Free Quote <i class="fa-solid fa-arrow-right"></i></a>
+      <p style="color:rgba(255,255,255,0.75); font-size:18px; max-width:560px; margin:0 auto 28px;">Here's exactly what to expect &mdash; from picking your color to the last brushstroke.</p>
+      <a href="/contact-us/" class="wallox-btn wallox-btn--base">Get a Free Quote <i class="fa-solid fa-arrow-right"></i></a>
     </div>
   </section>
 
@@ -1571,7 +1571,7 @@ ${header}
     <div class="container">
       <div class="text-center" style="max-width:640px; margin:0 auto 56px;">
         <h2 style="font-size:clamp(24px,3.5vw,36px); font-weight:800; color:#201B10; margin-bottom:14px;">Pick Your Track</h2>
-        <p style="color:#5a5650; font-size:17px; line-height:1.75;">Most jobs are straightforward. HOA neighborhoods add one extra step â€” but we've mapped it all out so you know what's coming.</p>
+        <p style="color:#5a5650; font-size:17px; line-height:1.75;">Most jobs are straightforward. HOA neighborhoods add one extra step &mdash; but we've mapped it all out so you know what's coming.</p>
       </div>
 
       <!-- Two Track Layout -->
@@ -1629,7 +1629,7 @@ ${header}
             </div>
             <div class="process-steps">
               ${[
-                ['1', 'fa-palette', 'Pick Your Color', 'Choose from your HOA\'s approved palette â€” or check with your board. Sherwin-Williams offers free design consultations if you need a hand.'],
+                ['1', 'fa-palette', 'Pick Your Color', 'Choose from your HOA\'s approved palette &mdash; or check with your board. Sherwin-Williams offers free design consultations if you need a hand.'],
                 ['2', 'fa-file-signature', 'Get HOA Approval', 'Submit your color choice to your HOA board for sign-off. Most boards respond within a week or two. We can provide documentation if needed.'],
                 ['3', 'fa-phone', 'Call Us for a Quote', 'Once you have approval in hand, we\'ll come out, assess the job, and get you a written quote within 24 hours.'],
                 ['4', 'fa-calendar-check', 'We Schedule &amp; Show Up', 'Your crew shows up on time, matches the approved colors exactly, and leaves the site clean.'],
@@ -1644,7 +1644,7 @@ ${header}
             </div>
             <div style="margin-top:8px; padding:16px 20px; background:#fff4f0; border-radius:10px; font-size:14px; color:#5a5650;">
               <i class="fa-solid fa-circle-info" style="color:#AE360E; margin-right:8px;"></i>
-              <strong style="color:#201B10;">HOA tip:</strong> Get written approval before we schedule â€” it's the only variable we can't control for you.
+              <strong style="color:#201B10;">HOA tip:</strong> Get written approval before we schedule &mdash; it's the only variable we can't control for you.
             </div>
           </div>
         </div>
@@ -1657,7 +1657,7 @@ ${header}
   <section style="background:#AE360E; padding:56px 0;">
     <div class="container text-center">
       <h2 style="color:#fff; font-size:clamp(24px,3.5vw,38px); font-weight:800; margin-bottom:14px;">Ready? We Move Fast.</h2>
-      <p style="color:rgba(255,255,255,0.85); font-size:17px; max-width:520px; margin:0 auto 28px;">Once you're ready â€” approved colors in hand â€” we'll get you a written quote within 24 hours.</p>
+      <p style="color:rgba(255,255,255,0.85); font-size:17px; max-width:520px; margin:0 auto 28px;">Once you're ready &mdash; approved colors in hand &mdash; we'll get you a written quote within 24 hours.</p>
       <a href="/contact-us/" style="display:inline-flex; align-items:center; gap:10px; padding:16px 36px; background:#fff; color:#AE360E; font-weight:800; font-size:16px; border-radius:100px; text-decoration:none;">
         Request Your Free Quote <i class="fa-solid fa-arrow-right"></i>
       </a>

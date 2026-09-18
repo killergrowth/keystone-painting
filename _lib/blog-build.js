@@ -1,5 +1,5 @@
 ﻿/**
- * blog-build.js â€” Shared Blog Build Module
+ * blog-build.js &mdash; Shared Blog Build Module
  * KillerGrowth Site Builder
  *
  * Called from each site's build.js when blogEnabled: true.
@@ -49,7 +49,7 @@ function normImg(src) {
 }
 
 /**
- * fixFloatImages â€” repositions standalone <p><img></p> blocks so the image
+ * fixFloatImages &mdash; repositions standalone <p><img></p> blocks so the image
  * floats with text wrapping alongside it.
  */
 function fixFloatImages(html) {
@@ -273,16 +273,16 @@ function buildPaginationLinks(page, totalPages) {
  * Render a single post using _partials/blog-post.html.
  *
  * Tokens available in template:
- *   {{page_meta}}           â€” <head> meta block (title, canonical, OG, schema)
- *   {{base_head}}           â€” site's shared _partials/head.html
- *   {{header}}              â€” site header partial
- *   {{footer}}              â€” site footer partial
- *   {{title}}               â€” HTML-escaped post title
- *   {{featured_image_html}} â€” <img> tag or empty string
- *   {{date_html}}           â€” date <span> or empty string
- *   {{author_html}}         â€” author <span> or empty string
- *   {{content}}             â€” rendered HTML body
- *   {{slug}}                â€” post slug
+ *   {{page_meta}}           &mdash; <head> meta block (title, canonical, OG, schema)
+ *   {{base_head}}           &mdash; site's shared _partials/head.html
+ *   {{header}}              &mdash; site header partial
+ *   {{footer}}              &mdash; site footer partial
+ *   {{title}}               &mdash; HTML-escaped post title
+ *   {{featured_image_html}} &mdash; <img> tag or empty string
+ *   {{date_html}}           &mdash; date <span> or empty string
+ *   {{author_html}}         &mdash; author <span> or empty string
+ *   {{content}}             &mdash; rendered HTML body
+ *   {{slug}}                &mdash; post slug
  */
 function renderPostFromTemplate(tpl, { post, htmlBody, header, footer, baseHead, domain, siteName }) {
   const title   = escapeHtml(post.title || '');
@@ -322,13 +322,13 @@ function renderPostFromTemplate(tpl, { post, htmlBody, header, footer, baseHead,
  * Render a paginated blog index page using _partials/blog-index.html.
  *
  * Tokens available in template:
- *   {{page_meta}}       â€” <head> meta block
- *   {{base_head}}       â€” site's shared head partial
- *   {{header}}          â€” site header partial
- *   {{footer}}          â€” site footer partial
- *   {{page_title}}      â€” "Blog" or "Blog â€” Page N"
- *   {{posts_html}}      â€” generated post card HTML
- *   {{pagination_html}} â€” pagination nav HTML
+ *   {{page_meta}}       &mdash; <head> meta block
+ *   {{base_head}}       &mdash; site's shared head partial
+ *   {{header}}          &mdash; site header partial
+ *   {{footer}}          &mdash; site footer partial
+ *   {{page_title}}      &mdash; "Blog" or "Blog &mdash; Page N"
+ *   {{posts_html}}      &mdash; generated post card HTML
+ *   {{pagination_html}} &mdash; pagination nav HTML
  */
 function renderBlogIndexFromTemplate(tpl, { posts, page, totalPages, header, footer, baseHead, domain, siteName }) {
   const isFirstPage = page === 1;
@@ -354,7 +354,7 @@ function renderBlogIndexFromTemplate(tpl, { posts, page, totalPages, header, foo
     base_head:       baseHead,
     header,
     footer,
-    page_title:      isFirstPage ? 'Blog' : `Blog â€” Page ${page}`,
+    page_title:      isFirstPage ? 'Blog' : `Blog &mdash; Page ${page}`,
     posts_html:      postCards,
     pagination_html: buildPaginationLinks(page, totalPages),
   });
@@ -365,12 +365,12 @@ function renderBlogIndexFromTemplate(tpl, { posts, page, totalPages, header, foo
  * Template is rendered once per post, then concatenated.
  *
  * Tokens available in template:
- *   {{url}}         â€” post URL (/blog/slug/)
- *   {{image}}       â€” image src path
- *   {{title}}       â€” HTML-escaped post title
- *   {{day}}         â€” date day padded (e.g. "05")
- *   {{month_year}}  â€” e.g. "Mar/26"
- *   {{excerpt_html}} â€” <p>excerpt</p> or empty string
+ *   {{url}}         &mdash; post URL (/blog/slug/)
+ *   {{image}}       &mdash; image src path
+ *   {{title}}       &mdash; HTML-escaped post title
+ *   {{day}}         &mdash; date day padded (e.g. "05")
+ *   {{month_year}}  &mdash; e.g. "Mar/26"
+ *   {{excerpt_html}} &mdash; <p>excerpt</p> or empty string
  */
 function renderFeaturedCardsFromTemplate(tpl, recentPosts) {
   function dateBadge(dateStr) {
@@ -455,7 +455,7 @@ ${baseHead}
 .kg-cta-box p { margin: 0; font-size: 15px; line-height: 1.6; color: #e8eaf6; }
 .kg-cta-box a { color: #ffcc80; font-weight: 700; }
 .kg-post-back { margin-top: 32px; padding-top: 20px; border-top: 1px solid #eee; }
-/* FAQ inside blog post â€” padding must match main site FAQ (24px horizontal) */
+/* FAQ inside blog post &mdash; padding must match main site FAQ (24px horizontal) */
 .kg-post-body .faq-section { margin-top: 48px; }
 .kg-post-body .faq-section h2 { padding: 24px 24px 16px; }
 .kg-post-body .faq-item { border-bottom: 1px solid #e0e0e0; padding: 4px 0; }
@@ -493,7 +493,7 @@ ${header}
           <div class="kg-post-body">${htmlBody}</div>
           <div class="kg-cta-box">
             <h4>Need Help?</h4>
-            <p>Contact us today â€” we're here to help.</p>
+            <p>Contact us today &mdash; we're here to help.</p>
           </div>
           <div class="kg-post-back">
             <a href="/blog/" style="color:#d32f2f;font-weight:600;">&larr; Back to Blog</a>
@@ -539,7 +539,7 @@ ${header}
     <div class="page-title-inner">
       <div class="image-overlay"></div>
       <div class="page-title-holder">
-        <h1 class="page-title">${isFirstPage ? 'Blog' : `Blog â€” Page ${page}`}</h1>
+        <h1 class="page-title">${isFirstPage ? 'Blog' : `Blog &mdash; Page ${page}`}</h1>
       </div>
       <ul class="ct-breadcrumb">
         <li><a href="/">Home</a></li>
@@ -640,7 +640,7 @@ function buildBlog({ srcDir, distDir, siteId, postsPerPage = 10, domain = '', si
   const indexPath    = path.join(blogPostsDir, 'blog-index.json');
 
   if (!fs.existsSync(indexPath)) {
-    console.log(`[Blog] No blog-index.json found for ${siteId} â€” skipping.`);
+    console.log(`[Blog] No blog-index.json found for ${siteId} &mdash; skipping.`);
     return;
   }
 
@@ -650,7 +650,7 @@ function buildBlog({ srcDir, distDir, siteId, postsPerPage = 10, domain = '', si
     .sort((a, b) => new Date(b.publishDate) - new Date(a.publishDate));
 
   if (published.length === 0) {
-    console.log(`[Blog] No published posts for ${siteId} â€” skipping.`);
+    console.log(`[Blog] No published posts for ${siteId} &mdash; skipping.`);
     return;
   }
 
@@ -665,7 +665,7 @@ function buildBlog({ srcDir, distDir, siteId, postsPerPage = 10, domain = '', si
   const footer   = readPartial('footer.html');
   const baseHead = readPartial('head.html');
 
-  // Load blog-specific templates (optional â€” falls back to inline rendering)
+  // Load blog-specific templates (optional &mdash; falls back to inline rendering)
   const postTemplate      = readPartial('blog-post.html')     || null;
   const indexTemplate     = readPartial('blog-index.html')    || null;
   const featuredTemplate  = readPartial('blog-featured.html') || null;
@@ -734,7 +734,7 @@ function buildBlog({ srcDir, distDir, siteId, postsPerPage = 10, domain = '', si
     const { generateSitemap } = require('./gen-sitemap');
     generateSitemap({ distDir, siteRoot: srcDir, domain });
   } catch (e) {
-    // gen-sitemap not available â€” fall back to legacy injection
+    // gen-sitemap not available &mdash; fall back to legacy injection
     buildBlogSitemap(published, distDir, domain);
   }
 
@@ -760,7 +760,7 @@ function buildBlogSitemap(publishedPosts, distDir, domain) {
     urls.push(`  <url>\n    <loc>https://${domain}/blog/${post.slug}/</loc>\n    <lastmod>${lastmod}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.6</priority>\n  </url>`);
   }
 
-  // Inject reference into sitemap_index.xml if it exists (legacy â€” sitemap_index.xml no longer generated for new sites)
+  // Inject reference into sitemap_index.xml if it exists (legacy &mdash; sitemap_index.xml no longer generated for new sites)
   const sitemapIndexPath = path.join(distDir, 'sitemap_index.xml');
   if (fs.existsSync(sitemapIndexPath)) {
     let xml = fs.readFileSync(sitemapIndexPath, 'utf8');

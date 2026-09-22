@@ -2,7 +2,7 @@
 slug: spring-exterior-painting-fort-collins-co
 title: 'Spring Exterior Painting Guide: Is Your Home Ready After Winter?'
 status: published
-publishDate: '2026-05-06T13:45:00.000Z'
+publishDate: '2026-05-06T13:00:00.000Z'
 scheduledDate: null
 excerpt: >-
   Northern Colorado winters are brutal on exterior paint. Here's how to inspect

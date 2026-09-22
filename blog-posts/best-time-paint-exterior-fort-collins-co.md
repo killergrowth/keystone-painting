@@ -2,7 +2,7 @@
 slug: best-time-paint-exterior-fort-collins-co
 title: Best Time of Year to Paint Your Home's Exterior in Colorado
 status: published
-publishDate: '2026-05-19T14:02:00.000Z'
+publishDate: '2026-05-19T13:00:00.000Z'
 scheduledDate: null
 excerpt: >-
   Colorado's climate makes timing everything. Here's when to schedule exterior

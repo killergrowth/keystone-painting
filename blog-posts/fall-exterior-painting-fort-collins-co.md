@@ -2,8 +2,8 @@
 slug: fall-exterior-painting-fort-collins-co
 title: Fall Exterior Painting Checklist for Colorado Homeowners
 status: published
-publishDate: '2026-05-27T13:50:23.153Z'
-scheduledDate: '2026-05-27T13:50:00.000Z'
+publishDate: '2026-05-27T13:00:00.000Z'
+scheduledDate: '2026-05-27T13:00:00.000Z'
 excerpt: >-
   Before the freeze hits Northern Colorado, here's the exact checklist local
   homeowners should run through to protect their exterior this fall.

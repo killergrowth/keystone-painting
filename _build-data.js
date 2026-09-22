@@ -10,7 +10,7 @@ const CLIENT = {
   state: 'CO',
   zip: '80550',
   facebook: 'https://www.facebook.com/profile.php?id=61591570377897',
-  instagram: 'https://instagram.com/timnathpainting',
+  instagram: 'https://instagram.com/keystonepainting',
   tagline: 'Northern Colorado\'s Premium Painting Contractor',
   description: 'Premium painting contractor serving Windsor, Timnath, Severance & Northern Colorado. Licensed, insured, No-VOC Products.. Call or text (970) 670-3965.',
 };

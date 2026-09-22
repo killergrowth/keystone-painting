@@ -2,8 +2,8 @@
 slug: cedar-fence-staining-fort-collins-co
 title: 'Cedar Fence Staining: Best Products, Process & How Long It Lasts'
 status: published
-publishDate: '2026-09-15T15:52:43.077Z'
-scheduledDate: 2026-09-15T13:00:00.000Z
+publishDate: '2026-09-24T13:00:00.000Z'
+scheduledDate: '2026-09-24T13:00:00.000Z'
 excerpt: >-
   Cedar is everywhere in Northern Colorado — but stain it wrong and you'll deal
   with tannin bleed, peeling, and premature failure. Here's how to do it right.

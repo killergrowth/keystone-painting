@@ -1,4 +1,4 @@
-﻿'use strict';
+'use strict';
 /**
  * build.js  -  Keystone Painting Site Builder
  * Generates all pillar pages from data + templates
@@ -703,24 +703,15 @@ ${T.topbar()}
     <div class="contact-grid">
       <div>
         <div class="contact-card">
-          <h3 style="margin:0 0 6px;font-size:20px;font-weight:700;color:#201B10;">Get In Touch</h3>
-          <p style="margin:0 0 24px;font-size:14px;color:#5a5650;line-height:1.55;">Reach out directly — Josh responds to everything personally, usually same day.</p>
-          <div style="display:flex;flex-direction:column;gap:18px;">
-            <a href="tel:${CLIENT.phoneTel}" style="display:flex;align-items:center;gap:16px;padding:18px 20px;background:#F4EDE4;border:1.5px solid #e4dacc;border-radius:10px;text-decoration:none;color:#201B10;">
-              <span style="width:44px;height:44px;background:#AE360E;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;"><i class="fa-solid fa-phone" style="color:#fff;font-size:18px;"></i></span>
-              <div>
-                <div style="font-size:12px;font-weight:700;color:#AE360E;text-transform:uppercase;letter-spacing:1px;margin-bottom:2px;">Call or Text</div>
-                <div style="font-size:18px;font-weight:800;color:#201B10;">${CLIENT.phone}</div>
-              </div>
-            </a>
-            <a href="mailto:${CLIENT.email}" style="display:flex;align-items:center;gap:16px;padding:18px 20px;background:#F4EDE4;border:1.5px solid #e4dacc;border-radius:10px;text-decoration:none;color:#201B10;">
-              <span style="width:44px;height:44px;background:#AE360E;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;"><i class="fa-solid fa-envelope" style="color:#fff;font-size:18px;"></i></span>
-              <div>
-                <div style="font-size:12px;font-weight:700;color:#AE360E;text-transform:uppercase;letter-spacing:1px;margin-bottom:2px;">Email</div>
-                <div style="font-size:16px;font-weight:700;color:#201B10;">${CLIENT.email}</div>
-              </div>
-            </a>
-          </div>
+          <h3 style="margin:0 0 6px;font-size:20px;font-weight:700;color:#201B10;">Request a Free Quote</h3>
+          <p style="margin:0 0 20px;font-size:14px;color:#5a5650;line-height:1.55;">Fill out the form below and Josh will get back to you, usually the same day.</p>
+          <iframe
+            src="https://clienthub.getjobber.com/client_hubs/2d355475-e9e2-4025-be1d-9768705789fb/public/work_request/embedded_work_request_form?form_id=2223041"
+            width="100%"
+            height="600"
+            style="border:none;border-radius:8px;display:block;"
+            title="Request a Quote">
+          </iframe>
         </div>
       </div>
       <div>
@@ -733,7 +724,7 @@ ${T.topbar()}
           <li><i class="fa-solid fa-check"></i><span>Every quote is based on a real in-person assessment, not a number pulled from thin air.</span></li>
         </ul>
         <div class="contact-info-cards">
-          <a href="https://www.google.com/maps/dir/?api=1&destination=Keystone+Painting+Windsor+CO" target="_blank" rel="noopener noreferrer" class="contact-info-card" style="text-decoration:none;display:block;">
+          <a href="https://www.google.com/maps/dir/?api=1&destination=417+Main+St,+Windsor,+CO+80550" target="_blank" rel="noopener noreferrer" class="contact-info-card" style="text-decoration:none;display:block;">
             <div style="font-size:28px;color:var(--wallox-base);margin-bottom:10px;"><i class="fa-solid fa-diamond-turn-right"></i></div>
             <h4 style="margin-bottom:0;font-size:15px;color:#201B10;">Directions</h4>
           </a>
@@ -748,8 +739,8 @@ ${T.topbar()}
         </div>
       </div>
     </div>
-    <div style="margin-top:60px;">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97168.06445598403!2d-105.03495221370565!3d40.44202459799552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa4047ac4cc01168b%3A0x5ca0bf376555449f!2sTimnath%20Painting!5e0!3m2!1sen!2sus!4v1777530014876!5m2!1sen!2sus" width="100%" height="450" style="border:0;border-radius:8px;display:block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div style="margin-top:48px;">
+      <iframe src="https://www.google.com/maps?q=417+Main+Street+Unit+2,+Windsor,+CO+80550&output=embed" width="100%" height="450" style="border:0;border-radius:8px;display:block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </div>
 </section>
@@ -790,26 +781,14 @@ ${T.topbar()}
     <div class="contact-grid">
       <div>
         <div class="contact-card">
-          <h3 style="margin:0 0 6px;font-size:20px;font-weight:700;color:#201B10;">Reach Out Directly</h3>
-          <p style="margin:0 0 24px;font-size:14px;color:#5a5650;line-height:1.55;">Josh responds to everything personally \u2014 usually same day. No forms, no bots, just a real conversation about your project.</p>
-          <div style="display:flex;flex-direction:column;gap:18px;">
-            <a href="tel:${CLIENT.phoneTel}" style="display:flex;align-items:center;gap:16px;padding:20px 22px;background:#F4EDE4;border:1.5px solid #e4dacc;border-radius:10px;text-decoration:none;color:#201B10;transition:border-color 0.15s;">
-              <span style="width:48px;height:48px;background:#AE360E;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;"><i class="fa-solid fa-phone" style="color:#fff;font-size:20px;"></i></span>
-              <div>
-                <div style="font-size:12px;font-weight:700;color:#AE360E;text-transform:uppercase;letter-spacing:1px;margin-bottom:3px;">Call or Text</div>
-                <div style="font-size:20px;font-weight:800;color:#201B10;">${CLIENT.phone}</div>
-                <div style="font-size:12px;color:#5a5650;margin-top:2px;">We answer calls and respond to texts</div>
-              </div>
-            </a>
-            <a href="mailto:${CLIENT.email}" style="display:flex;align-items:center;gap:16px;padding:20px 22px;background:#F4EDE4;border:1.5px solid #e4dacc;border-radius:10px;text-decoration:none;color:#201B10;transition:border-color 0.15s;">
-              <span style="width:48px;height:48px;background:#AE360E;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;"><i class="fa-solid fa-envelope" style="color:#fff;font-size:20px;"></i></span>
-              <div>
-                <div style="font-size:12px;font-weight:700;color:#AE360E;text-transform:uppercase;letter-spacing:1px;margin-bottom:3px;">Email</div>
-                <div style="font-size:17px;font-weight:700;color:#201B10;">${CLIENT.email}</div>
-                <div style="font-size:12px;color:#5a5650;margin-top:2px;">Josh reads every email himself</div>
-              </div>
-            </a>
-          </div>
+          <h3 style="margin:0 0 6px;font-size:20px;font-weight:700;color:#201B10;">Request a Free Quote</h3>
+          <iframe
+            src="https://clienthub.getjobber.com/client_hubs/2d355475-e9e2-4025-be1d-9768705789fb/public/work_request/embedded_work_request_form?form_id=2223041"
+            width="100%"
+            height="600"
+            style="border:none;border-radius:8px;display:block;"
+            title="Request a Quote">
+          </iframe>
         </div>
       </div>
       <div>
@@ -822,7 +801,7 @@ ${T.topbar()}
           <li><i class="fa-solid fa-check"></i><span>Every quote is based on a real in-person assessment, not a number pulled from thin air.</span></li>
         </ul>
         <div class="contact-info-cards">
-          <a href="https://www.google.com/maps/dir/?api=1&destination=Keystone+Painting+Windsor+CO" target="_blank" rel="noopener noreferrer" class="contact-info-card" style="text-decoration:none;display:block;">
+          <a href="https://www.google.com/maps/dir/?api=1&destination=417+Main+St,+Windsor,+CO+80550" target="_blank" rel="noopener noreferrer" class="contact-info-card" style="text-decoration:none;display:block;">
             <div style="font-size:28px;color:var(--wallox-base);margin-bottom:10px;"><i class="fa-solid fa-diamond-turn-right"></i></div>
             <h4 style="margin-bottom:0;font-size:15px;color:#201B10;">Directions</h4>
           </a>
@@ -836,19 +815,16 @@ ${T.topbar()}
           </a>
         </div>
       </div>
-    </div>
-    <div style="margin-top:60px;">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97168.06445598403!2d-105.03495221370565!3d40.44202459799552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa4047ac4cc01168b%3A0x5ca0bf376555449f!2sTimnath%20Painting!5e0!3m2!1sen!2sus!4v1777530014876!5m2!1sen!2sus" width="100%" height="450" style="border:0;border-radius:8px;display:block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div style="margin-top:40px;">
+      <iframe src="https://www.google.com/maps?q=417+Main+Street+Unit+2,+Windsor,+CO+80550&output=embed" width="100%" height="450" style="border:0;border-radius:8px;display:block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </div>
 </section>
 </main>
+<!-- FOOTER -->
 </div>`;
 
-  const dir = path.join(DIST, 'contact-us');
-  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(path.join(dir, 'index.html'), `${T.htmlHead('Contact Keystone Painting | Call or Email for a Free Quote', 'Contact Keystone Painting directly at (970) 670-3965 or josh@paintkeystone.com. Serving Timnath, Windsor & Northern Colorado.', 'https://paintkeystone.com/contact-us/')}\n${T.wrapBody(content)}`, 'utf8');
-  console.log('Built: contact-us/index.html');
+  write('contact-us/index.html', `${T.htmlHead('Contact Keystone Painting | Free Quote | (970) 670-3965', 'Contact Keystone Painting directly at (970) 670-3965 or josh@paintkeystone.com. Serving Windsor, Timnath & Northern Colorado.', 'https://paintkeystone.com/contact-us/')}${content}`);
 }
 
 // ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ Areas Served INDEX ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½ÃƒÂ¢"Ã¯Â¿Â½'Ã¯Â¿Â½

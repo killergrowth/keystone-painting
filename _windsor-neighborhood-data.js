@@ -18,7 +18,7 @@ const WINDSOR_NEIGHBORHOODS = [
     city: 'Windsor',
     metaTitle: 'Exterior Painting in RainDance, Windsor CO | Keystone Painting',
     metaDesc: 'Exterior painting for RainDance homes in Windsor, CO. HOA color compliance, premium Sherwin-Williams & Benjamin Moore coatings. Free on-site quote. (970) 670-3965.',
-    canonical: 'https://timnathpainting.com/windsor/neighborhoods/raindance/',
+    canonical: 'https://paintkeystone.com/windsor/neighborhoods/raindance/',
     heroTitle: 'Exterior Painting in RainDance, Windsor CO',
     tagline: "Windsor's master-planned golf and agri-hood community — high-profile homes with detailed HOA color standards.",
     intro: [
@@ -41,7 +41,7 @@ const WINDSOR_NEIGHBORHOODS = [
     city: 'Windsor',
     metaTitle: 'Exterior Painting in The Ridge at Harmony Road, Windsor CO | Keystone Painting',
     metaDesc: 'Exterior painting for The Ridge at Harmony Road in Windsor, CO. HOA-compliant prep, premium coatings, free on-site quote. (970) 670-3965.',
-    canonical: 'https://timnathpainting.com/windsor/neighborhoods/ridge-at-harmony-road/',
+    canonical: 'https://paintkeystone.com/windsor/neighborhoods/ridge-at-harmony-road/',
     heroTitle: 'Exterior Painting in The Ridge at Harmony Road, Windsor CO',
     tagline: 'Elevated Windsor community along Harmony Road — larger lots, newer construction, and elevated HOA standards.',
     intro: [
@@ -64,7 +64,7 @@ const WINDSOR_NEIGHBORHOODS = [
     city: 'Windsor',
     metaTitle: 'Exterior Painting in Windshire Park, Windsor CO | Keystone Painting',
     metaDesc: 'Exterior painting for Windshire Park homes in Windsor, CO. HOA color compliance, premium coatings, free on-site quote. (970) 670-3965.',
-    canonical: 'https://timnathpainting.com/windsor/neighborhoods/windshire-park/',
+    canonical: 'https://paintkeystone.com/windsor/neighborhoods/windshire-park/',
     heroTitle: 'Exterior Painting in Windshire Park, Windsor CO',
     tagline: 'Established Windsor neighborhood — a mix of construction eras and siding profiles in a mature community setting.',
     intro: [
@@ -87,7 +87,7 @@ const WINDSOR_NEIGHBORHOODS = [
     city: 'Windsor',
     metaTitle: 'Exterior Painting in Bison Ridge, Windsor CO | Keystone Painting',
     metaDesc: 'Exterior painting for Bison Ridge homes in Windsor, CO. HOA-compliant, premium prep and coatings. Free on-site quote. (970) 670-3965.',
-    canonical: 'https://timnathpainting.com/windsor/neighborhoods/bison-ridge/',
+    canonical: 'https://paintkeystone.com/windsor/neighborhoods/bison-ridge/',
     heroTitle: 'Exterior Painting in Bison Ridge, Windsor CO',
     tagline: 'Established Windsor community with open space corridors — fiber cement and wood-sided homes with HOA oversight.',
     intro: [
@@ -110,7 +110,7 @@ const WINDSOR_NEIGHBORHOODS = [
     city: 'Windsor',
     metaTitle: 'Exterior Painting in Highland Meadows, Windsor CO | Keystone Painting',
     metaDesc: 'Exterior painting for Highland Meadows homes in Windsor, CO. Premium prep, HOA-compliant, free on-site quote. (970) 670-3965.',
-    canonical: 'https://timnathpainting.com/windsor/neighborhoods/highland-meadows/',
+    canonical: 'https://paintkeystone.com/windsor/neighborhoods/highland-meadows/',
     heroTitle: 'Exterior Painting in Highland Meadows, Windsor CO',
     tagline: 'Upscale Windsor community with golf course amenities and elevated exterior standards.',
     intro: [
@@ -133,7 +133,7 @@ const WINDSOR_NEIGHBORHOODS = [
     city: 'Windsor',
     metaTitle: 'Exterior Painting in Water Valley, Windsor CO | Keystone Painting',
     metaDesc: 'Exterior painting for Water Valley homes in Windsor, CO. Lake-adjacent prep, HOA-compliant, premium coatings. Free quote. (970) 670-3965.',
-    canonical: 'https://timnathpainting.com/windsor/neighborhoods/water-valley/',
+    canonical: 'https://paintkeystone.com/windsor/neighborhoods/water-valley/',
     heroTitle: 'Exterior Painting in Water Valley, Windsor CO',
     tagline: "Windsor's premier lake community — newer phases with waterfront exposure and strict HOA color management.",
     intro: [
@@ -156,7 +156,7 @@ const WINDSOR_NEIGHBORHOODS = [
     city: 'Windsor',
     metaTitle: 'Exterior Painting in Pelican Farms, Windsor CO | Keystone Painting',
     metaDesc: 'Exterior painting for Pelican Farms homes in Windsor, CO. HOA-compliant, expert prep, premium coatings. Free on-site quote. (970) 670-3965.',
-    canonical: 'https://timnathpainting.com/windsor/neighborhoods/pelican-farms/',
+    canonical: 'https://paintkeystone.com/windsor/neighborhoods/pelican-farms/',
     heroTitle: 'Exterior Painting in Pelican Farms, Windsor CO',
     tagline: 'Established Windsor neighborhood near Pelican Lake — a mix of home ages and siding types with open farmland exposure.',
     intro: [
@@ -179,7 +179,7 @@ const WINDSOR_NEIGHBORHOODS = [
     city: 'Windsor',
     metaTitle: 'Exterior Painting in Pelican Hills, Windsor CO | Keystone Painting',
     metaDesc: 'Exterior painting for Pelican Hills homes in Windsor, CO. HOA-compliant prep, Sherwin-Williams & Benjamin Moore coatings. Free quote. (970) 670-3965.',
-    canonical: 'https://timnathpainting.com/windsor/neighborhoods/pelican-hills/',
+    canonical: 'https://paintkeystone.com/windsor/neighborhoods/pelican-hills/',
     heroTitle: 'Exterior Painting in Pelican Hills, Windsor CO',
     tagline: 'Elevated Windsor community near Pelican Lake — newer homes with open sky exposure and HOA color standards.',
     intro: [

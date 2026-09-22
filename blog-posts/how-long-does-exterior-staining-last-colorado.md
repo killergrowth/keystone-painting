@@ -3,7 +3,7 @@ slug: how-long-does-exterior-staining-last-colorado
 title: How Long Does Exterior Staining Last in Colorado?
 status: scheduled
 publishDate: null
-scheduledDate: 2026-11-17T14:00:00.000Z
+scheduledDate: '2026-10-28T13:00:00.000Z'
 excerpt: >-
   Colorado's intense UV and freeze-thaw cycles shorten stain life fast. Here's
   what to realistically expect — and when it's time to restain.

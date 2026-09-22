@@ -2,8 +2,8 @@
 slug: fence-staining-company-fort-collins-co
 title: How to Hire a Fence Staining Company (Questions That Matter)
 status: published
-publishDate: '2026-09-11T13:00:13.141Z'
-scheduledDate: 2026-09-11T13:00:00.000Z
+publishDate: '2026-09-22T13:00:00.000Z'
+scheduledDate: '2026-09-22T13:00:00.000Z'
 excerpt: >-
   Not all fence staining companies deliver the same results. Here are the
   questions every Northern Colorado homeowner should ask before signing

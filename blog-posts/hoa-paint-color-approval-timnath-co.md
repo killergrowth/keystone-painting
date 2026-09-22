@@ -5,7 +5,7 @@ title: >-
   Guide)
 status: scheduled
 publishDate: null
-scheduledDate: 2026-10-27T13:00:00.000Z
+scheduledDate: '2026-10-26T13:00:00.000Z'
 excerpt: >-
   A step-by-step guide for Timnath and Windsor homeowners navigating HOA
   exterior paint color approval — from ACC forms to what happens if you're

@@ -21,13 +21,13 @@ for (const [k, v] of Object.entries(fields)) {
 body += `--${boundary}--\r\n`;
 
 const options = {
-  hostname: 'timnathpainting.com',
+  hostname: 'paintkeystone.com',
   path: '/submit',
   method: 'POST',
   headers: {
     'Content-Type': `multipart/form-data; boundary=${boundary}`,
     'Content-Length': Buffer.byteLength(body),
-    'Origin': 'https://timnathpainting.com',
+    'Origin': 'https://paintkeystone.com',
   }
 };
 

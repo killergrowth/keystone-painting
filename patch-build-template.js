@@ -201,7 +201,7 @@ const newFn = `function buildServiceHub(slug) {
 
 \${T.contactFormSection()}\`;
 
-  write(\`\${slug}/index.html\`, \`\${T.htmlHead(d.metaTitle, d.metaDesc, \`https://timnathpainting.com/\${slug}/\`)}
+  write(\`\${slug}/index.html\`, \`\${T.htmlHead(d.metaTitle, d.metaDesc, \`https://paintkeystone.com/\${slug}/\`)}
 \${T.wrapBody(content)}\`);
 }
 `;

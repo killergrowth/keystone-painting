@@ -2,8 +2,8 @@
 slug: signs-home-needs-exterior-paint-fort-collins
 title: Signs Your Home Needs a Fresh Coat of Exterior Paint
 status: published
-publishDate: '2026-08-14T13:00:14.628Z'
-scheduledDate: 2026-08-14T13:00:00.000Z
+publishDate: '2026-09-19T13:00:00.000Z'
+scheduledDate: '2026-09-19T13:00:00.000Z'
 excerpt: >-
   Not sure if your home is due for new paint? Here are the key warning signs
   Timnath, Severance, and Windsor homeowners should watch for before damage gets expensive.

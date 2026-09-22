@@ -2,7 +2,7 @@
 slug: exterior-paint-fade-colorado-front-range
 title: Why Colorado Homes Fade Faster — and What Paint Actually Holds Up
 status: published
-publishDate: '2026-05-14T13:52:00.000Z'
+publishDate: '2026-05-14T13:00:00.000Z'
 scheduledDate: null
 excerpt: >-
   Colorado's altitude and UV intensity wreck cheap exterior paint fast. Here's

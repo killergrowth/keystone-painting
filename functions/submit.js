@@ -72,7 +72,7 @@ function buildHtmlEmail(name, email, phone, service, message) {
 
         <!-- Header -->
         <tr><td style="background:#2E2A20;padding:36px 40px;text-align:center;border-radius:8px 8px 0 0;">
-          <img src="https://timnathpainting.com/assets/images/logo-email-v3.png" alt="Keystone Painting" style="max-width:280px;width:100%;height:auto;display:block;margin:0 auto 20px;">
+          <img src="https://paintkeystone.com/assets/images/logo-email-v3.png" alt="Keystone Painting" style="max-width:280px;width:100%;height:auto;display:block;margin:0 auto 20px;">
           <div style="color:#DF9E42;font-family:'Oswald',Arial,sans-serif;font-size:14px;font-weight:600;letter-spacing:3px;text-transform:uppercase;">New Quote Request</div>
         </td></tr>
 
@@ -114,7 +114,7 @@ function buildHtmlEmail(name, email, phone, service, message) {
         <tr><td style="background:#2E2A20;padding:24px 40px;text-align:center;border-radius:0 0 8px 8px;">
           <p style="margin:0;color:#888;font-size:12px;">
             Keystone Painting &bull; Windsor, CO 80550 &bull;
-            <a href="mailto:josh@timnathpainting.com" style="color:#DF9E42;">josh@timnathpainting.com</a>
+            <a href="mailto:josh@paintkeystone.com" style="color:#DF9E42;">josh@paintkeystone.com</a>
           </p>
         </td></tr>
 
@@ -127,7 +127,7 @@ function buildHtmlEmail(name, email, phone, service, message) {
 
 const JSON_HEADERS = {
   'Content-Type': 'application/json',
-  'Access-Control-Allow-Origin': 'https://timnathpainting.com',
+  'Access-Control-Allow-Origin': 'https://paintkeystone.com',
 };
 
 export async function onRequestPost({ request, env }) {
@@ -151,7 +151,7 @@ export async function onRequestPost({ request, env }) {
     // Build MIME multipart message (HTML only)
     const mimeLines = [
       `From: Keystone Painting <${env.GMAIL_FROM}>`,
-      `To: josh@paintkeystone.com, josh@timnathpainting.com`,
+      `To: josh@paintkeystone.com`,
       `Subject: ${subject}`,
       `MIME-Version: 1.0`,
       `Content-Type: text/html; charset=UTF-8`,

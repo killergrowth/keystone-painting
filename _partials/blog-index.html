@@ -4,10 +4,31 @@
 {{page_meta}}
 {{base_head}}
 <style>
-.kg-blog-card a { color: #AE360E; }
-.kg-blog-card h2 a { color: #201B10; text-decoration: none; }
-.kg-blog-card h2 a:hover { color: #AE360E; }
-.kg-pagination a { color: #AE360E !important; }
+/* === Blog Index Card Layout === */
+.kg-blog-list { display: flex; flex-direction: column; gap: 0; }
+.kg-blog-card { display: flex; gap: 24px; padding: 28px 0; border-bottom: 1px solid #E4DACC; align-items: flex-start; }
+.kg-blog-card:first-child { padding-top: 0; }
+.kg-blog-card > a:first-child { flex: 0 0 220px; width: 220px; display: block; }
+.kg-blog-card-img { width: 100%; height: 150px; object-fit: cover; border-radius: 6px; display: block; }
+.kg-blog-card-no-img { width: 100%; height: 150px; background: #F4EDE4; border-radius: 6px; display: flex; align-items: center; justify-content: center; }
+.kg-blog-card-no-img svg { width: 40px; height: 40px; opacity: 0.4; }
+.kg-blog-card-body { flex: 1; min-width: 0; }
+.kg-blog-card-date { font-size: 0.82rem; color: #999; margin-bottom: 6px; }
+.kg-blog-card-title { font-size: 1.1rem; font-weight: 700; line-height: 1.4; margin-bottom: 8px; }
+.kg-blog-card-title a { color: #201B10; text-decoration: none; }
+.kg-blog-card-title a:hover { color: #AE360E; }
+.kg-blog-card-excerpt { font-size: 0.9rem; color: #666; line-height: 1.6; margin-bottom: 12px; }
+.kg-blog-card-link { font-size: 0.88rem; font-weight: 600; color: #AE360E; text-decoration: none; }
+.kg-blog-card-link:hover { text-decoration: underline; }
+.kg-pagination { margin-top: 32px; display: flex; gap: 8px; flex-wrap: wrap; }
+.kg-pagination a { color: #AE360E !important; font-weight: 600; padding: 6px 12px; border: 1px solid #E4DACC; border-radius: 4px; text-decoration: none; }
+.kg-pagination a:hover { background: #AE360E; color: #fff !important; border-color: #AE360E; }
+.kg-pagination .kg-pagination-current { padding: 6px 12px; border: 1px solid #AE360E; border-radius: 4px; background: #AE360E; color: #fff; font-weight: 600; }
+@media (max-width: 600px) {
+  .kg-blog-card { flex-direction: column; gap: 14px; }
+  .kg-blog-card > a:first-child { width: 100%; flex: none; }
+  .kg-blog-card-img, .kg-blog-card-no-img { height: 200px; }
+}
 </style>
 </head>
 <body>

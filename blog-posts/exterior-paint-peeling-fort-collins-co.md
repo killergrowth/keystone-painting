@@ -2,8 +2,8 @@
 slug: exterior-paint-peeling-fort-collins-co
 title: Why Is My Exterior Paint Peeling? Causes and What to Do
 status: published
-publishDate: '2026-08-18T13:00:03.145Z'
-scheduledDate: 2026-08-18T13:00:00.000Z
+publishDate: '2026-09-25T13:00:00.000Z'
+scheduledDate: '2026-09-25T13:00:00.000Z'
 excerpt: >-
   Exterior paint peeling in Timnath, Severance, and Windsor is a common headache — here are the
   real causes and exactly how to fix them.

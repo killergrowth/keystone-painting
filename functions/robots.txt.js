@@ -43,7 +43,7 @@ Allow: /
 
 User-agent: CCBot
 Allow: /
-Sitemap: https://timnathpainting.com/sitemap.xml`;
+Sitemap: https://paintkeystone.com/sitemap.xml`;
 
 const BLOCK_ROBOTS = `User-agent: *\nDisallow: /\n`;
 

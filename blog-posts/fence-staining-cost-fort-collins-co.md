@@ -4,8 +4,8 @@ title: >-
   How Much Does It Cost to Stain a Fence? (Fort Collins & Northern Colorado
   Pricing Guide)
 status: published
-publishDate: '2026-09-03T19:28:05.959Z'
-scheduledDate: 2026-08-21T13:00:00.000Z
+publishDate: '2026-08-21T13:00:00.000Z'
+scheduledDate: '2026-08-21T13:00:00.000Z'
 excerpt: >-
   Real fence staining cost ranges for Fort Collins and Northern Colorado — by
   fence size, material, and stain type — plus what drives price up or down.

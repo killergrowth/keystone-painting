@@ -4,8 +4,8 @@ title: >-
   How Often Should You Repaint Your Home's Exterior? (Fort Collins & Northern
   Colorado Guide)
 status: published
-publishDate: '2026-07-28T13:00:21.687Z'
-scheduledDate: '2026-07-28T13:00:00.000Z'
+publishDate: '2026-09-01T13:00:00.000Z'
+scheduledDate: '2026-09-01T13:00:00.000Z'
 excerpt: >-
   National repainting timelines don't account for Colorado's climate. Here's how
   often to repaint by material in Fort Collins and Northern Colorado.

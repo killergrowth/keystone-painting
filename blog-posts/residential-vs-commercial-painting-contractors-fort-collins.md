@@ -3,7 +3,7 @@ slug: residential-vs-commercial-painting-contractors-fort-collins
 title: 'Residential vs Commercial Painting Contractors: Key Differences'
 status: scheduled
 publishDate: null
-scheduledDate: 2026-10-13T13:00:00.000Z
+scheduledDate: '2026-11-06T14:00:00.000Z'
 excerpt: >-
   Wondering why commercial painters cost more than residential ones? Here's what
   actually separates them — and why it matters for your Fort Collins property.

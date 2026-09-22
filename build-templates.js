@@ -18,14 +18,14 @@ ${preloadImage ? `<link rel="preload" as="image" href="${preloadImage.replace(/\
 <meta property="og:site_name" content="Keystone Painting">
 <meta property="og:title" content="${title}">
 <meta property="og:description" content="${desc}">
-<meta property="og:image" content="https://timnathpainting.com/assets/images/social-share.png">
+<meta property="og:image" content="https://paintkeystone.com/assets/images/social-share.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${title}">
 <meta name="twitter:description" content="${desc}">
-<meta name="twitter:image" content="https://timnathpainting.com/assets/images/social-share.png">
+<meta name="twitter:image" content="https://paintkeystone.com/assets/images/social-share.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons-v2/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons-v2/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons-v2/favicon-16x16.png">
@@ -97,7 +97,7 @@ ${preloadImage ? `<link rel="preload" as="image" href="${preloadImage.replace(/\
 .main-slider-one__item{position:relative;padding-top:115px;padding-bottom:158px;height:803px;background-color:#F4EDE4}
 @media(max-width:1350px){.main-slider-one__item{height:auto}}
 @media(max-width:767px){.main-slider-one__item{padding-top:180px;padding-bottom:200px}}
-/* Hero dark gradient overlay (from timnath-custom.css) */
+/* Hero dark gradient overlay */
 .main-slider-one__item::before{content:"";position:absolute;inset:0;background:rgba(0,0,0,0);z-index:1}
 .main-slider-one .container,.main-slider-one__content{position:relative;z-index:2}
 /* Hero title text */

@@ -3,7 +3,7 @@ slug: hoa-commercial-painting-timnath-co
 title: 'Commercial Painting for HOA Communities: What You Should Know'
 status: scheduled
 publishDate: null
-scheduledDate: 2026-10-30T13:00:00.000Z
+scheduledDate: '2026-11-02T14:00:00.000Z'
 excerpt: >-
   HOA exterior painting projects require careful planning, phased scheduling,
   and vetted contractors. Here's what communities in Timnath, CO need to know.

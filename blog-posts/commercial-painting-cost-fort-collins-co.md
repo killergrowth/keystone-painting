@@ -3,7 +3,7 @@ slug: commercial-painting-cost-fort-collins-co
 title: 'Commercial Painting Cost: How to Budget Your Project in Fort Collins, CO'
 status: scheduled
 publishDate: null
-scheduledDate: 2026-09-29T13:00:00.000Z
+scheduledDate: '2026-10-09T13:00:00.000Z'
 excerpt: >-
   Wondering what commercial painting costs in Fort Collins? Here's a practical
   breakdown of sq ft pricing, cost drivers, and how to build a real budget.

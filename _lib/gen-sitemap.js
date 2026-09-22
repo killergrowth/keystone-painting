@@ -90,7 +90,7 @@ function collectSlugs(dir, distDir, excludes) {
  * @param {object} opts
  * @param {string} opts.distDir      - Path to the built dist/ directory
  * @param {string} opts.siteRoot     - Path to the site root (sitemap.xml also written here)
- * @param {string} opts.domain       - Site domain, no protocol (e.g. 'timnathpainting.com')
+ * @param {string} opts.domain       - Site domain, no protocol (e.g. 'paintkeystone.com')
  * @param {string[]} [opts.excludeSlugs] - Additional slugs to exclude beyond defaults
  * @param {boolean} [opts.silent]    - Suppress console output
  * @returns {{ count: number, slugs: string[] }}

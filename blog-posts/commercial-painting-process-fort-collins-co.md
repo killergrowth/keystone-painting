@@ -5,7 +5,7 @@ title: >-
   Businesses
 status: scheduled
 publishDate: null
-scheduledDate: 2026-10-02T13:00:00.000Z
+scheduledDate: '2026-10-16T13:00:00.000Z'
 excerpt: >-
   Considering commercial exterior painting in Fort Collins CO? Here's exactly
   what the process looks like, step by step.

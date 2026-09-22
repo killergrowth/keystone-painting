@@ -3,7 +3,7 @@ slug: hoa-approved-painting-contractor-timnath-co
 title: Finding a Painting Contractor Your HOA Will Approve
 status: scheduled
 publishDate: null
-scheduledDate: 2026-11-03T14:00:00.000Z
+scheduledDate: '2026-11-10T14:00:00.000Z'
 excerpt: >-
   Before you hire a painter, your HOA has to approve them. Here's exactly what
   HOAs in Timnath and Northern Colorado look for — and how to find a contractor

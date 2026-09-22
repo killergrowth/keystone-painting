@@ -2,8 +2,8 @@
 slug: how-long-does-fence-staining-last-colorado
 title: How Long Does Fence Staining Last Before You Need to Redo It?
 status: published
-publishDate: '2026-09-08T13:00:04.515Z'
-scheduledDate: 2026-09-08T13:00:00.000Z
+publishDate: '2026-09-17T13:00:00.000Z'
+scheduledDate: '2026-09-17T13:00:00.000Z'
 excerpt: >-
   Fence stain lifespan in Colorado depends on stain type, wood species, and sun
   exposure. Here's what to expect — and when to act before damage sets in.

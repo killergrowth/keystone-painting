@@ -3,7 +3,7 @@ slug: exterior-staining-fort-collins-co
 title: 'Exterior Staining Guide: Everything Homeowners Need to Know'
 status: scheduled
 publishDate: null
-scheduledDate: 2026-11-06T14:00:00.000Z
+scheduledDate: '2026-10-07T13:00:00.000Z'
 excerpt: >-
   Everything Northern Colorado homeowners need to know about exterior staining —
   surfaces, prep, cost vs. paint, and why Colorado's climate changes the

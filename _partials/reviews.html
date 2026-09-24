@@ -16,12 +16,91 @@
         Rating: <strong style="color:#201B10;"><!-- RATING_VALUE --></strong>
       </div>
     </div>
-    <div class="row gutter-y-30">
-      <!-- REVIEW_CARDS -->
+
+    <!-- Carousel wrapper -->
+    <div class="ks-reviews-carousel" style="position:relative;">
+
+      <!-- Prev arrow -->
+      <button class="ks-reviews-arrow ks-reviews-prev" aria-label="Previous reviews"
+        style="position:absolute;left:-20px;top:50%;transform:translateY(-50%);z-index:10;background:#fff;border:2px solid #e8e0d8;border-radius:50%;width:44px;height:44px;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,0.10);transition:background 0.2s;">
+        <i class="fa-solid fa-chevron-left" style="color:#AE360E;font-size:16px;"></i>
+      </button>
+
+      <!-- Viewport -->
+      <div class="ks-reviews-viewport" style="overflow:hidden;">
+        <div class="ks-reviews-track" style="display:flex;gap:24px;transition:transform 0.4s cubic-bezier(0.25,0.46,0.45,0.94);">
+          <!-- REVIEW_CARDS -->
+        </div>
+      </div>
+
+      <!-- Next arrow -->
+      <button class="ks-reviews-arrow ks-reviews-next" aria-label="Next reviews"
+        style="position:absolute;right:-20px;top:50%;transform:translateY(-50%);z-index:10;background:#fff;border:2px solid #e8e0d8;border-radius:50%;width:44px;height:44px;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,0.10);transition:background 0.2s;">
+        <i class="fa-solid fa-chevron-right" style="color:#AE360E;font-size:16px;"></i>
+      </button>
     </div>
+
     <div class="text-center" style="margin-top:40px;">
       <a href="https://maps.app.goo.gl/ZmPa6ZybegVChtbc9" target="_blank" rel="noopener noreferrer"
          class="wallox-btn wallox-btn--border">See All Google Reviews <i class="fa-solid fa-arrow-right"></i></a>
     </div>
   </div>
 </section>
+
+<style>
+.ks-reviews-track > * {
+  flex: 0 0 calc((100% - 48px) / 3);
+  min-width: calc((100% - 48px) / 3);
+}
+@media (max-width: 991px) {
+  .ks-reviews-track > * {
+    flex: 0 0 calc((100% - 24px) / 2);
+    min-width: calc((100% - 24px) / 2);
+  }
+}
+@media (max-width: 575px) {
+  .ks-reviews-track > * { flex: 0 0 100%; min-width: 100%; }
+  .ks-reviews-prev { left: -10px; }
+  .ks-reviews-next { right: -10px; }
+}
+.ks-reviews-arrow:hover { background: #AE360E !important; }
+.ks-reviews-arrow:hover i { color: #fff !important; }
+</style>
+
+<script>
+(function() {
+  var track = document.querySelector('.ks-reviews-track');
+  var viewport = document.querySelector('.ks-reviews-viewport');
+  if (!track || !viewport) return;
+
+  var cards = track.children;
+  var total = cards.length;
+  var current = 0;
+
+  function getVisible() {
+    var w = viewport.offsetWidth;
+    if (w < 576) return 1;
+    if (w < 992) return 2;
+    return 3;
+  }
+
+  function getCardWidth() {
+    var vis = getVisible();
+    var gap = 24;
+    return (viewport.offsetWidth - gap * (vis - 1)) / vis;
+  }
+
+  function slideTo(idx) {
+    var vis = getVisible();
+    var max = Math.max(0, total - vis);
+    current = Math.max(0, Math.min(idx, max));
+    var offset = current * (getCardWidth() + 24);
+    track.style.transform = 'translateX(-' + offset + 'px)';
+  }
+
+  document.querySelector('.ks-reviews-prev').addEventListener('click', function() { slideTo(current - 1); });
+  document.querySelector('.ks-reviews-next').addEventListener('click', function() { slideTo(current + 1); });
+
+  window.addEventListener('resize', function() { slideTo(current); });
+})();
+</script>

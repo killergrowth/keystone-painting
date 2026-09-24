@@ -29,13 +29,12 @@ function buildProjectPage(p, write, T) {
   const hasVideo = !!p.r2_video_url;
 
   const videoBlock = hasVideo ? `
-    <div style="margin-bottom:36px;">
+    <div style="margin-bottom:36px;max-width:540px;">
       <video
         id="project-video"
-        class="plyr-video"
         controls
         playsinline
-        style="width:100%;border-radius:12px;display:block;background:#000;"
+        style="width:100%;max-height:400px;border-radius:12px;display:block;background:#000;object-fit:contain;"
         preload="metadata">
         <source src="${p.r2_video_url}" type="video/mp4">
       </video>
@@ -63,7 +62,8 @@ function buildProjectPage(p, write, T) {
   });
 
   const content = `
-${T.topbar()}
+<body>
+<!-- HEADER -->
 <style>
 .proj-wrap { background:#F4EDE4; padding:40px 0 72px; }
 .proj-grid { display:grid; grid-template-columns:1fr 340px; gap:48px; align-items:start; }
@@ -88,7 +88,6 @@ ${T.topbar()}
 .proj-back-link { display:inline-flex; align-items:center; gap:8px; color:#AE360E; font-size:14px; font-weight:700; text-decoration:none; margin-bottom:28px; }
 .proj-back-link:hover { text-decoration:underline; }
 </style>
-<div class="page-wrapper">
 <main>
 <section class="proj-wrap">
   <div class="container">
@@ -133,16 +132,16 @@ ${T.topbar()}
   </div>
 </section>
 </main>
-</div>
-${hasVideo ? `<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css">
-<script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
-<script>document.addEventListener('DOMContentLoaded',function(){new Plyr('#project-video',{controls:['play-large','play','progress','current-time','mute','volume','fullscreen']});});</script>` : ''}
+<!-- FOOTER -->
+</body>
+</html>
+${hasVideo ? `<script>document.addEventListener('DOMContentLoaded',function(){var v=document.getElementById('project-video');if(v){v.style.maxHeight='400px';v.style.objectFit='contain';}});</script>` : ''}
 <script type="application/ld+json">${faqSchema}</script>`;
 
   const canonical = `https://paintkeystone.com/projects/${p.slug}/`;
   write(
     `projects/${p.slug}/index.html`,
-    `${T.htmlHead(p.meta_title, p.meta_desc, canonical)}${T.wrapBody(content)}`
+    `${T.htmlHead(p.meta_title, p.meta_desc, canonical)}${content}`
   );
 }
 

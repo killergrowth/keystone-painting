@@ -877,7 +877,6 @@ ${T.wrapBody(content)}`);
 buildHomepage();
 buildAbout();
 Object.keys(SERVICE_DATA).forEach(buildServiceHub);
-buildContact();
 buildContactUs();
 
 // --- Services Hub ---

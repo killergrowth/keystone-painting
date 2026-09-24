@@ -1,4 +1,4 @@
-'use strict';
+﻿'use strict';
 const { CLIENT, SERVICES } = require('./_build-data.js');
 
 function htmlHead(title, desc, canonicalUrl, preloadImage, noindex = false) {
@@ -37,8 +37,8 @@ ${preloadImage ? `<link rel="preload" as="image" href="${preloadImage.replace(/\
 <link rel="preload" href="/assets/css/fonts.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <link rel="preload" href="/assets/vendors/bootstrap/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <link rel="preload" href="/assets/css/wallox.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<link rel="preload" href="/assets/css/timnath-custom.css?v=20260514" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<link rel="preload" href="/assets/css/timnath-overrides.css?v=20260514" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="/assets/css/keystone-custom.css?v=20260514" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="/assets/css/keystone-overrides.css?v=20260514" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <!-- Preload FontAwesome webfont to prevent header layout shift -->
 <link rel="preload" href="/assets/vendors/fontawesome/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
 <!-- Non-critical CSS - deferred async -->
@@ -57,8 +57,8 @@ ${preloadImage ? `<link rel="preload" as="image" href="${preloadImage.replace(/\
 <link rel="stylesheet" href="/assets/css/fonts.css">
 <link rel="stylesheet" href="/assets/vendors/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="/assets/css/wallox.css">
-<link rel="stylesheet" href="/assets/css/timnath-custom.css?v=20260514">
-<link rel="stylesheet" href="/assets/css/timnath-overrides.css?v=20260514">
+<link rel="stylesheet" href="/assets/css/keystone-custom.css?v=20260514">
+<link rel="stylesheet" href="/assets/css/keystone-overrides.css?v=20260514">
 <link rel="stylesheet" href="/assets/vendors/animate/animate.min.css">
 <link rel="stylesheet" href="/assets/vendors/bootstrap-select/bootstrap-select.min.css">
 <link rel="stylesheet" href="/assets/vendors/jquery-ui/jquery-ui.css">
@@ -137,7 +137,7 @@ ${preloadImage ? `<link rel="preload" as="image" href="${preloadImage.replace(/\
 .hero-static .main-slider-one__bg { opacity: 1 !important; transform: none !important; transition: none !important; }
 /* Hero bg img positioning (same as before) */
 .hero-static .main-slider-one__bg img { position:absolute;top:-5%;left:0;width:100%;height:110%;object-fit:cover;object-position:center; }
-/* CSS-only text entrance animations �" fire on load, no JS required */
+/* CSS-only text entrance animations ï¿½" fire on load, no JS required */
 @keyframes heroSlideUp { from { opacity:0; transform:translateY(20px); } to { opacity:1; transform:none; } }
 .hero-static .main-slider-one__sub-title { animation: heroSlideUp 0.55s ease 0.15s both; }
 .hero-static .main-slider-one__title__box:nth-child(1) h2 { animation: heroSlideUp 0.55s ease 0.3s both; }
@@ -162,7 +162,7 @@ ${preloadImage ? `<link rel="preload" as="image" href="${preloadImage.replace(/\
 @media(max-width:1199px){.main-header__right__link{display:none!important}}
 @media(min-width:1200px){.mobile-nav__btn{display:none!important}}
 
-/* CWV: Tagline letter-spacing via CSS � eliminates fixTaglines JS setTimeout (which caused CLS) */
+/* CWV: Tagline letter-spacing via CSS ï¿½ eliminates fixTaglines JS setTimeout (which caused CLS) */
 .sec-title__tagline { letter-spacing: 0.5px !important; word-spacing: normal !important; }
 .sec-title__tagline .char, .sec-title__tagline .word { display: inline !important; letter-spacing: 0.5px !important; }
 </style>
@@ -226,7 +226,7 @@ function topbar() { return ''; /* topbar now embedded in header partial */ }
 
 function pageHeader(title, crumbs) {
   return `<section class="page-header">
-  <div class="page-header__bg" style="background-image:url(/assets/images/backgrounds/timnath-hero.jpg);"></div>
+  <div class="page-header__bg" style="background-image:url(/assets/images/backgrounds/keystone-hero.jpg);"></div>
   <div class="container">
     <h2 class="page-header__title">${title}</h2>
     <div class="wallox-breadcrumb"><ul class="wallox-breadcrumb__list list-unstyled">
@@ -322,7 +322,7 @@ function serviceCarouselItems() {
     <div class="service-one__item__thumb"><img src="/assets/images/service/areas-served-map.jpg" alt="Northern Colorado service area map" loading="lazy"></div>
     <div class="service-one__item__content">
       <h4 class="service-one__item__title"><a href="/areas-served/index.html">See Areas We Serve</a></h4>
-      <p class="service-one__item__tagline">Serving Windsor, Timnath, Fort Collins, Loveland and more across Northern Colorado.</p>
+      <p class="service-one__item__tagline">Serving Windsor, Severance, Fort Collins, Loveland and more across Northern Colorado.</p>
       <a href="/areas-served/index.html" class="service-one__item__link">View all areas &rarr;</a>
     </div>
   </div></div>`;
@@ -340,7 +340,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      Preloader reinstated with CSS auto-dismiss (700ms delay, 500ms fade) - fires before window.load, no LCP impact. -->
 <div class="preloader"><div class="preloader__image" style="background-image:url(/assets/images/logo-vertical-white.png);"></div></div>
 <script>
-// Hold preloader until all async CSS has loaded — prevents unstyled content flash
+// Hold preloader until all async CSS has loaded â€” prevents unstyled content flash
 !function(){
   var p=document.querySelector('.preloader');
   if(!p)return;
@@ -408,6 +408,7 @@ document.addEventListener('DOMContentLoaded', function () {
 }
 
 module.exports = { htmlHead, htmlScripts, topbar, pageHeader, mobileNav, contactFormSection, faqBlock, serviceCarouselItems, wrapBody };
+
 
 
 

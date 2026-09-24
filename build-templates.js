@@ -242,7 +242,7 @@ function mobileNav() {
   <div class="mobile-nav__overlay mobile-nav__toggler"></div>
   <div class="mobile-nav__content">
     <span class="mobile-nav__close mobile-nav__toggler"><i class="fa-solid fa-xmark"></i></span>
-    <div class="logo-box"><a href="/index.html"><img src="/assets/images/keystone-logo-white.png" width="140" alt="${CLIENT.name}" style="display:block;margin:0 auto;" loading="lazy"></a></div>
+    <div class="logo-box"><a href="/index.html"><img src="/assets/images/keystone-logo-white-horizontal.png" width="140" alt="${CLIENT.name}" style="display:block;margin:0 auto;" loading="lazy"></a></div>
     <div class="mobile-nav__container"></div>
     <ul class="mobile-nav__contact list-unstyled">
       <li><i class="fa-solid fa-envelope"></i><a href="mailto:${CLIENT.email}">${CLIENT.email}</a></li>
@@ -338,7 +338,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- preloader removed: static hero is visible on first paint, no Owl carousel or opacity:0 initial states remain.
      jQuery fadeOut() at window.load was pushing LCP to ~9s by causing a display:none transition at that time.
      Preloader reinstated with CSS auto-dismiss (700ms delay, 500ms fade) - fires before window.load, no LCP impact. -->
-<div class="preloader"><div class="preloader__image" style="background-image:url(/assets/images/keystone-logo-white.png);"></div></div>
+<div class="preloader"><div class="preloader__image" style="background-image:url(/assets/images/keystone-logo-white-horizontal.png);"></div></div>
 <script>
 // Hold preloader until all async CSS has loaded â€” prevents unstyled content flash
 !function(){

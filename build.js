@@ -123,10 +123,10 @@ function buildHomepage() {
     const escapedText = (r.text || '').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
     return `<div class="rv-slide">
   <div class="rv-card">
-    <div style="color:#AE360E;margin-bottom:12px;font-size:15px;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-    <p style="font-size:14px;color:#5a5650;line-height:1.8;margin-bottom:20px;flex:1;">&ldquo;${escapedText}&rdquo;</p>
-    <div style="display:flex;align-items:center;gap:12px;">
-      <div style="width:38px;height:38px;background:#AE360E;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:15px;flex-shrink:0;">${initial}</div>
+    <div style="color:#AE360E;margin-bottom:14px;font-size:16px;"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+    <p style="font-size:14px;color:#5a5650;line-height:1.8;">&ldquo;${escapedText}&rdquo;</p>
+    <div style="display:flex;align-items:center;gap:12px;margin-top:auto;padding-top:20px;">
+      <div style="width:40px;height:40px;background:#AE360E;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:16px;flex-shrink:0;">${initial}</div>
       <div><strong style="font-size:14px;color:#201B10;display:block;">${r.author}</strong><span style="font-size:12px;color:#999;">${r.relativeTime}</span></div>
     </div>
   </div>
@@ -705,13 +705,9 @@ ${T.topbar()}
         <div class="contact-card">
           <h3 style="margin:0 0 6px;font-size:20px;font-weight:700;color:#201B10;">Request a Free Quote</h3>
           <p style="margin:0 0 20px;font-size:14px;color:#5a5650;line-height:1.55;">Fill out the form below and Josh will get back to you, usually the same day.</p>
-          <iframe
-            src="https://clienthub.getjobber.com/client_hubs/2d355475-e9e2-4025-be1d-9768705789fb/public/work_request/embedded_work_request_form?form_id=2223041"
-            width="100%"
-            height="600"
-            style="border:none;border-radius:8px;display:block;"
-            title="Request a Quote">
-          </iframe>
+          <div id="2d355475-e9e2-4025-be1d-9768705789fb-2223041"></div>
+          <link rel="stylesheet" href="https://d3ey4dbjkt2f6s.cloudfront.net/assets/external/work_request_embed.css" media="screen" />
+          <script src="https://d3ey4dbjkt2f6s.cloudfront.net/assets/static_link/work_request_embed_snippet.js" clienthub_id="2d355475-e9e2-4025-be1d-9768705789fb-2223041" form_url="https://clienthub.getjobber.com/client_hubs/2d355475-e9e2-4025-be1d-9768705789fb/public/work_request/embedded_work_request_form?form_id=2223041"></script>
         </div>
       </div>
       <div>
@@ -782,13 +778,9 @@ ${T.topbar()}
       <div>
         <div class="contact-card">
           <h3 style="margin:0 0 6px;font-size:20px;font-weight:700;color:#201B10;">Request a Free Quote</h3>
-          <iframe
-            src="https://clienthub.getjobber.com/client_hubs/2d355475-e9e2-4025-be1d-9768705789fb/public/work_request/embedded_work_request_form?form_id=2223041"
-            width="100%"
-            height="600"
-            style="border:none;border-radius:8px;display:block;"
-            title="Request a Quote">
-          </iframe>
+          <div id="2d355475-e9e2-4025-be1d-9768705789fb-2223041b"></div>
+          <link rel="stylesheet" href="https://d3ey4dbjkt2f6s.cloudfront.net/assets/external/work_request_embed.css" media="screen" />
+          <script src="https://d3ey4dbjkt2f6s.cloudfront.net/assets/static_link/work_request_embed_snippet.js" clienthub_id="2d355475-e9e2-4025-be1d-9768705789fb-2223041b" form_url="https://clienthub.getjobber.com/client_hubs/2d355475-e9e2-4025-be1d-9768705789fb/public/work_request/embedded_work_request_form?form_id=2223041"></script>
         </div>
       </div>
       <div>

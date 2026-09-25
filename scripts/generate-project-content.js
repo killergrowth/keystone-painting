@@ -145,7 +145,15 @@ Return ONLY a JSON array of {q, a} objects.`);
     faqs
   };
 
-  fs.writeFileSync(outputPath, JSON.stringify(output, null, 2), 'utf8');
+  // Sanitize smart quotes/em-dashes before saving — Claude returns Unicode, PowerShell mangles it
+  const cleanJson = JSON.stringify(output, null, 2)
+    .replace(/\u2018|\u2019/g, "'")
+    .replace(/\u201C|\u201D/g, '"')
+    .replace(/\u2013/g, '-')
+    .replace(/\u2014/g, '--')
+    .replace(/\u2026/g, '...')
+    .replace(/\u00A0/g, ' ');
+  fs.writeFileSync(outputPath, cleanJson, 'utf8');
   console.log('\n✓ Content saved to:', outputPath);
   console.log('\nFAQs generated:', faqs.length);
 }

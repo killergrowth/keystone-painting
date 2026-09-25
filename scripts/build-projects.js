@@ -7,13 +7,22 @@ const GENERATED_DIR = path.join(__dirname, '..', 'content', 'projects', 'generat
 function sanitize(str) {
   if (!str) return str;
   return str
-    .replace(/\u2018|\u2019/g, '&rsquo;')   // ' '
-    .replace(/\u201C|\u201D/g, '&rdquo;')   // " "
-    .replace(/\u2013/g, '&ndash;')          // –
-    .replace(/\u2014/g, '&mdash;')          // —
-    .replace(/\u2026/g, '&hellip;')         // …
-    .replace(/\u00A0/g, '&nbsp;')           // non-breaking space
-    .replace(/[^\x00-\x7F]/g, c => `&#${c.charCodeAt(0)};`); // catch-all
+    // Fix mojibake: UTF-8 bytes misread as Latin-1 (must run BEFORE unicode replacements)
+    .replace(/\u00e2\u0080\u0099/g, "'")
+    .replace(/\u00e2\u0080\u0098/g, "'")
+    .replace(/\u00e2\u0080\u009c/g, '&ldquo;')
+    .replace(/\u00e2\u0080\u009d/g, '&rdquo;')
+    .replace(/\u00e2\u0080\u0094/g, '&mdash;')
+    .replace(/\u00e2\u0080\u0093/g, '&ndash;')
+    .replace(/\u00e2\u0080\u00a6/g, '&hellip;')
+    // Unicode smart quotes / dashes
+    .replace(/\u2018|\u2019/g, '&rsquo;')
+    .replace(/\u201C|\u201D/g, '&rdquo;')
+    .replace(/\u2013/g, '&ndash;')
+    .replace(/\u2014/g, '&mdash;')
+    .replace(/\u2026/g, '&hellip;')
+    .replace(/\u00A0/g, '&nbsp;')
+    .replace(/[^\x00-\x7F]/g, c => `&#${c.charCodeAt(0)};`);
 }
 
 function buildAllProjects(write, T) {
@@ -147,6 +156,15 @@ function buildProjectPage(p, write, T) {
   </div>
 </section>
 </main>
+<script src="/assets/vendors/jquery/jquery-3.7.0.min.js"></script>
+<script src="/assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
+<script src="/assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+<script src="/assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+<script src="/assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="/assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+<script src="/assets/vendors/wow/wow.js"></script>
+<script src="/assets/js/wallox.js"></script>
 <!-- FOOTER -->
 </body>
 </html>
@@ -221,6 +239,15 @@ function buildProjectsIndex(projects, write, T) {
   </div>
 </section>
 </main>
+<script src="/assets/vendors/jquery/jquery-3.7.0.min.js"></script>
+<script src="/assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
+<script src="/assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+<script src="/assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+<script src="/assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="/assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+<script src="/assets/vendors/wow/wow.js"></script>
+<script src="/assets/js/wallox.js"></script>
 <!-- FOOTER -->
 </body>
 </html>`;

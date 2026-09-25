@@ -171,9 +171,8 @@ function buildProjectsIndex(projects, write, T) {
 
   const cards = projects.map(p => {
     const label = serviceLabels[p.service] || p.service || 'Project';
-    const excerpt = p.article
-      ? p.article.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim().substring(0, 140) + '&hellip;'
-      : '';
+    const rawExcerpt = sanitize(p.article || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim().substring(0, 140);
+    const excerpt = rawExcerpt ? rawExcerpt + '&hellip;' : '';
     return `
     <a href="/projects/${p.slug}/" class="proj-card" style="text-decoration:none;display:block;">
       <div class="proj-card-badge">${label}</div>
@@ -188,7 +187,8 @@ function buildProjectsIndex(projects, write, T) {
   }).join('\n');
 
   const content = `
-${T.topbar()}
+<body>
+<!-- HEADER -->
 <style>
 .proj-index-wrap { background:#F4EDE4; padding:56px 0 80px; }
 .proj-index-header { text-align:center; margin-bottom:48px; }
@@ -207,7 +207,6 @@ ${T.topbar()}
 .proj-card-meta i { color:#AE360E; margin-right:4px; }
 .proj-card-cta { font-size:13px; font-weight:700; color:#AE360E; display:inline-flex; align-items:center; gap:6px; }
 </style>
-<div class="page-wrapper">
 <main>
 <section class="proj-index-wrap">
   <div class="container">
@@ -222,7 +221,9 @@ ${T.topbar()}
   </div>
 </section>
 </main>
-</div>`;
+<!-- FOOTER -->
+</body>
+</html>`;
 
   write(
     'projects/index.html',
@@ -230,7 +231,7 @@ ${T.topbar()}
       'Project Highlights | Keystone Painting | Northern Colorado',
       'Browse completed painting projects by Keystone Painting across Windsor, Timnath, Loveland, and Northern Colorado. Exterior, interior, fence staining, and HOA work.',
       'https://paintkeystone.com/projects/'
-    )}${T.wrapBody(content)}`
+    )}${content}`
   );
 }
 

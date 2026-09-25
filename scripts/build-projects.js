@@ -4,6 +4,18 @@ const path = require('path');
 
 const GENERATED_DIR = path.join(__dirname, '..', 'content', 'projects', 'generated');
 
+function sanitize(str) {
+  if (!str) return str;
+  return str
+    .replace(/\u2018|\u2019/g, '&rsquo;')   // ' '
+    .replace(/\u201C|\u201D/g, '&rdquo;')   // " "
+    .replace(/\u2013/g, '&ndash;')          // –
+    .replace(/\u2014/g, '&mdash;')          // —
+    .replace(/\u2026/g, '&hellip;')         // …
+    .replace(/\u00A0/g, '&nbsp;')           // non-breaking space
+    .replace(/[^\x00-\x7F]/g, c => `&#${c.charCodeAt(0)};`); // catch-all
+}
+
 function buildAllProjects(write, T) {
   const files = fs.readdirSync(GENERATED_DIR).filter(f => f.endsWith('.json'));
   if (!files.length) {
@@ -40,7 +52,10 @@ function buildProjectPage(p, write, T) {
       </video>
     </div>` : '';
 
-  const faqsHtml = (p.faqs || []).map((faq, i) => `
+  const article = sanitize(p.article || '');
+  const faqs = (p.faqs || []).map(f => ({ q: sanitize(f.q), a: sanitize(f.a) }));
+
+  const faqsHtml = faqs.map((faq, i) => `
     <div class="proj-faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
       <button class="proj-faq-q" aria-expanded="false" aria-controls="faq-a-${i}" onclick="this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='true'?'false':'true');this.nextElementSibling.classList.toggle('open');">
         <span itemprop="name">${faq.q}</span>
@@ -54,7 +69,7 @@ function buildProjectPage(p, write, T) {
   const faqSchema = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    "mainEntity": (p.faqs || []).map(faq => ({
+    "mainEntity": faqs.map(faq => ({
       "@type": "Question",
       "name": faq.q,
       "acceptedAnswer": { "@type": "Answer", "text": faq.a }
@@ -100,7 +115,7 @@ function buildProjectPage(p, write, T) {
         </p>
         <h1 style="font-size:clamp(26px,3.5vw,42px);font-weight:800;color:#201B10;line-height:1.15;margin:0 0 24px;">${p.title}</h1>
         ${videoBlock}
-        ${p.article || ''}
+        ${article}
         <div class="proj-faq-section" itemscope itemtype="https://schema.org/FAQPage">
           <h2>Common Questions</h2>
           <p style="color:#5a5650;font-size:14px;margin-bottom:24px;">Frequently Asked Questions</p>
@@ -116,9 +131,9 @@ function buildProjectPage(p, write, T) {
         <div class="proj-sidebar-card">
           <h4>Why Keystone Painting</h4>
           <ul class="proj-sidebar-list">
-            <li><i class="fa-solid fa-check"></i><span>Licensed &amp; insured — $1M liability</span></li>
+            <li><i class="fa-solid fa-check"></i><span>Licensed &amp; insured &mdash; $1M liability</span></li>
             <li><i class="fa-solid fa-check"></i><span>Sherwin-Williams &amp; Benjamin Moore approved</span></li>
-            <li><i class="fa-solid fa-check"></i><span>Free on-site quotes — same-day response</span></li>
+            <li><i class="fa-solid fa-check"></i><span>Free on-site quotes &mdash; same-day response</span></li>
             <li><i class="fa-solid fa-check"></i><span>Serving Windsor, Timnath &amp; Northern Colorado</span></li>
           </ul>
         </div>

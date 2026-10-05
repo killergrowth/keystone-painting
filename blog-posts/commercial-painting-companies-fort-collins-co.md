@@ -1,8 +1,8 @@
 ---
 slug: commercial-painting-companies-fort-collins-co
 title: What to Look for in a Commercial Painting Company
-status: scheduled
-publishDate: null
+status: published
+publishDate: '2026-10-02T13:00:32.399Z'
 scheduledDate: '2026-10-02T13:00:00.000Z'
 excerpt: >-
   Not all painters are built for commercial work. Here's how to vet commercial

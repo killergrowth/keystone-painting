@@ -276,8 +276,8 @@ function contactFormSection() {
             <a href="tel:${CLIENT.phoneTel}" style="display:inline-flex;align-items:center;gap:12px;padding:16px 32px;background:#AE360E;color:#fff;font-weight:700;font-size:17px;border-radius:100px;text-decoration:none;">
               <i class="fa-solid fa-phone"></i> ${CLIENT.phone}
             </a>
-            <a href="mailto:${CLIENT.email}" style="display:inline-flex;align-items:center;gap:12px;padding:16px 32px;background:rgba(255,255,255,0.1);border:2px solid rgba(255,255,255,0.3);color:#fff;font-weight:700;font-size:17px;border-radius:100px;text-decoration:none;">
-              <i class="fa-solid fa-envelope"></i> ${CLIENT.email}
+            <a href="/get-a-quote/" style="display:inline-flex;align-items:center;gap:12px;padding:16px 32px;background:rgba(255,255,255,0.1);border:2px solid rgba(255,255,255,0.3);color:#fff;font-weight:700;font-size:17px;border-radius:100px;text-decoration:none;">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> Get a Free Quote
             </a>
           </div>
           <p style="margin-top:24px;font-size:13px;color:#aaa;">Licensed &amp; Insured &bull; No-VOC Products &bull; $1M General Liability</p>

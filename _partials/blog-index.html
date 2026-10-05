@@ -34,6 +34,21 @@
 <body>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K8ZXCK8V" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="preloader"><div class="preloader__image" style="background-image:url(/assets/images/keystone-logo-white-horizontal.png);"></div></div>
+<script>
+!function(){
+  var p=document.querySelector('.preloader');
+  if(!p)return;
+  p.style.cssText='animation:none!important;opacity:1!important;visibility:visible!important;pointer-events:auto;';
+  var links=[].slice.call(document.head.querySelectorAll('link[rel="preload"][as="style"]'));
+  var n=links.length||1,done=0;
+  function finish(){if(++done>=n){setTimeout(function(){p.style.transition='opacity 0.45s ease';p.style.opacity='0';setTimeout(function(){p.style.visibility='hidden';p.style.pointerEvents='none';},450);},30);}}
+  links.forEach(function(l){
+    if(l.sheet){finish();}
+    else{l.addEventListener('load',finish);l.addEventListener('error',finish);}
+  });
+  setTimeout(function(){done=n-1;finish();},3500);
+}();
+</script>
 <div class="page-wrapper">
 {{header}}
 <section class="page-header">

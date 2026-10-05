@@ -137,14 +137,19 @@ function buildHomepage() {
   const reviewsSection = fs.readFileSync(path.join(PARTS, 'reviews.html'), 'utf8')
     .replace('<!-- REVIEW_CARDS -->', reviewCards || '').replace('<!-- RATING_VALUE -->', reviewData.rating !== null ? Number(reviewData.rating).toFixed(1) : '5.0');
 
-  // Build LocalBusiness + AggregateRating + Review[] schema
+  // Build HousePainter schema (updated 2026-09-28 for GBP re-verification)
+  // aggregateRating and review[] removed per GBP guidelines — star count comes from profile
   const schemaObj = {
     '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
+    '@type': 'HousePainter',
+    '@id': 'https://paintkeystone.com/#business',
     name: CLIENT.name,
+    alternateName: 'Timnath Painting',
     telephone: CLIENT.phone,
     email: CLIENT.email,
     url: 'https://paintkeystone.com',
+    image: 'https://paintkeystone.com/assets/images/keystone-logo-white-horizontal.png',
+    priceRange: '$$',
     address: {
       '@type': 'PostalAddress',
       streetAddress: '417 Main Street Unit 2 #101',
@@ -153,26 +158,28 @@ function buildHomepage() {
       postalCode: '80550',
       addressCountry: 'US'
     },
-    areaServed: 'Northern Colorado'
+    areaServed: [
+      { '@type': 'City', name: 'Windsor',      containedInPlace: { '@type': 'State', name: 'Colorado' } },
+      { '@type': 'City', name: 'Timnath',      containedInPlace: { '@type': 'State', name: 'Colorado' } },
+      { '@type': 'City', name: 'Severance',    containedInPlace: { '@type': 'State', name: 'Colorado' } },
+      { '@type': 'City', name: 'Fort Collins', containedInPlace: { '@type': 'State', name: 'Colorado' } },
+      { '@type': 'City', name: 'Loveland',     containedInPlace: { '@type': 'State', name: 'Colorado' } }
+    ],
+    openingHoursSpecification: [
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+        opens: '08:00',
+        closes: '17:00'
+      },
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Saturday'],
+        opens: '09:00',
+        closes: '15:00'
+      }
+    ]
   };
-  if (reviewData.rating && reviewData.userRatingCount) {
-    schemaObj.aggregateRating = {
-      '@type': 'AggregateRating',
-      ratingValue: reviewData.rating,
-      reviewCount: reviewData.userRatingCount,
-      bestRating: 5,
-      worstRating: 1
-    };
-  }
-  if (reviewData.reviews.length > 0) {
-    schemaObj.review = reviewData.reviews.map(r => ({
-      '@type': 'Review',
-      author: { '@type': 'Person', name: r.author },
-      reviewRating: { '@type': 'Rating', ratingValue: r.rating, bestRating: 5, worstRating: 1 },
-      reviewBody: r.text,
-      ...(r.publishTime ? { datePublished: r.publishTime.substring(0, 10) } : {})
-    }));
-  }
   const schemaTag = `<script type="application/ld+json">${JSON.stringify(schemaObj)}</script>`;
 
   const sliders = [
@@ -396,6 +403,9 @@ ${T.pageHeader('About Keystone Painting', '<li><span>About Us</span></li>')}
           <p class="wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">I'm Josh, a Colorado local, and I've been in and around the painting industry since 2007 and have owned and operated multiple successful painting and construction companies in the Midwest.</p>
           <p class="wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="150ms"><em>I have a passion for running small businesses that are insistent on absolute customer satisfaction.</em> I am also a founding partner and coach for Service Catalyst, a growing, Fort Collins-based, coaching and advisory community dedicated to helping service business owners succeed and scale.</p>
           <p class="wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">Aside from that, I'm a committed family man with a loving wife and four amazing children. I believe customers want to pay for exceptional care and peace of mind. Our commitment is to curate that!</p>
+          <div class="wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="250ms" style="margin-top:20px;padding:16px 20px;background:#f4ede4;border-left:4px solid #AE360E;border-radius:6px;">
+            <p style="margin:0;font-size:15px;color:#2E2A20;"><strong>Formerly known as Timnath Painting.</strong> Same ownership, same crew, same commitment to Northern Colorado — new name, expanded service area.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -720,7 +730,7 @@ ${T.topbar()}
           <li><i class="fa-solid fa-check"></i><span>Every quote is based on a real in-person assessment, not a number pulled from thin air.</span></li>
         </ul>
         <div class="contact-info-cards">
-          <a href="https://www.google.com/maps/dir/?api=1&destination=417+Main+St,+Windsor,+CO+80550" target="_blank" rel="noopener noreferrer" class="contact-info-card" style="text-decoration:none;display:block;">
+          <a href="https://www.google.com/maps/dir/?api=1&destination=417+Main+Street+Unit+2+%23101,+Windsor,+CO+80550" target="_blank" rel="noopener noreferrer" class="contact-info-card" style="text-decoration:none;display:block;">
             <div style="font-size:28px;color:var(--wallox-base);margin-bottom:10px;"><i class="fa-solid fa-diamond-turn-right"></i></div>
             <h4 style="margin-bottom:0;font-size:15px;color:#201B10;">Directions</h4>
           </a>
@@ -736,7 +746,7 @@ ${T.topbar()}
       </div>
     </div>
     <div style="margin-top:48px;">
-      <iframe src="https://www.google.com/maps?q=417+Main+Street+Unit+2,+Windsor,+CO+80550&output=embed" width="100%" height="450" style="border:0;border-radius:8px;display:block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps?q=417+Main+Street+Unit+2+%23101,+Windsor,+CO+80550&output=embed" width="100%" height="450" style="border:0;border-radius:8px;display:block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </div>
 </section>
@@ -793,7 +803,7 @@ ${T.topbar()}
           <li><i class="fa-solid fa-check"></i><span>Every quote is based on a real in-person assessment, not a number pulled from thin air.</span></li>
         </ul>
         <div class="contact-info-cards">
-          <a href="https://www.google.com/maps/dir/?api=1&destination=417+Main+St,+Windsor,+CO+80550" target="_blank" rel="noopener noreferrer" class="contact-info-card" style="text-decoration:none;display:block;">
+          <a href="https://www.google.com/maps/dir/?api=1&destination=417+Main+Street+Unit+2+%23101,+Windsor,+CO+80550" target="_blank" rel="noopener noreferrer" class="contact-info-card" style="text-decoration:none;display:block;">
             <div style="font-size:28px;color:var(--wallox-base);margin-bottom:10px;"><i class="fa-solid fa-diamond-turn-right"></i></div>
             <h4 style="margin-bottom:0;font-size:15px;color:#201B10;">Directions</h4>
           </a>
@@ -808,7 +818,7 @@ ${T.topbar()}
         </div>
       </div>
     <div style="margin-top:40px;">
-      <iframe src="https://www.google.com/maps?q=417+Main+Street+Unit+2,+Windsor,+CO+80550&output=embed" width="100%" height="450" style="border:0;border-radius:8px;display:block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps?q=417+Main+Street+Unit+2+%23101,+Windsor,+CO+80550&output=embed" width="100%" height="450" style="border:0;border-radius:8px;display:block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </div>
 </section>
@@ -816,7 +826,7 @@ ${T.topbar()}
 <!-- FOOTER -->
 </div>`;
 
-  write('contact-us/index.html', `${T.htmlHead('Contact Keystone Painting | Free Quote | (970) 670-3965', 'Contact Keystone Painting directly at (970) 670-3965 or josh@paintkeystone.com. Serving Windsor, Timnath & Northern Colorado.', 'https://paintkeystone.com/contact-us/')}${content}`);
+  write('contact-us/index.html', `${T.htmlHead('Contact Keystone Painting | Windsor, CO Painting Contractor', 'Contact Keystone Painting directly at (970) 670-3965 or josh@paintkeystone.com. Serving Windsor, Timnath & Northern Colorado.', 'https://paintkeystone.com/contact-us/')}${content}`);
 }
 
 // ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ Areas Served INDEX ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½
@@ -869,7 +879,7 @@ ${T.pageHeader('Areas Served  -  Northern Colorado', '<li><span>Areas Served</sp
 
 ${T.contactFormSection()}`;
 
-  write('areas-served/index.html', `${T.htmlHead('Areas Served | Keystone Painting | Northern Colorado', 'Keystone Painting serves Northern Colorado including Timnath, Windsor, Fort Collins, Loveland, Greeley and more. View all Areas Served.', 'https://paintkeystone.com/areas-served/')}
+  write('areas-served/index.html', `${T.htmlHead('Painting Contractor Serving Windsor, Timnath, Severance, Fort Collins & Loveland | Keystone Painting', 'Keystone Painting serves Northern Colorado including Timnath, Windsor, Fort Collins, Loveland, Greeley and more. View all Areas Served.', 'https://paintkeystone.com/areas-served/')}
 ${T.wrapBody(content)}`);
 }
 

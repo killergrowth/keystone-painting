@@ -17,6 +17,7 @@ const CLIENT = {
 
 const SERVICES = [
   { label: 'Exterior Painting',   slug: 'exterior-painting',   icon: 'fa-solid fa-house',             img: 'img-4932-exterior.jpg', tagline: 'Coatings built to handle Colorado freeze-thaw cycles &mdash; rated for 7-10 years.' },
+  { label: 'Interior Painting',   slug: 'interior-painting',   icon: 'fa-solid fa-couch',             img: 'img-5611-interior.jpg', tagline: 'Clean lines, zero fumes. Low-VOC options available for families and pets.' },
   { label: 'HOA Painting',        slug: 'hoa-painting',        icon: null,          img: 'photo-hoa-painting.jpg', tagline: 'Board-approved color matching and documentation for HOA compliance.' },
   { label: 'Commercial Painting', slug: 'commercial-painting', icon: 'fa-solid fa-building',  img: 'photo-commercial-painting.jpg', tagline: 'Minimal disruption scheduling. Crew-owned, not subcontracted.' },
   { label: 'Fence Staining',      slug: 'fence-staining',      icon: null,        img: 'photo-fence-staining.jpg', tagline: 'Oil-based penetrating stains that protect wood grain through Colorado summers.' },
@@ -35,6 +36,30 @@ const CITIES = [
 ];
 
 const SERVICE_DATA = {
+
+  'interior-painting': {
+    title: 'Interior Painting in Northern Colorado',
+    metaTitle: 'Interior Painting Northern Colorado | Keystone Painting',
+    metaDesc: 'Interior painting by certified professionals. Low-VOC options, meticulous prep, clean results. Serving Northern Colorado. (970) 670-3965',
+    tagline: 'Meticulous Prep. Clean Results.',
+    heroTitle: 'Interior Painting That Protects and Transforms Your Home',
+    intro: `Interior painting is where the details live. Proper surface preparation  -  patching nail holes, skim-coating damaged drywall, sanding all surfaces  -  is what separates a professional result from a paint-over job that shows every flaw.
+
+Keystone Painting brings the same no-shortcuts approach to interior work that we apply to every exterior project. We use low-VOC and zero-VOC options from Sherwin-Williams and Benjamin Moore. We protect your floors, furniture, and trim meticulously. We leave your home cleaner than we found it.`,
+    process: `Every interior project begins with a full walkthrough to assess surfaces, note existing damage, and confirm color selections.
+
+<strong>Surface Preparation:</strong> We patch all holes and cracks, skim-coat damaged drywall sections, sand all surfaces smooth, caulk gaps between trim and walls, and apply the correct primer for each surface type.
+
+<strong>Coating Application:</strong> We use Sherwin-Williams Emerald and Benjamin Moore Aura for interiors  -  both available in low-VOC and zero-VOC formulations. Ceiling paint, trim paint, and wall paint are each specified separately for correct sheen and performance.
+
+<strong>Protection & Cleanup:</strong> All floors, furniture, and surfaces are masked or covered. We remove all tape and masking before final walkthrough. Full site cleanup is included.`,
+    faqs: [
+      { q: 'Do you use low-VOC paint for interior projects?', a: 'Yes. We offer low-VOC and zero-VOC interior paint options from Sherwin-Williams (Emerald) and Benjamin Moore (Aura). These products perform as well or better than standard formulations and are appropriate for homes with children, pets, or occupants with chemical sensitivities.' },
+      { q: 'How long does interior painting take?', a: 'A typical 2,000 sq ft home interior takes 3-5 days depending on number of rooms, ceiling height, trim complexity, and surface condition. Homes with extensive drywall repair or multiple color changes take longer. We provide a specific timeline during the on-site assessment.' },
+      { q: 'Do I need to move furniture before you arrive?', a: 'We ask that you clear small items from surfaces and remove breakables. For larger furniture, we work around it and cover what cannot be moved. We handle all floor and surface protection with drop cloths and masking.' },
+      { q: 'What does interior painting cost in Northern Colorado?', a: 'Interior painting for a standard room typically ranges from $400-$900 depending on size, ceiling height, and surface condition. Full home interiors run $3,500-$12,000+. Call (970) 670-3965 for an accurate quote.' },
+    ],
+  },
 
   'exterior-painting': {
     title: 'Exterior Painting in Northern Colorado',

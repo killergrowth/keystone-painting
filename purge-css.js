@@ -1,7 +1,7 @@
 'use strict';
 /**
  * purge-css.js
- * Runs PurgeCSS against built HTML to strip unused rules from wallox.css and timnath-custom.css.
+ * Runs PurgeCSS against built HTML to strip unused rules from wallox.css and keystone-custom.css.
  * Backs up originals before overwriting.
  */
 const { PurgeCSS } = require('purgecss');
@@ -12,7 +12,7 @@ const DIST = path.join(__dirname, 'dist');
 
 const targets = [
   { src: path.join(DIST, 'assets/css/wallox.css'),        out: path.join(DIST, 'assets/css/wallox.css') },
-  { src: path.join(DIST, 'assets/css/timnath-custom.css'),out: path.join(DIST, 'assets/css/timnath-custom.css') },
+  { src: path.join(DIST, 'assets/css/keystone-custom.css'),out: path.join(DIST, 'assets/css/keystone-custom.css') },
 ];
 
 const BACKUP_DIR = path.join(DIST, 'assets/css/_backups');

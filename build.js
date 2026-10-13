@@ -379,8 +379,32 @@ ${T.wrapBody(finalContent)}`);
 
 // ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ ABOUT PAGE ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½ÃƒÆ’Ã‚Â¢"ÃƒÂ¯Ã‚Â¿Ã‚Â½'ÃƒÂ¯Ã‚Â¿Ã‚Â½
 function buildAbout() {
+  const rebrandFaqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'Is Keystone Painting the same company as Timnath Painting?',
+        acceptedAnswer: { '@type': 'Answer', text: 'Yes. Keystone Painting is the new name for Timnath Painting. In September 2026, Timnath Painting rebranded to Keystone Painting to reflect its expanded service area across Windsor, Timnath, Severance, Fort Collins, Loveland, and Johnstown, CO. It is the same owner (Josh Funk), the same crew, the same license and insurance, and the same phone number \u2014 just a new name and a bigger service area.' }
+      },
+      {
+        '@type': 'Question',
+        name: 'Why did Timnath Painting change its name to Keystone Painting?',
+        acceptedAnswer: { '@type': 'Answer', text: 'The name "Timnath Painting" suggested the business only served Timnath, CO. As the crew grew and began serving homeowners across the broader Northern Colorado region, the business was renamed Keystone Painting so the name would no longer limit how customers found it. Nothing else about the business changed.' }
+      },
+      {
+        '@type': 'Question',
+        name: 'What happened to the old timnathpainting.com website?',
+        acceptedAnswer: { '@type': 'Answer', text: 'The old domain, timnathpainting.com, now redirects to paintkeystone.com. Any reviews, project history, or reputation built under the Timnath Painting name carries forward to Keystone Painting \u2014 it is a continuation of the same business, not a new or different company.' }
+      }
+    ]
+  };
+  const rebrandFaqSchemaTag = `<script type="application/ld+json">${JSON.stringify(rebrandFaqSchema)}</script>`;
+
   const content = `
 ${T.topbar()}
+${rebrandFaqSchemaTag}
 <!-- HEADER -->
 ${T.pageHeader('About Keystone Painting', '<li><span>About Us</span></li>')}
 
@@ -406,6 +430,23 @@ ${T.pageHeader('About Keystone Painting', '<li><span>About Us</span></li>')}
           <div class="wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="250ms" style="margin-top:20px;padding:16px 20px;background:#f4ede4;border-left:4px solid #AE360E;border-radius:6px;">
             <p style="margin:0;font-size:15px;color:#2E2A20;"><strong>Formerly known as Timnath Painting.</strong> Same ownership, same crew, same commitment to Northern Colorado — new name, expanded service area.</p>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="rebrand-faq" style="padding:0 0 80px 0;">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-9">
+        <div style="background:#fff;border:1px solid #e4dacc;border-radius:10px;padding:32px 36px;">
+          <h3 style="font-size:20px;font-weight:800;color:#201B10;margin:0 0 20px 0;">Is Keystone Painting the same company as Timnath Painting?</h3>
+          <p style="margin:0 0 18px 0;color:#2E2A20;line-height:1.7;"><strong>Yes.</strong> Keystone Painting is the new name for Timnath Painting. In September 2026, Timnath Painting rebranded to Keystone Painting to reflect our expanded service area across Windsor, Timnath, Severance, Fort Collins, Loveland, and Johnstown, CO. It is the same owner (Josh Funk), the same crew, the same license and insurance, and the same phone number &mdash; just a new name and a bigger service area.</p>
+          <h3 style="font-size:20px;font-weight:800;color:#201B10;margin:0 0 20px 0;">Why did Timnath Painting change its name to Keystone Painting?</h3>
+          <p style="margin:0 0 18px 0;color:#2E2A20;line-height:1.7;">The name "Timnath Painting" suggested we only served Timnath, CO. As our crew grew and we began serving homeowners across the broader Northern Colorado region, we renamed the business to Keystone Painting so the name would no longer limit how customers found us. Nothing else about the business changed.</p>
+          <h3 style="font-size:20px;font-weight:800;color:#201B10;margin:0 0 0 0;">What happened to the old timnathpainting.com website?</h3>
+          <p style="margin:0;color:#2E2A20;line-height:1.7;">The old domain, timnathpainting.com, now redirects to paintkeystone.com. Any reviews, project history, or reputation built under the Timnath Painting name carries forward to Keystone Painting &mdash; it is a continuation of the same business, not a new or different company.</p>
         </div>
       </div>
     </div>

@@ -1,8 +1,8 @@
 ---
 slug: exterior-staining-vs-painting-fort-collins-co
 title: 'Exterior Wood Staining vs Painting: Which Protects Better in Fort Collins, CO?'
-status: scheduled
-publishDate: null
+status: published
+publishDate: '2026-10-21T13:00:58.106Z'
 scheduledDate: '2026-10-21T13:00:00.000Z'
 excerpt: >-
   Staining or painting your home's exterior? For cedar and wood-heavy homes in

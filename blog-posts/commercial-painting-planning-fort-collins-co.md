@@ -1,8 +1,8 @@
 ---
 slug: commercial-painting-planning-fort-collins-co
 title: How to Plan a Commercial Painting Project Without Disrupting Business
-status: scheduled
-publishDate: null
+status: published
+publishDate: '2026-10-23T13:00:21.819Z'
 scheduledDate: '2026-10-23T13:00:00.000Z'
 excerpt: >-
   Commercial painting planning in Fort Collins, CO doesn't have to shut you

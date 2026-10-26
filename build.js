@@ -16,7 +16,7 @@ const { buildAllProjects } = require('./scripts/build-projects');
 
 const SITE_DOMAIN = 'paintkeystone.com';
 const SITE_ID     = 'keystone-painting';
-const { injectScripts, loadSiteScripts } = require('C:\\Users\\KillerGrowth\\.openclaw\\workspace\\tools\\kg-site-builder\\lib\\inject-scripts');
+const { injectScripts, loadSiteScripts } = require('./lib/inject-scripts');
 const ROOT = __dirname;
 const DIST = path.join(ROOT, 'dist');
 const PARTS = path.join(ROOT, '_partials');

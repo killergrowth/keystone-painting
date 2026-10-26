@@ -3,8 +3,8 @@ slug: hoa-paint-color-approval-timnath-co
 title: >-
   How to Submit an Exterior Paint Color for HOA Approval (NoCo Homeowner's
   Guide)
-status: scheduled
-publishDate: null
+status: published
+publishDate: '2026-10-26T13:00:00.000Z'
 scheduledDate: '2026-10-26T13:00:00.000Z'
 excerpt: >-
   A step-by-step guide for Timnath and Windsor homeowners navigating HOA

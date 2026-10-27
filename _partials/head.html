@@ -51,6 +51,41 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-K8ZXCK8V');</script>
 <!-- End Google Tag Manager -->
+<!-- Google Ads Conversion Tracking (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18229236367"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-18229236367');
+
+  // Click to call (click only) — fires when a tel: link is clicked
+  function kgReportCallConversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') { window.location = url; }
+    };
+    gtag('event', 'conversion', {
+      'send_to': 'AW-18229236367/5htCCJuQze0cEI-lsPRD',
+      'event_callback': callback
+    });
+    return false;
+  }
+
+  // LP form submission — called on successful contact form submit
+  function kgReportFormConversion() {
+    gtag('event', 'conversion', {'send_to': 'AW-18229236367/kmhFCIC30u0cEI-lsPRD'});
+  }
+
+  // Auto-wire all tel: links site-wide so no per-page edits are needed
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href^="tel:"]').forEach(function (link) {
+      link.addEventListener('click', function () {
+        gtag('event', 'conversion', { 'send_to': 'AW-18229236367/5htCCJuQze0cEI-lsPRD' });
+      });
+    });
+  });
+</script>
+<!-- End Google Ads Conversion Tracking -->
 <!-- Microsoft Clarity -->
 <script type="text/javascript">
  (function(c,l,a,r,i,t,y){

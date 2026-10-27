@@ -426,6 +426,7 @@ form.addEventListener('submit', async function(e) {
     if (json.ok) {
       form.style.display = 'none';
       success.style.display = 'block';
+      if (typeof kgReportFormConversion === 'function') { kgReportFormConversion(); }
     } else {
       throw new Error(json.error || 'Something went wrong.');
     }

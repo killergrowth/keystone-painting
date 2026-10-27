@@ -142,21 +142,6 @@
       .lp-hero__sub{font-size:15px;}
     }
   </style>
-<!-- Event snippet for LP form submission conversion -->
-<script>
-function gtag_report_conversion(url) {
-  var callback = function () {
-    if (typeof(url) != 'undefined') {
-      window.location = url;
-    }
-  };
-  gtag('event', 'conversion', {
-      'send_to': 'AW-18229236367/kmhFCIC30u0cEI-lsPRD',
-      'event_callback': callback
-  });
-  return false;
-}
-</script>
 </head>
 <body>
 <!-- HEADER -->
@@ -372,7 +357,7 @@ form.addEventListener('submit', async function(e) {
     if (json.ok) {
       form.style.display = 'none';
       success.style.display = 'block';
-      if (typeof gtag_report_conversion === 'function') gtag_report_conversion();
+      if (typeof kgReportFormConversion === 'function') { kgReportFormConversion(); }
     } else {
       throw new Error(json.error || 'Something went wrong.');
     }

@@ -1,8 +1,8 @@
 ---
 slug: hoa-commercial-painting-timnath-co
 title: 'Commercial Painting for HOA Communities: What You Should Know'
-status: scheduled
-publishDate: null
+status: published
+publishDate: '2026-11-02T14:00:20.534Z'
 scheduledDate: '2026-11-02T14:00:00.000Z'
 excerpt: >-
   HOA exterior painting projects require careful planning, phased scheduling,

@@ -1,8 +1,8 @@
 ---
 slug: painting-vinyl-siding-fort-collins-co
 title: 'Painting Vinyl Siding: What Works and What Doesn''t'
-status: scheduled
-publishDate: null
+status: published
+publishDate: '2026-11-04T14:00:00.000Z'
 scheduledDate: '2026-11-04T14:00:00.000Z'
 excerpt: >-
   Vinyl siding can be painted — but in Northern Colorado's climate, the wrong

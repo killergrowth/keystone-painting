@@ -1402,8 +1402,8 @@
     {
       "slug": "painting-vinyl-siding-fort-collins-co",
       "title": "Painting Vinyl Siding: What Works and What Doesn't",
-      "status": "scheduled",
-      "publishDate": null,
+      "status": "published",
+      "publishDate": "2026-11-04T14:00:00.000Z",
       "scheduledDate": "2026-11-04T14:00:00.000Z",
       "excerpt": "Vinyl siding can be painted â€” but in Northern Colorado's climate, the wrong approach leads to warping, peeling, and voided warranties.",
       "featuredImage": "blog-posts/images/painting-vinyl-siding-fort-collins-co.jpg",
@@ -1424,7 +1424,7 @@
       "sheetId": "1vbAvFozBVBuLll38MuHoDJE9fA1iaJYoON1Xz08J4p0",
       "sheetGid": "1429273512",
       "createdAt": "2026-05-19T20:52:42.520Z",
-      "updatedAt": "2026-05-26T20:31:08.455Z",
+      "updatedAt": "2026-11-04T14:00:36.902Z",
       "gbpGenerated": true
     },
     {

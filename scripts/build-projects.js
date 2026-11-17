@@ -148,7 +148,7 @@ function buildProjectPage(p, write, T) {
         </div>
         <div class="proj-sidebar-card" style="text-align:center;">
           <div style="font-size:28px;color:#AE360E;margin-bottom:8px;"><i class="fa-solid fa-phone"></i></div>
-          <a href="tel:9706703965" style="font-size:18px;font-weight:800;color:#201B10;text-decoration:none;display:block;">(970) 670-3965</a>
+          <a href="tel:9705619177" style="font-size:18px;font-weight:800;color:#201B10;text-decoration:none;display:block;">(970) 561-9177</a>
           <p style="font-size:13px;color:#999;margin:4px 0 0;">Call or text anytime</p>
         </div>
       </div>

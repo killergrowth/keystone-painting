@@ -2,8 +2,8 @@
 
 const CLIENT = {
   name: 'Keystone Painting',
-  phone: '(970) 670-3965',
-  phoneTel: '9706703965',
+  phone: '(970) 561-9177',
+  phoneTel: '9705619177',
   email: 'josh@paintkeystone.com',
   street: '417 Main Street Unit 2 #101',
   city: 'Windsor',
@@ -12,7 +12,7 @@ const CLIENT = {
   facebook: 'https://www.facebook.com/profile.php?id=61591570377897',
   instagram: 'https://instagram.com/keystonepainting',
   tagline: 'Northern Colorado\'s Premium Painting Contractor',
-  description: 'Premium painting contractor serving Windsor, Timnath, Severance & Northern Colorado. Licensed, insured, No-VOC Products.. Call or text (970) 670-3965.',
+  description: 'Premium painting contractor serving Windsor, Timnath, Severance & Northern Colorado. Licensed, insured, No-VOC Products.. Call or text (970) 561-9177.',
 };
 
 const SERVICES = [
@@ -40,7 +40,7 @@ const SERVICE_DATA = {
   'interior-painting': {
     title: 'Interior Painting in Northern Colorado',
     metaTitle: 'Interior Painting Northern Colorado | Keystone Painting',
-    metaDesc: 'Interior painting by certified professionals. Low-VOC options, meticulous prep, clean results. Serving Northern Colorado. (970) 670-3965',
+    metaDesc: 'Interior painting by certified professionals. Low-VOC options, meticulous prep, clean results. Serving Northern Colorado. (970) 561-9177',
     tagline: 'Meticulous Prep. Clean Results.',
     heroTitle: 'Interior Painting That Protects and Transforms Your Home',
     intro: `Interior painting is where the details live. Proper surface preparation  -  patching nail holes, skim-coating damaged drywall, sanding all surfaces  -  is what separates a professional result from a paint-over job that shows every flaw.
@@ -57,14 +57,14 @@ Keystone Painting brings the same no-shortcuts approach to interior work that we
       { q: 'Do you use low-VOC paint for interior projects?', a: 'Yes. We offer low-VOC and zero-VOC interior paint options from Sherwin-Williams (Emerald) and Benjamin Moore (Aura). These products perform as well or better than standard formulations and are appropriate for homes with children, pets, or occupants with chemical sensitivities.' },
       { q: 'How long does interior painting take?', a: 'A typical 2,000 sq ft home interior takes 3-5 days depending on number of rooms, ceiling height, trim complexity, and surface condition. Homes with extensive drywall repair or multiple color changes take longer. We provide a specific timeline during the on-site assessment.' },
       { q: 'Do I need to move furniture before you arrive?', a: 'We ask that you clear small items from surfaces and remove breakables. For larger furniture, we work around it and cover what cannot be moved. We handle all floor and surface protection with drop cloths and masking.' },
-      { q: 'What does interior painting cost in Northern Colorado?', a: 'Interior painting for a standard room typically ranges from $400-$900 depending on size, ceiling height, and surface condition. Full home interiors run $3,500-$12,000+. Call (970) 670-3965 for an accurate quote.' },
+      { q: 'What does interior painting cost in Northern Colorado?', a: 'Interior painting for a standard room typically ranges from $400-$900 depending on size, ceiling height, and surface condition. Full home interiors run $3,500-$12,000+. Call (970) 561-9177 for an accurate quote.' },
     ],
   },
 
   'exterior-painting': {
     title: 'Exterior Painting in Northern Colorado',
     metaTitle: 'Exterior Painting Northern Colorado | Keystone Painting',
-    metaDesc: "Exterior painting built for Colorado\'s climate. Licensed, eco-certified, 7-10 year coatings. Northern Colorado homes. (970) 670-3965",
+    metaDesc: "Exterior painting built for Colorado\'s climate. Licensed, eco-certified, 7-10 year coatings. Northern Colorado homes. (970) 561-9177",
     tagline: "Built for Colorado\'s Climate",
     heroTitle: 'Exterior Painting in Northern Colorado That Lasts 10+ Years',
     intro: `Northern Colorado sees 28+ freeze-thaw cycles every year. UV radiation hits 10-15% harder at altitude. Wood siding expands and contracts with temperature swings that can exceed 60 degrees in a single day. Cheap paint jobs fail in 3-4 years here.
@@ -110,7 +110,7 @@ We provide regular updates throughout your project and are available by phone or
       { q: 'How long does exterior paint last in Colorado?', a: 'Budget paint jobs typically last 3-4 years in Northern Colorado due to freeze-thaw cycles and high UV exposure. Premium systems with proper surface prep and high-grade acrylic or elastomeric coatings last 7-10 years. We use Sherwin-Williams Duration and Benjamin Moore Aura &mdash; both formulated for extreme temperature cycling and UV resistance.' },
       { q: 'What prep work is required for exterior painting in Northern Colorado?', a: 'All loose and failing paint must be scraped to stable substrate. Wood siding requires sanding, rot repair, and bare wood priming with oil or shellac-based primers. All gaps, joints, and seams need premium elastomeric caulking. Surfaces are pressure washed to remove dirt, mildew, and chalk. Skipping any of these steps leads to premature failure.' },
       { q: 'Do you handle HOA color approval for exterior painting?', a: 'Yes. Many Northern Colorado communities require HOA approval before exterior color changes. We help navigate the approval process, provide color samples that meet HOA guidelines, and submit all required documentation on your behalf. Most approvals take 2-4 weeks, which we build into project timelines.' },
-      { q: 'What does exterior painting cost in Northern Colorado?', a: 'Most premium exterior painting projects for $650K+ homes range from $8,000-$18,000+ depending on home size, siding type, and surface condition. Call or text (970) 670-3965 for an accurate quote based on your specific home.' },
+      { q: 'What does exterior painting cost in Northern Colorado?', a: 'Most premium exterior painting projects for $650K+ homes range from $8,000-$18,000+ depending on home size, siding type, and surface condition. Call or text (970) 561-9177 for an accurate quote based on your specific home.' },
       { q: 'What is the best time of year to paint a home exterior in Northern Colorado?', a: 'Spring (April–May) and fall (September–October) are ideal &mdash; temperatures between 50–85°F, lower wind, and manageable UV. Summer works but west and south-facing surfaces can blister if paint is applied in direct midday sun above 90°F. We schedule around weather and communicate any delays proactively.' },
       { q: 'Do I need to be home while you are painting?', a: 'No. Most homeowners give us gate access, secure their pets, and head to work. We coordinate access at the quote stage, send progress photos throughout the project, and request a final walkthrough before we leave.' },
       { q: 'Can you paint over existing paint without stripping everything?', a: 'Yes, when the existing paint is stable and properly adhered. We scrape all loose and failing areas, feather the edges, and prime bare spots. Full stripping is only required when there is widespread adhesion failure, lead paint remediation, or significant substrate damage. We tell you which situation you are in during the initial assessment.' },
@@ -122,7 +122,7 @@ We provide regular updates throughout your project and are available by phone or
     'hoa-painting': {
     title: 'HOA Painting in Northern Colorado',
     metaTitle: 'HOA Painting Northern Colorado | Keystone Painting',
-    metaDesc: "HOA painting specialists in Northern Colorado. Color coordination, documentation, multi-unit scheduling. Call Keystone Painting: (970) 670-3965",
+    metaDesc: "HOA painting specialists in Northern Colorado. Color coordination, documentation, multi-unit scheduling. Call Keystone Painting: (970) 561-9177",
     tagline: 'HOA Color Compliance Made Simple',
     heroTitle: 'HOA Painting in Northern Colorado &mdash; Color Approval to Final Coat',
     intro: `HOA painting projects require a level of coordination most painting contractors are not set up for. Color approval documentation, multi-unit scheduling that minimizes resident disruption, and precise color matching across dozens of homes &mdash; these are requirements, not extras.
@@ -167,7 +167,7 @@ We provide regular updates throughout your project and are available by phone or
       { q: 'Do you handle HOA color approval documentation?', a: 'Yes. We work with HOA architectural review committees to confirm approved colors, provide color samples, and submit all required documentation. We have worked with dozens of local HOAs in Timnath, Windsor, and Severance and know their standards and timelines.' },
       { q: 'Can you coordinate multi-unit HOA projects?', a: 'Yes. We sequence multi-unit projects to minimize resident disruption and maintain consistent scheduling. Property managers receive regular progress updates. We coordinate resident communications when required.' },
       { q: 'Do you provide certificates of insurance for HOA projects?', a: 'Yes. Keystone Painting carries $1M general liability insurance. Certificates of insurance are provided on request, typically within 24 hours.' },
-      { q: 'What does HOA exterior painting cost?', a: 'HOA painting costs depend on number of units, building size, surface condition, and color change requirements. We provide per-unit pricing and bulk project estimates. Call or text (970) 670-3965 for a site assessment and quote.' },
+      { q: 'What does HOA exterior painting cost?', a: 'HOA painting costs depend on number of units, building size, surface condition, and color change requirements. We provide per-unit pricing and bulk project estimates. Call or text (970) 561-9177 for a site assessment and quote.' },
       { q: 'How do you ensure color consistency across multiple units?', a: 'We use spectrophotometer color matching and lock in exact Sherwin-Williams or Benjamin Moore color codes at the start of the project. Every unit is painted from the same batch formula. When we return for future phases, we pull the documented color codes to match exactly.' },
       { q: 'Can you work with an HOA property management company?', a: 'Yes. Most of our HOA work is coordinated through property management companies. We handle all communication, documentation, and scheduling through the property manager and only escalate to the board when approval decisions require it.' },
       { q: 'Do you paint common areas and amenity structures?', a: 'Yes. Clubhouses, mailbox stations, fencing, pergolas, and community signage are all in scope. We apply the same color standards and prep process to common areas as we do to the homes themselves.' },
@@ -177,7 +177,7 @@ We provide regular updates throughout your project and are available by phone or
     'commercial-painting': {
     title: 'Commercial Painting in Northern Colorado',
     metaTitle: 'Commercial Painting Northern Colorado | Keystone Painting',
-    metaDesc: "Commercial painting in Northern Colorado. After-hours scheduling, minimal disruption, $1M liability. Call Keystone Painting: (970) 670-3965",
+    metaDesc: "Commercial painting in Northern Colorado. After-hours scheduling, minimal disruption, $1M liability. Call Keystone Painting: (970) 561-9177",
     tagline: 'After-Hours Scheduling. Zero Disruption.',
     heroTitle: 'Commercial Painting in Northern Colorado &mdash; Built Around Your Schedule',
     intro: `Keystone Painting provides commercial painting in Northern Colorado for strip malls, office buildings, and multi-family properties along the I-25 corridor. We specialize in after-hours scheduling, use commercial-grade coatings built for Colorado\'s 28+ annual freeze-thaw cycles, and carry $1M general liability insurance with certificates available on request.
@@ -231,7 +231,7 @@ We provide regular updates throughout your project and are available by phone or
     'fence-staining': {
     title: 'Fence Staining in Northern Colorado',
     metaTitle: 'Fence Staining Northern Colorado | Keystone Painting',
-    metaDesc: "Professional fence staining in Northern Colorado. Penetrating stains, proper prep, 3-5 year protection. Call Keystone Painting: (970) 670-3965",
+    metaDesc: "Professional fence staining in Northern Colorado. Penetrating stains, proper prep, 3-5 year protection. Call Keystone Painting: (970) 561-9177",
     tagline: 'Penetrating Protection. Not Just Color.',
     heroTitle: 'Fence Staining in Northern Colorado &mdash; Built to Survive Colorado\'s Weather',
     intro: `Colorado\'s UV index, freeze-thaw cycles, and wind-driven moisture destroy untreated or poorly stained fences faster than almost anywhere in the country. Solid stains peel. Clear sealers wear off in one season. Penetrating semi-transparent stains &mdash; applied to properly prepared wood &mdash; last 3–5 years and protect the wood from the inside out.
@@ -274,7 +274,7 @@ We provide regular updates throughout your project and are available by phone or
       { q: 'How long does fence stain last in Colorado?', a: 'Penetrating semi-transparent stains last 3–5 years on properly prepared wood in Northern Colorado. Solid stains and paints often fail sooner because they form a film that peels under freeze-thaw stress. UV exposure at altitude accelerates degradation, so south and west-facing sections may need restaining sooner.' },
       { q: 'Should I use oil-based or water-based stain on my fence?', a: 'Both work well when properly selected for the wood species and condition. Oil-based stains penetrate deeper on dense woods and aged surfaces. Water-based stains dry faster, have lower VOC content, and are easier to clean up. We recommend specific products after assessing your fence\' wood type, current condition, and sun exposure.' },
       { q: 'Does the fence need to be cleaned before staining?', a: 'Yes. Power washing removes dirt, mildew, and old failing stain. For weathered gray wood, we apply a wood brightener to restore the wood\'s natural color and pH before staining. Skipping cleaning means the stain bonds to surface contamination instead of wood fibers and fails early.' },
-      { q: 'What does fence staining cost in Northern Colorado?', a: 'Fence staining typically costs $2–$5 per linear foot depending on fence height, condition, number of sides, and stain type. A 150-foot privacy fence in average condition runs $600–$1,200. Call or text (970) 670-3965 for an accurate estimate.' },
+      { q: 'What does fence staining cost in Northern Colorado?', a: 'Fence staining typically costs $2–$5 per linear foot depending on fence height, condition, number of sides, and stain type. A 150-foot privacy fence in average condition runs $600–$1,200. Call or text (970) 561-9177 for an accurate estimate.' },
       { q: 'Can I stain a new fence right away?', a: 'Not if it is pressure-treated. PT lumber needs 6–12 months to fully dry before staining. Staining too early traps moisture and causes the stain to fail within a season. For new cedar or pine fences, we test moisture content first and only proceed when the wood is ready.' },
       { q: 'How do I know when my fence needs to be restained?', a: 'The water test: splash water on the fence. If it beads up, the stain is still protecting the wood. If it soaks in within seconds, the stain has worn off and the wood is exposed. Gray, silvery color is another sign &mdash; it means UV has broken down the surface fibers and the wood needs treatment.' },
       { q: 'Do you stain HOA community fences?', a: 'Yes. HOA community fence staining is one of our most common commercial and multi-family projects. We coordinate scheduling and color approval with property managers and provide COI on request.' },
@@ -283,7 +283,7 @@ We provide regular updates throughout your project and are available by phone or
     'exterior-staining': {
     title: 'Exterior Staining in Northern Colorado',
     metaTitle: 'Exterior Staining Northern Colorado | Keystone Painting',
-    metaDesc: "Exterior staining for wood siding, decks & trim in Northern Colorado. Premium penetrating stains, proper prep. Call or text (970) 670-3965",
+    metaDesc: "Exterior staining for wood siding, decks & trim in Northern Colorado. Premium penetrating stains, proper prep. Call or text (970) 561-9177",
     tagline: 'Penetrating Stains for Lasting Protection',
     heroTitle: 'Exterior Staining in Northern Colorado &mdash; Wood That Lasts',
     intro: `Log homes, cedar siding, wood decks, and natural wood trim all require staining &mdash; not painting &mdash; to maintain their appearance and structural integrity in Colorado\'s climate. Paint traps moisture in wood and eventually peels. Penetrating stains work with the wood, allowing it to breathe while protecting against UV degradation, moisture intrusion, and freeze-thaw damage.
@@ -329,7 +329,7 @@ We provide regular updates throughout your project and are available by phone or
       { q: 'What types of exterior surfaces can be stained?', a: 'We stain wood siding (cedar, pine, redwood, T1-11), log homes, wood decks, pergolas, fences, wood trim, and shake siding. Each surface type requires specific stain formulation and prep approach. Composite or PVC surfaces are not candidates for staining.' },
       { q: 'How do I know if my wood needs staining or painting?', a: 'Natural wood with visible grain that has previously been stained should be restained. Wood that has been painted should be repainted. Converting from paint to stain requires full paint removal &mdash; a major project. If you are unsure, we assess the existing finish during our on-site evaluation.' },
       { q: 'How often does exterior wood need to be restained in Colorado?', a: 'Northern Colorado\'s UV intensity and freeze-thaw cycles accelerate coating breakdown. Most exterior staining lasts 3–5 years with premium products and proper prep. South and west-facing surfaces may need attention sooner. Annual inspection catches early signs of failure before water intrusion causes wood damage.' },
-      { q: 'What does exterior staining cost in Northern Colorado?', a: 'Exterior staining costs vary significantly based on surface area, wood species, condition, and accessibility. Deck staining typically runs $1.50–$3.50 per square foot. Log home exteriors vary by complexity. Call or text (970) 670-3965 for an on-site assessment and accurate quote.' },
+      { q: 'What does exterior staining cost in Northern Colorado?', a: 'Exterior staining costs vary significantly based on surface area, wood species, condition, and accessibility. Deck staining typically runs $1.50–$3.50 per square foot. Log home exteriors vary by complexity. Call or text (970) 561-9177 for an on-site assessment and accurate quote.' },
       { q: 'Can you stain a log home?', a: 'Yes. Log home staining is one of our more involved projects because it requires full strip prep on failed existing coatings, checking of all log checks and joints, and brush application to ensure stain penetrates around the full log profile. We use oil-based penetrating products specifically formulated for log construction.' },
       { q: 'What is the best stain product for Colorado conditions?', a: 'We use Armstrong Clark, TWP (Total Wood Preservative), Defy Extreme, and Ready Seal depending on the application. All are penetrating formulations rated for Colorado\'s UV intensity and freeze-thaw cycling. We do not use hardware-store deck stains on log homes or shake siding.' },
       { q: 'Do you prep and stain decks?', a: 'Yes. Deck staining includes cleaning, brightening, and sanding the deck surface, then applying a penetrating deck stain rated for horizontal use. We include railings, balusters, and fascia boards in every deck stain project &mdash; not just the deck boards.' },
@@ -377,7 +377,7 @@ const CITY_DATA = {
       { q: 'How does Colorado\'s climate affect exterior paint in Severance?', a: 'Northern Colorado sees 28+ freeze-thaw cycles annually. UV radiation at altitude is 10–15% more intense than at sea level. These factors degrade budget exterior coatings in 3–4 years. We use premium paint systems rated for 7–10 years and apply proper prep including pressure washing, scraping, caulking, and spot priming before any topcoat.' },
       { q: 'Do you do fence staining in Severance?', a: 'Yes. Fence staining is common in Severance where newer homes have cedar and pine fencing. We use penetrating semi-transparent stains that protect the wood grain through Northern Colorado winters and summers, lasting 3–5 years with proper prep.' },
       { q: 'Can you paint the exterior of an older farmhouse or rural property in Severance?', a: 'Yes. Older homes and rural properties often have more prep work involved &mdash; failed paint, wood rot, compromised caulk, and weathered surfaces. We assess all of this upfront and factor it into the quote. We don\'t charge extra for thorough prep; we treat it as part of every project.' },
-      { q: 'How do I get a quote for exterior painting in Severance?', a: 'Call or text (970) 670-3965 or use the contact form on this page. We schedule on-site assessments in Severance and provide written quotes within 24 hours of the visit. We respond to all inquiries within a few minutes during business hours.' },
+      { q: 'How do I get a quote for exterior painting in Severance?', a: 'Call or text (970) 561-9177 or use the contact form on this page. We schedule on-site assessments in Severance and provide written quotes within 24 hours of the visit. We respond to all inquiries within a few minutes during business hours.' },
     ],
   },
   'fort-collins-co': {
@@ -390,7 +390,7 @@ const CITY_DATA = {
       { q: 'Can you paint historic homes in Old Town Fort Collins?', a: 'Yes. Older homes in Old Town require special attention &mdash; lead paint testing and containment on pre-1978 homes, oil-based primers for chalky or bare wood surfaces, and careful prep to avoid damaging historic trim detail. We\'re experienced with the specific challenges of older Fort Collins housing stock.' },
       { q: 'How long does exterior paint last on Fort Collins homes?', a: 'Most Fort Collins homes see the same Northern Colorado climate as the rest of the region &mdash; 28+ freeze-thaw cycles, intense UV, and temperature swings. Budget paint fails in 3–4 years. Premium systems using Sherwin-Williams Duration or Benjamin Moore Aura last 7–10 years with proper prep.' },
       { q: 'Do you offer commercial painting in Fort Collins?', a: 'Yes. We provide commercial exterior and interior painting for Fort Collins businesses, including strip malls, office buildings, and multi-family properties. We schedule around business hours and provide COI within 24 hours.' },
-      { q: 'What Fort Collins neighborhoods do you serve?', a: 'We serve all of Fort Collins &mdash; Old Town, Midtown, Fossil Creek, Harmony, Rigden Farm, Sidehill, and new developments in southeast and southwest Fort Collins. Call or text (970) 670-3965 for availability in your specific neighborhood.' },
+      { q: 'What Fort Collins neighborhoods do you serve?', a: 'We serve all of Fort Collins &mdash; Old Town, Midtown, Fossil Creek, Harmony, Rigden Farm, Sidehill, and new developments in southeast and southwest Fort Collins. Call or text (970) 561-9177 for availability in your specific neighborhood.' },
     ],
   },
   'loveland-co': {
@@ -403,7 +403,7 @@ const CITY_DATA = {
       { q: 'How does the Front Range climate affect exterior paint in Loveland?', a: 'Loveland\'s location at the base of the Big Thompson Canyon means increased wind exposure on top of Northern Colorado\'s standard UV and freeze-thaw cycles. Paint systems need to be flexible enough to handle thermal cycling and tough enough to resist UV degradation. We specify coatings rated for exactly these conditions.' },
       { q: 'Do you stain fences and decks in Loveland?', a: 'Yes. Fence and deck staining is common in Loveland. We use penetrating semi-transparent stains that protect wood from UV damage and moisture, typically lasting 3–5 years. Decks on the south or west side of homes in Loveland may need attention sooner due to sun exposure.' },
       { q: 'Can you paint older Loveland homes?', a: 'Yes. We handle older homes with the appropriate prep &mdash; scraping to stable substrate, oil-based or shellac primers on bare wood, elastomeric caulking on all gaps, and pressure washing before any coating goes on. Thorough prep is the difference between a 4-year job and a 10-year system.' },
-      { q: 'How do I get a painting quote in Loveland?', a: 'Call or text (970) 670-3965 or fill out the quote form on this page. We schedule on-site assessments in Loveland and provide written quotes within 24 hours. We respond to all quote requests within minutes during business hours.' },
+      { q: 'How do I get a painting quote in Loveland?', a: 'Call or text (970) 561-9177 or fill out the quote form on this page. We schedule on-site assessments in Loveland and provide written quotes within 24 hours. We respond to all quote requests within minutes during business hours.' },
     ],
   },
   'greeley-co': {
@@ -429,7 +429,7 @@ const CITY_DATA = {
       { q: 'Can you paint acreage properties and outbuildings in Wellington?', a: 'Yes. Rural properties, detached garages, barns, and outbuildings are within our scope. We assess each structure and apply appropriate coatings &mdash; exterior latex for residential structures, and elastomeric or industrial coatings for metal buildings and agricultural structures where appropriate.' },
       { q: 'How does wind affect exterior paint in Wellington?', a: 'Wellington is exposed to consistent Front Range winds that accelerate paint breakdown, especially on north and west-facing surfaces. Wind-driven moisture and debris abrade coating surfaces over time. This makes proper prep &mdash; scraping, priming, and caulking &mdash; even more important than it is in more sheltered locations.' },
       { q: 'Do you stain fences and decks in Wellington?', a: 'Yes. Fence and deck staining is common in Wellington where wood fencing is standard on acreage and suburban properties alike. We use penetrating stains that hold up to Northern Colorado\'s weather cycles, lasting 3–5 years per application.' },
-      { q: 'How do I book exterior painting in Wellington?', a: 'Call or text (970) 670-3965 or submit the quote form on this page. We schedule on-site assessments in Wellington and provide written quotes within 24 hours of the visit.' },
+      { q: 'How do I book exterior painting in Wellington?', a: 'Call or text (970) 561-9177 or submit the quote form on this page. We schedule on-site assessments in Wellington and provide written quotes within 24 hours of the visit.' },
     ],
   },
   'johnstown-co': {
@@ -442,7 +442,7 @@ const CITY_DATA = {
       { q: 'How long does builder paint last on newer Johnstown homes?', a: 'Builder-grade paint applied during construction typically shows chalking, fading, and edge failures within 4–6 years in Northern Colorado. We replace it with premium two-coat systems using Sherwin-Williams Duration or Benjamin Moore Aura &mdash; rated for 7–10 years with proper surface prep.' },
       { q: 'Do you do HOA exterior painting in Johnstown?', a: 'Yes. Several Johnstown communities have HOA requirements for exterior painting. We handle color approval documentation, provide compliant color samples, and submit to architectural review committees. We\'ve worked with HOAs throughout Northern Colorado and understand the approval process.' },
       { q: 'What commercial painting services do you offer in Johnstown?', a: 'We provide commercial exterior and interior painting for Johnstown businesses &mdash; retail, office, and multi-family properties. We schedule around business operations and carry $1M general liability insurance with COI available on request.' },
-      { q: 'How do I get a painting quote in Johnstown?', a: 'Call or text (970) 670-3965 or fill out the quote form on this page. We provide on-site assessments in Johnstown and written quotes within 24 hours. We respond to all inquiries within minutes during business hours.' },
+      { q: 'How do I get a painting quote in Johnstown?', a: 'Call or text (970) 561-9177 or fill out the quote form on this page. We provide on-site assessments in Johnstown and written quotes within 24 hours. We respond to all inquiries within minutes during business hours.' },
     ],
   },
 };

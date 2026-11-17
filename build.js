@@ -1931,10 +1931,18 @@ buildGetAQuote();
   }).join('\n');
   html = html.replace('<!-- REVIEW_CARDS -->', reviewCards || '');
 
-  const dest = path.join(DIST, 'sign-up/exterior/index.html');
+  // Base sign-up page
+  const dest = path.join(DIST, 'sign-up/index.html');
   ensureDir(path.dirname(dest));
   fs.writeFileSync(dest, html, 'utf8');
-  console.log('Built: sign-up/exterior/index.html (noindex, excluded from sitemap)');
+  console.log('Built: sign-up/index.html (noindex, excluded from sitemap)');
+
+  // Legacy /sign-up/exterior/ URL (live Google Ads final URL for exterior campaign) -
+  // mirrors the same content so tracking/copy stays in sync instead of drifting stale.
+  const destExterior = path.join(DIST, 'sign-up/exterior/index.html');
+  ensureDir(path.dirname(destExterior));
+  fs.writeFileSync(destExterior, html, 'utf8');
+  console.log('Built: sign-up/exterior/index.html (noindex, excluded from sitemap, mirrors sign-up/)');
 })();
 
 // â”€â”€ Sign-Up Landing Page: Deck & Fence Staining â”€â”€

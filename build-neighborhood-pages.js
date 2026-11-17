@@ -161,7 +161,7 @@ function buildNeighborhoodPage(n) {
       provider: {
         '@type': 'LocalBusiness',
         name: 'Keystone Painting',
-        telephone: '(970) 670-3965',
+        telephone: '(970) 561-9177',
         email: 'josh@paintkeystone.com',
         url: 'https://paintkeystone.com',
         address: { '@type': 'PostalAddress', streetAddress: '4836 Becker Dr', addressLocality: 'Timnath', addressRegion: 'CO', postalCode: '80547', addressCountry: 'US' }
@@ -270,7 +270,7 @@ ${head}
 
         <div style="background:#201B10;color:#f4ede4;border-radius:8px;padding:28px 32px;margin-top:16px;">
           <h4 style="color:#fff;margin:0 0 10px;font-size:20px;">Ready to Get a Free Quote in ${n.name}?</h4>
-          <p style="margin:0;font-size:15px;line-height:1.6;color:rgba(255,255,255,0.8);">Call or text <a href="tel:9706703965" style="color:#AE360E;font-weight:700;">(970) 670-3965</a> or fill out the form below. We respond same-day and provide free on-site assessments.</p>
+          <p style="margin:0;font-size:15px;line-height:1.6;color:rgba(255,255,255,0.8);">Call or text <a href="tel:9705619177" style="color:#AE360E;font-weight:700;">(970) 561-9177</a> or fill out the form below. We respond same-day and provide free on-site assessments.</p>
         </div>
 
       </div>
@@ -281,7 +281,7 @@ ${head}
         <div style="background:#f4ede4;padding:28px;border-radius:8px;margin-bottom:24px;">
           <h4 style="margin-bottom:16px;color:#201B10;">Get a Free Quote</h4>
           <ul class="list-unstyled" style="line-height:2.4;margin-bottom:16px;">
-            <li><i class="fa-solid fa-phone" style="color:#AE360E;margin-right:8px;"></i><a href="tel:9706703965" style="font-weight:700;font-size:18px;color:#201B10;">(970) 670-3965</a></li>
+            <li><i class="fa-solid fa-phone" style="color:#AE360E;margin-right:8px;"></i><a href="tel:9705619177" style="font-weight:700;font-size:18px;color:#201B10;">(970) 561-9177</a></li>
             <li><i class="fa-solid fa-envelope" style="color:#AE360E;margin-right:8px;"></i><a href="mailto:josh@paintkeystone.com" style="color:#5a5650;">josh@paintkeystone.com</a></li>
             <li><i class="fa-solid fa-location-dot" style="color:#AE360E;margin-right:8px;"></i><span style="color:#5a5650;">Based in Timnath, CO</span></li>
           </ul>
@@ -354,7 +354,7 @@ function buildNeighborhoodIndex() {
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Exterior Painting by Timnath Neighborhood | Keystone Painting</title>
-<meta name="description" content="Neighborhood-specific exterior painting for Timnath Ranch, Serratoga Falls, Timnath Lakes, Wildwing, Trailside, and Harmony Club. Call (970) 670-3965.">
+<meta name="description" content="Neighborhood-specific exterior painting for Timnath Ranch, Serratoga Falls, Timnath Lakes, Wildwing, Trailside, and Harmony Club. Call (970) 561-9177.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://paintkeystone.com/neighborhoods/">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons-v2/apple-touch-icon.png">

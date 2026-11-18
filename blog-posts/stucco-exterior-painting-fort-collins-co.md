@@ -1,8 +1,8 @@
 ---
 slug: stucco-exterior-painting-fort-collins-co
 title: 'Stucco Exterior Painting: Tips, Timing & Cost for Fort Collins Homeowners'
-status: scheduled
-publishDate: null
+status: published
+publishDate: '2026-11-18T20:25:24.428Z'
 scheduledDate: '2026-11-17T14:00:00.000Z'
 excerpt: >-
   Stucco needs more than paint — it needs the right process. Here's what Fort

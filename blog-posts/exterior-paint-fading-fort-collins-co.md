@@ -1,8 +1,8 @@
 ---
 slug: exterior-paint-fading-fort-collins-co
 title: Why Exterior Paint Fades — and How to Slow It Down
-status: scheduled
-publishDate: null
+status: published
+publishDate: '2026-11-20T14:00:44.955Z'
 scheduledDate: '2026-11-20T14:00:00.000Z'
 excerpt: >-
   Colorado's 300+ sun days accelerate exterior paint fading fast. Here's what's
